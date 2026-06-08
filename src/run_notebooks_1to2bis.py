@@ -1,7 +1,12 @@
 import os
+import sys
 import subprocess
+import time
 
-MODE = "manuel"   # "auto" ou "manuel" => auto pour les fichiers strictement PROPP et manuel pour les fichiers SACR
+if sys.argv[1] not in (["auto", "manuel"]):
+    raise ValueError("ATTENTION ! L'argument doit être auto OU manuel.")
+
+MODE = sys.argv[1] # "auto" ou "manuel" comme argument dans cmd line => auto pour les fichiers strictement PROPP et manuel pour les fichiers SACR
 
 env = os.environ.copy()
 
