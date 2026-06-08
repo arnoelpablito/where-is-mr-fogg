@@ -6,31 +6,31 @@
 3	année	année	NOUN	NOUN	_	30	obl:mod	125	TIME	2	2
 4	1872	1872	NUM	NUM	_	3	nummod	125	TIME	3	3
 5	,	,	PUNCT	PUNCT	_	30	punct	_	_	4	4
-6	la	le	DET	DET	_	7	det	5	PER	5	5
-7	maison	maison	NOUN	NOUN	_	30	nsubj:pass	5	PER	6	6
-8	portant	porter	VERB	VERB	_	7	acl	5	PER	7	7
-9	le	le	DET	DET	_	10	det	5	PER	8	8
-10	numéro	numéro	NOUN	NOUN	_	8	obj	5	PER	9	9
-11	7	7	NUM	NUM	_	10	nummod	5	PER	10	10
-12	de	de	ADP	ADP	_	10	nmod	5	PER	11	11
-13	Saville	Saville	PROPN	PROPN	_	10	nmod	10	PER	12	12
-14	-	-	PROPN	PROPN	_	10	nmod	10	PER	13	_
-15	row	row	PROPN	PROPN	_	10	nmod	10	PER	14	13
+6	la	le	DET	DET	_	7	det	5	FAC	5	5
+7	maison	maison	NOUN	NOUN	_	30	nsubj:pass	5	FAC	6	6
+8	portant	porter	VERB	VERB	_	7	acl	5	FAC	7	7
+9	le	le	DET	DET	_	10	det	5	FAC	8	8
+10	numéro	numéro	NOUN	NOUN	_	8	obj	5	FAC	9	9
+11	7	7	NUM	NUM	_	10	nummod	5	FAC	10	10
+12	de	de	ADP	ADP	_	10	nmod	5	FAC	11	11
+13	Saville	Saville	PROPN	PROPN	_	10	nmod	10	FAC	12	12
+14	-	-	PROPN	PROPN	_	10	nmod	10	FAC	13	_
+15	row	row	PROPN	PROPN	_	10	nmod	10	FAC	14	13
 16	,	,	PUNCT	PUNCT	_	10	punct	_	_	15	14
 17	Burlington	Burlington	PROPN	PROPN	_	10	appos	5	FAC	16	15
 18	Gardens	Gardens	X	X	_	17	flat:name	5	FAC	17	16
 19	-	-	PUNCT	PUNCT	_	17	punct	_	_	18	_
-20	maison	maison	NOUN	NOUN	_	17	nmod	5	PER	19	17
+20	maison	maison	NOUN	NOUN	_	17	nmod	5	FAC	19	17
 21	dans	dans	ADP	ADP	_	22	case	_	_	20	18
 22	laquelle	lequel	PRON	PRON	_	24	dep	5	FAC	21	19
-23	Sheridan	Sheridan	PROPN	PROPN	_	24	nsubj	77	PER	22	20
+23	Sheridan	Sheridan	PROPN	PROPN	_	24	nsubj	77	_	22	20
 24	mourut	mourir	VERB	VERB	_	20	acl:relcl	_	_	23	21
 25	en	en	ADP	ADP	_	26	case	123	TIME	24	22
 26	1814	1814	NUM	NUM	_	24	obl:mod	123	TIME	25	23
 27	-	-	PUNCT	PUNCT	_	7	punct	_	_	26	_
 28	,	,	PUNCT	PUNCT	_	30	punct	_	_	27	24
-29	était	être	AUX	AUX	_	30	aux:pass	20	PER	28	25
-30	habitée	habiter	VERB	VERB	_	0	root	20	PER	29	26
+29	était	être	AUX	AUX	_	30	aux:pass	20	_	28	25
+30	habitée	habiter	VERB	VERB	_	0	root	20	_	29	26
 31	par	par	ADP	ADP	_	32	case	0	PER	30	27
 32	Phileas	Phileas	PROPN	PROPN	_	30	obl:agent	0	PER	31	28
 33	Fogg	Fogg	PROPN	PROPN	_	32	flat:name	0	PER	32	29
@@ -49,12 +49,12 @@
 46	les	le	DET	DET	_	48	det	0	PER	45	42
 47	plus	plus	ADV	ADV	_	48	advmod	0	PER	46	43
 48	remarqués	remarquer	ADJ	ADJ	_	44	conj	0	PER	47	44
-49	du	de	ADP	ADP	_	50	case	3	PER	48	45
-50	Reform	Reform	PROPN	PROPN	_	41	nmod	3	PER	49	46
-51	-	-	PROPN	PROPN	_	39	nmod	3	PER	50	_
-52	Club	club	NOUN	NOUN	_	39	nmod	3	PER	51	47
-53	de	de	ADP	ADP	_	54	case	3	PER	52	48
-54	Londres	Londres	PROPN	PROPN	_	52	nmod	9	PER	53	49
+49	du	de	ADP	ADP	_	50	case	3	FAC	48	45
+50	Reform	Reform	PROPN	PROPN	_	41	nmod	3	FAC	49	46
+51	-	-	PROPN	PROPN	_	39	nmod	3	FAC	50	_
+52	Club	club	NOUN	NOUN	_	39	nmod	3	FAC	51	47
+53	de	de	ADP	ADP	_	54	case	3	FAC	52	48
+54	Londres	Londres	PROPN	PROPN	_	52	nmod	9	GPE	53	49
 55	,	,	PUNCT	PUNCT	_	30	punct	_	_	54	50
 56	bien	bien	ADV	ADV	_	59	mark	_	_	55	51
 57	qu'	que	SCONJ	SCONJ	_	56	fixed	_	_	56	52
@@ -78,14 +78,14 @@
 # Num phrase = 1
 # Num paragr = 1
 1	À	à	ADP	ADP	_	3	case	_	_	72	68
-2	l'	le	DET	DET	_	3	det	77	PER	73	69
-3	un	un	PRON	PRON	_	13	obl:mod	77	PER	74	70
-4	des	de	ADP	ADP	_	7	case	77	PER	75	71
-5	plus	plus	ADV	ADV	_	6	advmod	77	PER	76	72
-6	grands	grand	ADJ	ADJ	_	7	amod	77	PER	77	73
-7	orateurs	orateur	NOUN	NOUN	_	3	nmod	77	PER	78	74
-8	qui	qui	PRON	PRON	_	9	nsubj	77	PER	79	75
-9	honorent	honorer	VERB	VERB	_	7	acl:relcl	77	PER	80	76
+2	l'	le	DET	DET	_	3	det	77	_	73	69
+3	un	un	PRON	PRON	_	13	obl:mod	77	_	74	70
+4	des	de	ADP	ADP	_	7	case	77	_	75	71
+5	plus	plus	ADV	ADV	_	6	advmod	77	_	76	72
+6	grands	grand	ADJ	ADJ	_	7	amod	77	_	77	73
+7	orateurs	orateur	NOUN	NOUN	_	3	nmod	77	_	78	74
+8	qui	qui	PRON	PRON	_	9	nsubj	77	_	79	75
+9	honorent	honorer	VERB	VERB	_	7	acl:relcl	77	_	80	76
 10	l'	le	DET	DET	_	11	det	8	GPE	81	77
 11	Angleterre	Angleterre	PROPN	PROPN	_	9	obj	8	GPE	82	78
 12	,	,	PUNCT	PUNCT	_	13	punct	_	_	83	79
@@ -215,8 +215,8 @@
 20	des	de	ADP	ADP	_	21	case	_	_	195	189
 21	comptoirs	comptoir	NOUN	NOUN	_	19	nmod	_	_	196	190
 22	de	de	ADP	ADP	_	24	case	_	_	197	191
-23	la	le	DET	DET	_	24	det	9	PER	198	192
-24	Cité	cité	NOUN	NOUN	_	21	nmod	9	PER	199	193
+23	la	le	DET	DET	_	24	det	9	GPE	198	192
+24	Cité	cité	NOUN	NOUN	_	21	nmod	9	GPE	199	193
 25	.	.	PUNCT	PUNCT	_	6	punct	_	_	200	194
 
 # Nom fichier = all_annots.sacr
@@ -433,11 +433,11 @@
 10	qui	qui	PRON	PRON	_	11	nsubj	_	_	385	377
 11	pullulent	pulluler	VERB	VERB	_	9	acl:relcl	_	_	386	378
 12	dans	dans	ADP	ADP	_	14	case	_	_	387	379
-13	la	le	DET	DET	_	14	det	9	PER	388	380
-14	capitale	capitale	NOUN	NOUN	_	11	obl:mod	9	PER	389	381
-15	de	de	ADP	ADP	_	17	case	9	PER	390	382
-16	l'	le	DET	DET	_	17	det	8	PER	391	383
-17	Angleterre	Angleterre	PROPN	PROPN	_	14	nmod	8	PER	392	384
+13	la	le	DET	DET	_	14	det	9	GPE	388	380
+14	capitale	capitale	NOUN	NOUN	_	11	obl:mod	9	GPE	389	381
+15	de	de	ADP	ADP	_	17	case	9	GPE	390	382
+16	l'	le	DET	DET	_	17	det	8	GPE	391	383
+17	Angleterre	Angleterre	PROPN	PROPN	_	14	nmod	8	GPE	392	384
 18	,	,	PUNCT	PUNCT	_	11	punct	_	_	393	385
 19	depuis	depuis	ADP	ADP	_	21	case	_	_	394	386
 20	la	le	DET	DET	_	21	det	_	_	395	387
@@ -471,9 +471,9 @@
 3	était	être	AUX	AUX	_	4	cop	_	_	419	411
 4	membre	membre	NOUN	NOUN	_	0	root	_	_	420	412
 5	du	de	ADP	ADP	_	6	case	_	_	421	413
-6	Reform	Reform	PROPN	PROPN	_	4	nmod	3	PER	422	414
-7	-	-	PROPN	PROPN	_	4	nmod	3	PER	423	_
-8	Club	Club	PROPN	PROPN	_	4	nmod	3	PER	424	415
+6	Reform	Reform	PROPN	PROPN	_	4	nmod	3	FAC	422	414
+7	-	-	PROPN	PROPN	_	4	nmod	3	FAC	423	_
+8	Club	Club	PROPN	PROPN	_	4	nmod	3	FAC	424	415
 9	,	,	PUNCT	PUNCT	_	4	punct	_	_	425	416
 10	et	et	CCONJ	CCONJ	_	11	cc	_	_	426	417
 11	voilà	voilà	VERB	VERB	_	4	conj	_	_	427	418
@@ -786,14 +786,14 @@
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_	686	677
 13	il	il	PRON	PRON	_	14	nsubj	0	PER	687	678
 14	redressait	redresser	VERB	VERB	_	0	root	_	_	688	679
-15	les	le	DET	DET	_	17	det	28	PER	689	680
-16	mille	mille	NUM	NUM	_	17	nummod	28	PER	690	681
-17	propos	propos	NOUN	NOUN	_	14	obj	28	PER	691	682
-18	qui	qui	PRON	PRON	_	19	nsubj	28	PER	692	683
-19	circulaient	circuler	VERB	VERB	_	17	acl:relcl	62	PER	693	684
+15	les	le	DET	DET	_	17	det	28	_	689	680
+16	mille	mille	NUM	NUM	_	17	nummod	28	_	690	681
+17	propos	propos	NOUN	NOUN	_	14	obj	28	_	691	682
+18	qui	qui	PRON	PRON	_	19	nsubj	28	_	692	683
+19	circulaient	circuler	VERB	VERB	_	17	acl:relcl	62	_	693	684
 20	dans	dans	ADP	ADP	_	22	case	_	_	694	685
-21	le	le	DET	DET	_	22	det	3	PER	695	686
-22	club	club	NOUN	NOUN	_	19	obl:mod	3	PER	696	687
+21	le	le	DET	DET	_	22	det	3	FAC	695	686
+22	club	club	NOUN	NOUN	_	19	obl:mod	3	FAC	696	687
 23	au	au	ADP	ADP	_	24	case	_	_	697	688
 24	sujet	sujet	NOUN	NOUN	_	19	obl:mod	_	_	698	689
 25	des	de	ADP	ADP	_	26	case	_	_	699	690
@@ -874,10 +874,10 @@
 15	,	,	PUNCT	PUNCT	_	21	punct	_	_	766	756
 16	Phileas	Phileas	PROPN	PROPN	_	21	nsubj	0	PER	767	757
 17	Fogg	Fogg	PROPN	PROPN	_	16	flat:name	0	PER	768	758
-18	n'	ne	ADV	ADV	_	21	advmod	32	PER	769	759
-19	avait	avoir	AUX	AUX	_	21	aux:tense	32	PER	770	760
-20	pas	pas	ADV	ADV	_	21	advmod	32	PER	771	761
-21	quitté	quitter	VERB	VERB	_	8	ccomp	32	PER	772	762
+18	n'	ne	ADV	ADV	_	21	advmod	32	_	769	759
+19	avait	avoir	AUX	AUX	_	21	aux:tense	32	_	770	760
+20	pas	pas	ADV	ADV	_	21	advmod	32	_	771	761
+21	quitté	quitter	VERB	VERB	_	8	ccomp	32	_	772	762
 22	Londres	Londres	PROPN	PROPN	_	21	obj	9	GPE	773	763
 23	.	.	PUNCT	PUNCT	_	8	punct	_	_	774	764
 
@@ -909,18 +909,18 @@
 23	ce	ce	DET	DET	_	24	det	19	FAC	797	786
 24	chemin	chemin	NOUN	NOUN	_	21	obl:mod	19	FAC	798	787
 25	direct	direct	ADJ	ADJ	_	24	amod	19	FAC	799	788
-26	qu'	que	PRON	PRON	_	28	obj	19	PER	800	789
+26	qu'	que	PRON	PRON	_	28	obj	19	FAC	800	789
 27	il	il	PRON	PRON	_	28	nsubj	0	PER	801	790
-28	parcourait	parcourir	VERB	VERB	_	24	acl:relcl	35	PER	802	791
+28	parcourait	parcourir	VERB	VERB	_	24	acl:relcl	35	_	802	791
 29	chaque	chaque	DET	DET	_	30	det	135	TIME	803	792
 30	jour	jour	NOUN	NOUN	_	28	obl:mod	135	TIME	804	793
 31	pour	pour	ADP	ADP	_	32	mark	_	_	805	794
-32	venir	venir	VERB	VERB	_	28	advcl	54	PER	806	795
-33	de	de	ADP	ADP	_	35	case	5	PER	807	796
+32	venir	venir	VERB	VERB	_	28	advcl	54	_	806	795
+33	de	de	ADP	ADP	_	35	case	5	FAC	807	796
 34	sa	son	DET	DET	_	35	det	0	PER	808	797
-35	maison	maison	NOUN	NOUN	_	32	obl:arg	5	PER	809	798
-36	au	au	ADP	ADP	_	37	case	3	PER	810	799
-37	club	club	NOUN	NOUN	_	35	nmod	3	PER	811	800
+35	maison	maison	NOUN	NOUN	_	32	obl:arg	5	FAC	809	798
+36	au	au	ADP	ADP	_	37	case	3	FAC	810	799
+37	club	club	NOUN	NOUN	_	35	nmod	3	FAC	811	800
 38	-	-	PUNCT	PUNCT	_	24	punct	_	_	812	_
 39	personne	personne	PRON	PRON	_	41	nsubj	_	_	813	801
 40	ne	ne	ADV	ADV	_	41	advmod	_	_	814	802
@@ -1099,8 +1099,8 @@
 # Num paragr = 10
 1	Phileas	Phileas	PROPN	PROPN	_	3	nsubj	0	PER	964	949
 2	Fogg	Fogg	PROPN	PROPN	_	1	flat:name	0	PER	965	950
-3	vivait	vivre	VERB	VERB	_	0	root	41	PER	966	951
-4	seul	seul	ADJ	ADJ	_	3	advmod	40	PER	967	952
+3	vivait	vivre	VERB	VERB	_	0	root	41	_	966	951
+4	seul	seul	ADJ	ADJ	_	3	advmod	40	FAC	967	952
 5	dans	dans	ADP	ADP	_	7	case	5	FAC	968	953
 6	sa	son	DET	DET	_	7	det	0	PER	969	954
 7	maison	maison	NOUN	NOUN	_	3	obl:mod	5	FAC	970	955
@@ -1144,9 +1144,9 @@
 # Nom fichier = all_annots.sacr
 # Num phrase = 36
 # Num paragr = 10
-1	Déjeunant	déjeuner	VERB	VERB	_	23	advcl	58	PER	999	983
+1	Déjeunant	déjeuner	VERB	VERB	_	23	advcl	58	_	999	983
 2	,	,	PUNCT	PUNCT	_	1	punct	_	_	1000	984
-3	dînant	dîner	VERB	VERB	_	1	advcl	60	PER	1001	985
+3	dînant	dîner	VERB	VERB	_	1	advcl	60	_	1001	985
 4	au	au	ADP	ADP	_	5	case	3	FAC	1002	986
 5	club	club	NOUN	NOUN	_	3	obl:arg	3	FAC	1003	987
 6	à	à	ADP	ADP	_	8	case	137	TIME	1004	988
@@ -1155,15 +1155,15 @@
 9	chronométriquement	chronométriquement	ADV	ADV	_	10	advmod	137	TIME	1007	991
 10	déterminées	déterminer	VERB	VERB	_	8	acl	137	TIME	1008	992
 11	,	,	PUNCT	PUNCT	_	3	punct	_	_	1009	993
-12	dans	dans	ADP	ADP	_	15	case	66	PER	1010	994
-13	la	le	DET	DET	_	15	det	66	PER	1011	995
-14	même	même	ADJ	ADJ	_	15	amod	66	PER	1012	996
-15	salle	salle	NOUN	NOUN	_	3	obl:mod	66	PER	1013	997
+12	dans	dans	ADP	ADP	_	15	case	66	FAC	1010	994
+13	la	le	DET	DET	_	15	det	66	FAC	1011	995
+14	même	même	ADJ	ADJ	_	15	amod	66	FAC	1012	996
+15	salle	salle	NOUN	NOUN	_	3	obl:mod	66	FAC	1013	997
 16	,	,	PUNCT	PUNCT	_	3	punct	_	_	1014	998
-17	à	à	ADP	ADP	_	20	case	102	PER	1015	999
-18	la	le	DET	DET	_	20	det	102	PER	1016	1000
-19	même	même	ADJ	ADJ	_	20	amod	102	PER	1017	1001
-20	table	table	NOUN	NOUN	_	3	obl:mod	102	PER	1018	1002
+17	à	à	ADP	ADP	_	20	case	102	_	1015	999
+18	la	le	DET	DET	_	20	det	102	_	1016	1000
+19	même	même	ADJ	ADJ	_	20	amod	102	_	1017	1001
+20	table	table	NOUN	NOUN	_	3	obl:mod	102	_	1018	1002
 21	,	,	PUNCT	PUNCT	_	23	punct	_	_	1019	1003
 22	ne	ne	ADV	ADV	_	23	advmod	_	_	1020	1004
 23	traitant	traiter	VERB	VERB	_	35	advcl	_	_	1021	1005
@@ -1178,13 +1178,13 @@
 32	,	,	PUNCT	PUNCT	_	35	punct	_	_	1030	1014
 33	il	il	PRON	PRON	_	35	nsubj	0	PER	1031	1015
 34	ne	ne	ADV	ADV	_	35	advmod	_	_	1032	1016
-35	rentrait	rentraire	VERB	VERB	_	0	root	38	PER	1033	1017
+35	rentrait	rentraire	VERB	VERB	_	0	root	38	_	1033	1017
 36	chez	chez	ADP	ADP	_	37	case	5	FAC	1034	1018
 37	lui	luire	PRON	PRON	_	35	obl:arg	0	PER	1035	1019
 38	que	que	ADV	ADV	_	41	advmod	_	_	1036	1020
-39	pour	pour	ADP	ADP	_	41	mark	31	PER	1037	1021
-40	se	se	PRON	PRON	_	41	expl:comp	31	PER	1038	1022
-41	coucher	coucher	VERB	VERB	_	35	xcomp	31	PER	1039	1023
+39	pour	pour	ADP	ADP	_	41	mark	31	_	1037	1021
+40	se	se	PRON	PRON	_	41	expl:comp	31	_	1038	1022
+41	coucher	coucher	VERB	VERB	_	35	xcomp	31	_	1039	1023
 42	,	,	PUNCT	PUNCT	_	41	punct	_	_	1040	1024
 43	à	à	ADP	ADP	_	44	case	136	TIME	1041	1025
 44	minuit	minuit	NOUN	NOUN	_	41	obl:mod	136	TIME	1042	1026
@@ -1221,7 +1221,7 @@
 4	,	,	PUNCT	PUNCT	_	7	punct	_	_	1069	1052
 5	il	il	PRON	PRON	_	7	nsubj	0	PER	1070	1053
 6	en	en	PRON	PRON	_	7	dep	112	TIME	1071	1054
-7	passait	passer	VERB	VERB	_	0	root	37	PER	1072	1055
+7	passait	passer	VERB	VERB	_	0	root	37	VEH	1072	1055
 8	dix	dix	PRON	PRON	_	7	obj	192	TIME	1073	1056
 9	à	à	ADP	ADP	_	11	case	5	FAC	1074	1057
 10	son	son	DET	DET	_	11	det	0	PER	1075	1058
@@ -1247,17 +1247,17 @@
 # Num paragr = 10
 1	S'	se	SCONJ	SCONJ	_	4	mark	_	_	1092	1075
 2	il	il	PRON	PRON	_	4	nsubj	0	PER	1093	1076
-3	se	se	PRON	PRON	_	4	expl:comp	34	PER	1094	1077
-4	promenait	promener	VERB	VERB	_	0	root	34	PER	1095	1078
+3	se	se	PRON	PRON	_	4	expl:comp	34	_	1094	1077
+4	promenait	promener	VERB	VERB	_	0	root	34	_	1095	1078
 5	,	,	PUNCT	PUNCT	_	9	punct	_	_	1096	1079
-6	c'	ce	PRON	PRON	_	9	expl:subj	65	PER	1097	1080
-7	était	être	AUX	AUX	_	9	cop	39	PER	1098	1081
-8	invariablement	invariablement	ADV	ADV	_	9	advmod	36	PER	1099	1082
+6	c'	ce	PRON	PRON	_	9	expl:subj	65	_	1097	1080
+7	était	être	AUX	AUX	_	9	cop	39	_	1098	1081
+8	invariablement	invariablement	ADV	ADV	_	9	advmod	36	VEH	1099	1082
 9	,	,	PUNCT	PUNCT	_	4	punct	_	_	1100	1083
-10	d'	de	ADP	ADP	_	12	case	59	PER	1101	1084
-11	un	un	DET	DET	_	12	det	59	PER	1102	1085
-12	pas	pas	NOUN	NOUN	_	4	obl:mod	59	PER	1103	1086
-13	égal	égal	ADJ	ADJ	_	12	amod	59	PER	1104	1087
+10	d'	de	ADP	ADP	_	12	case	59	VEH	1101	1084
+11	un	un	DET	DET	_	12	det	59	VEH	1102	1085
+12	pas	pas	NOUN	NOUN	_	4	obl:mod	59	VEH	1103	1086
+13	égal	égal	ADJ	ADJ	_	12	amod	59	VEH	1104	1087
 14	,	,	PUNCT	PUNCT	_	4	punct	_	_	1105	1088
 15	dans	dans	ADP	ADP	_	17	case	174	FAC	1106	1089
 16	la	le	DET	DET	_	17	det	174	FAC	1107	1090
@@ -1407,8 +1407,8 @@
 107	du	de	ADP	ADP	_	108	case	3	FAC	1247	1230
 108	club	club	NOUN	NOUN	_	106	nmod	3	FAC	1248	1231
 109	-	-	NOUN	NOUN	_	106	punct	_	_	1249	_
-110	glace	glace	NOUN	NOUN	_	106	nmod	49	PER	1250	1232
-111	venue	venir	VERB	VERB	_	110	acl	33	PER	1251	1233
+110	glace	glace	NOUN	NOUN	_	106	nmod	49	TIME	1250	1232
+111	venue	venir	VERB	VERB	_	110	acl	33	TIME	1251	1233
 112	à	à	ADP	ADP	_	114	case	_	_	1252	1234
 113	grands	grand	ADJ	ADJ	_	114	amod	_	_	1253	1235
 114	frais	frais	NOUN	NOUN	_	111	obl:mod	_	_	1254	1236
@@ -1458,12 +1458,12 @@
 # Nom fichier = all_annots.sacr
 # Num phrase = 41
 # Num paragr = 12
-1	La	le	DET	DET	_	2	det	5	PER	1293	1274
-2	maison	maison	NOUN	NOUN	_	10	nsubj	5	PER	1294	1275
-3	de	de	ADP	ADP	_	2	nmod	5	PER	1295	1276
-4	Saville	Saville	PROPN	PROPN	_	2	nmod	10	PER	1296	1277
-5	-	-	PROPN	PROPN	_	2	nmod	10	PER	1297	_
-6	row	row	PROPN	PROPN	_	2	nmod	10	PER	1298	1278
+1	La	le	DET	DET	_	2	det	5	FAC	1293	1274
+2	maison	maison	NOUN	NOUN	_	10	nsubj	5	FAC	1294	1275
+3	de	de	ADP	ADP	_	2	nmod	5	FAC	1295	1276
+4	Saville	Saville	PROPN	PROPN	_	2	nmod	10	FAC	1296	1277
+5	-	-	PROPN	PROPN	_	2	nmod	10	FAC	1297	_
+6	row	row	PROPN	PROPN	_	2	nmod	10	FAC	1298	1278
 7	,	,	PUNCT	PUNCT	_	10	punct	_	_	1299	1279
 8	sans	sans	ADP	ADP	_	10	mark	_	_	1300	1280
 9	être	être	AUX	AUX	_	10	cop	_	_	1301	1281
@@ -1592,11 +1592,11 @@
 1	Phileas	Phileas	PROPN	PROPN	_	38	nsubj	0	PER	1408	1386
 2	Fogg	Fogg	PROPN	PROPN	_	1	flat:name	0	PER	1409	1387
 3	,	,	PUNCT	PUNCT	_	1	punct	_	_	1410	1388
-4	carrément	carrément	ADV	ADV	_	5	advmod	30	PER	1411	1389
-5	assis	asseoir	VERB	VERB	_	1	acl	64	PER	1412	1390
-6	dans	dans	ADP	ADP	_	8	case	173	PER	1413	1391
+4	carrément	carrément	ADV	ADV	_	5	advmod	30	_	1411	1389
+5	assis	asseoir	VERB	VERB	_	1	acl	64	_	1412	1390
+6	dans	dans	ADP	ADP	_	8	case	173	_	1413	1391
 7	son	son	DET	DET	_	8	det	0	PER	1414	1392
-8	fauteuil	fauteuil	NOUN	NOUN	_	5	obl:arg	173	PER	1415	1393
+8	fauteuil	fauteuil	NOUN	NOUN	_	5	obl:arg	173	_	1415	1393
 9	,	,	PUNCT	PUNCT	_	5	punct	_	_	1416	1394
 10	les	le	DET	DET	_	12	det	_	_	1417	1395
 11	deux	deux	NUM	NUM	_	12	nummod	_	_	1418	1396
@@ -1670,19 +1670,19 @@
 7	,	,	PUNCT	PUNCT	_	10	punct	_	_	1482	1459
 8	Mr.	mr.	NOUN	NOUN	_	10	nsubj	0	PER	1483	1460
 9	Fogg	Fogg	PROPN	PROPN	_	8	flat:name	0	PER	1484	1461
-10	devait	devoir	VERB	VERB	_	0	root	44	PER	1485	1462
+10	devait	devoir	VERB	VERB	_	0	root	44	_	1485	1462
 11	,	,	PUNCT	PUNCT	_	10	punct	_	_	1486	1463
-12	suivant	suivre	VERB	VERB	_	15	case	63	PER	1487	1464
+12	suivant	suivre	VERB	VERB	_	15	case	63	_	1487	1464
 13	sa	son	DET	DET	_	15	det	0	PER	1488	1465
-14	quotidienne	quotidien	ADJ	ADJ	_	15	amod	63	PER	1489	1466
-15	habitude	habitude	NOUN	NOUN	_	10	obl:mod	63	PER	1490	1467
+14	quotidienne	quotidien	ADJ	ADJ	_	15	amod	63	_	1489	1466
+15	habitude	habitude	NOUN	NOUN	_	10	obl:mod	63	_	1490	1467
 16	,	,	PUNCT	PUNCT	_	10	punct	_	_	1491	1468
-17	quitter	quitter	VERB	VERB	_	10	xcomp	43	PER	1492	1469
+17	quitter	quitter	VERB	VERB	_	10	xcomp	43	LOC	1492	1469
 18	la	le	DET	DET	_	19	det	5	FAC	1493	1470
 19	maison	maison	NOUN	NOUN	_	17	obj	5	FAC	1494	1471
 20	et	et	CCONJ	CCONJ	_	22	cc	_	_	1495	1472
-21	se	se	PRON	PRON	_	22	expl:comp	42	PER	1496	1473
-22	rendre	rendre	VERB	VERB	_	17	conj	42	PER	1497	1474
+21	se	se	PRON	PRON	_	22	expl:comp	42	_	1496	1473
+22	rendre	rendre	VERB	VERB	_	17	conj	42	_	1497	1474
 23	au	au	ADP	ADP	_	24	case	3	FAC	1498	1475
 24	Reform	Reform	PROPN	PROPN	_	22	obl:arg	3	FAC	1499	1476
 25	-	-	PROPN	PROPN	_	22	obl:arg	3	FAC	1500	_
@@ -1702,12 +1702,12 @@
 8	la	le	DET	DET	_	9	det	_	_	1510	1486
 9	porte	porte	NOUN	NOUN	_	6	obl:arg	_	_	1511	1487
 10	du	de	ADP	ADP	_	12	case	_	_	1512	1488
-11	petit	petit	ADJ	ADJ	_	12	amod	101	PER	1513	1489
-12	salon	salon	NOUN	NOUN	_	9	nmod	101	PER	1514	1490
-13	Dans	dans	ADP	ADP	_	14	case	101	PER	1515	1491
-14	lequel	lequel	PRON	PRON	_	16	obl:mod	101	PER	1516	1492
-15	se	se	PRON	PRON	_	16	expl:comp	53	PER	1517	1493
-16	tenait	tenir	VERB	VERB	_	6	conj	53	PER	1518	1494
+11	petit	petit	ADJ	ADJ	_	12	amod	101	_	1513	1489
+12	salon	salon	NOUN	NOUN	_	9	nmod	101	_	1514	1490
+13	Dans	dans	ADP	ADP	_	14	case	101	_	1515	1491
+14	lequel	lequel	PRON	PRON	_	16	obl:mod	101	_	1516	1492
+15	se	se	PRON	PRON	_	16	expl:comp	53	_	1517	1493
+16	tenait	tenir	VERB	VERB	_	6	conj	53	_	1518	1494
 17	Phileas	Phileas	PROPN	PROPN	_	16	nsubj	0	PER	1519	1495
 18	Fogg	Fogg	PROPN	PROPN	_	17	flat:name	0	PER	1520	1496
 19	.	.	PUNCT	PUNCT	_	6	punct	_	_	1521	1497
@@ -1721,7 +1721,7 @@
 4	le	le	DET	DET	_	5	det	12	PER	1525	1501
 5	congédié	congédié	NOUN	NOUN	_	1	appos	12	PER	1526	1502
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_	1527	1503
-7	apparut	apparaître	VERB	VERB	_	0	root	52	PER	1528	1504
+7	apparut	apparaître	VERB	VERB	_	0	root	52	_	1528	1504
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_	1529	1505
 
 # Nom fichier = all_annots.sacr
@@ -1748,8 +1748,8 @@
 6	trentaine	trentaine	NOUN	NOUN	_	3	obl:arg	1	PER	1544	1520
 7	d'	de	ADP	ADP	_	8	case	1	PER	1545	1521
 8	années	année	NOUN	NOUN	_	6	nmod	1	PER	1546	1522
-9	se	se	PRON	PRON	_	10	expl:comp	74	PER	1547	1523
-10	montra	montrer	VERB	VERB	_	0	root	74	PER	1548	1524
+9	se	se	PRON	PRON	_	10	expl:comp	74	VEH	1547	1523
+10	montra	montrer	VERB	VERB	_	0	root	74	VEH	1548	1524
 11	et	et	CCONJ	CCONJ	_	12	cc	_	_	1549	1525
 12	salua	saluer	VERB	VERB	_	10	conj	_	_	1550	1526
 13	.	.	PUNCT	PUNCT	_	10	punct	_	_	1551	1527
@@ -1890,10 +1890,10 @@
 47	lieu	lieu	NOUN	NOUN	_	51	obl:mod	_	_	1670	1645
 48	,	,	PUNCT	PUNCT	_	51	punct	_	_	1671	1646
 49	j'	je	PRON	PRON	_	51	nsubj	1	PER	1672	1647
-50	étais	être	AUX	AUX	_	51	cop	84	PER	1673	1648
-51	sergent	sergent	NOUN	NOUN	_	30	conj	69	PER	1674	1649
-52	de	de	ADP	ADP	_	53	case	69	PER	1675	1650
-53	pompiers	pompier	NOUN	NOUN	_	51	nmod	69	PER	1676	1651
+50	étais	être	AUX	AUX	_	51	cop	84	VEH	1673	1648
+51	sergent	sergent	NOUN	NOUN	_	30	conj	69	_	1674	1649
+52	de	de	ADP	ADP	_	53	case	69	_	1675	1650
+53	pompiers	pompier	NOUN	NOUN	_	51	nmod	69	_	1676	1651
 54	,	,	PUNCT	PUNCT	_	51	punct	_	_	1677	1652
 55	à	à	ADP	ADP	_	56	case	22	GPE	1678	1653
 56	Paris	Paris	PROPN	PROPN	_	51	obl:mod	22	GPE	1679	1654
@@ -1922,8 +1922,8 @@
 4	ans	an	NOUN	NOUN	_	2	obj	71	TIME	1694	1669
 5	que	que	SCONJ	SCONJ	_	8	mark	_	_	1695	1670
 6	j'	je	PRON	PRON	_	8	nsubj	1	PER	1696	1671
-7	ai	avoir	AUX	AUX	_	8	aux:tense	61	PER	1697	1672
-8	quitté	quitter	VERB	VERB	_	2	ccomp	61	PER	1698	1673
+7	ai	avoir	AUX	AUX	_	8	aux:tense	61	_	1697	1672
+8	quitté	quitter	VERB	VERB	_	2	ccomp	61	_	1698	1673
 9	la	le	DET	DET	_	10	det	184	GPE	1699	1674
 10	France	France	PROPN	PROPN	_	8	obj	184	GPE	1700	1675
 11	et	et	CCONJ	CCONJ	_	15	cc	_	_	1701	1676
@@ -1938,10 +1938,10 @@
 20	famille	famille	NOUN	NOUN	_	18	nmod	_	_	1710	1685
 21	,	,	PUNCT	PUNCT	_	24	punct	_	_	1711	1686
 22	je	je	PRON	PRON	_	24	nsubj	1	PER	1712	1687
-23	suis	être	AUX	AUX	_	24	cop	75	PER	1713	1688
-24	valet	valet	NOUN	NOUN	_	0	root	76	PER	1714	1689
-25	de	de	ADP	ADP	_	26	case	76	PER	1715	1690
-26	chambre	chambre	NOUN	NOUN	_	24	nmod	76	PER	1716	1691
+23	suis	être	AUX	AUX	_	24	cop	75	_	1713	1688
+24	valet	valet	NOUN	NOUN	_	0	root	76	VEH	1714	1689
+25	de	de	ADP	ADP	_	26	case	76	VEH	1715	1690
+26	chambre	chambre	NOUN	NOUN	_	24	nmod	76	VEH	1716	1691
 27	en	en	ADP	ADP	_	28	case	8	GPE	1717	1692
 28	Angleterre	Angleterre	PROPN	PROPN	_	24	nmod	8	GPE	1718	1693
 29	.	.	PUNCT	PUNCT	_	24	punct	_	_	1719	1694
@@ -1973,21 +1973,21 @@
 22	plus	plus	ADV	ADV	_	23	advmod	_	_	1741	1716
 23	sédentaire	sédentaire	ADJ	ADJ	_	19	conj	_	_	1742	1717
 24	du	de	ADP	ADP	_	25	case	_	_	1743	1718
-25	Royaume	Royaume	PROPN	PROPN	_	16	nmod	8	PER	1744	1719
-26	-	-	PROPN	PROPN	_	16	nmod	8	PER	1745	_
-27	Uni	Uni	PROPN	PROPN	_	16	nmod	8	PER	1746	1720
+25	Royaume	Royaume	PROPN	PROPN	_	16	nmod	8	GPE	1744	1719
+26	-	-	PROPN	PROPN	_	16	nmod	8	GPE	1745	_
+27	Uni	Uni	PROPN	PROPN	_	16	nmod	8	GPE	1746	1720
 28	,	,	PUNCT	PUNCT	_	32	punct	_	_	1747	1721
 29	je	je	PRON	PRON	_	32	nsubj	1	PER	1748	1722
 30	me	me	PRON	PRON	_	32	expl:comp	_	_	1749	1723
 31	suis	être	AUX	AUX	_	32	aux:tense	_	_	1750	1724
 32	présenté	présenter	VERB	VERB	_	0	root	_	_	1751	1725
-33	chez	chez	ADP	ADP	_	34	case	5	PER	1752	1726
+33	chez	chez	ADP	ADP	_	34	case	5	FAC	1752	1726
 34	monsieur	Monsieur	NOUN	NOUN	_	32	obl:arg	0	PER	1753	1727
 35	avec	avec	ADP	ADP	_	37	case	_	_	1754	1728
 36	l'	le	DET	DET	_	37	det	_	_	1755	1729
 37	espérance	espérance	NOUN	NOUN	_	32	obl:mod	_	_	1756	1730
 38	d'	de	ADP	ADP	_	40	mark	_	_	1757	1731
-39	y	y	PRON	PRON	_	40	iobj	5	PER	1758	1732
+39	y	y	PRON	PRON	_	40	iobj	5	FAC	1758	1732
 40	vivre	vivre	VERB	VERB	_	37	acl	_	_	1759	1733
 41	tranquille	tranquille	ADJ	ADJ	_	40	xcomp	_	_	1760	1734
 42	et	et	CCONJ	CCONJ	_	44	cc	_	_	1761	1735
@@ -2192,8 +2192,8 @@
 3	,	,	PUNCT	PUNCT	_	7	punct	_	_	1896	1865
 4	Phileas	Phileas	PROPN	PROPN	_	7	nsubj	0	PER	1897	1866
 5	Fogg	Fogg	PROPN	PROPN	_	4	flat:name	0	PER	1898	1867
-6	se	se	PRON	PRON	_	7	expl:comp	86	PER	1899	1868
-7	leva	lever	VERB	VERB	_	0	root	86	PER	1900	1869
+6	se	se	PRON	PRON	_	7	expl:comp	86	VEH	1899	1868
+7	leva	lever	VERB	VERB	_	0	root	86	VEH	1900	1869
 8	,	,	PUNCT	PUNCT	_	9	punct	_	_	1901	1870
 9	prit	prendre	VERB	VERB	_	7	conj	_	_	1902	1871
 10	son	son	DET	DET	_	11	det	0	PER	1903	1872
@@ -2214,7 +2214,7 @@
 25	d'	de	ADP	ADP	_	26	case	_	_	1918	1887
 26	automate	automate	NOUN	NOUN	_	24	nmod	_	_	1919	1888
 27	et	et	CCONJ	CCONJ	_	28	cc	_	_	1920	1889
-28	disparut	disparaître	VERB	VERB	_	7	conj	87	PER	1921	1890
+28	disparut	disparaître	VERB	VERB	_	7	conj	87	VEH	1921	1890
 29	sans	sans	ADP	ADP	_	30	mark	_	_	1922	1891
 30	ajouter	ajouter	VERB	VERB	_	28	advcl	_	_	1923	1892
 31	une	un	DET	DET	_	32	det	_	_	1924	1893
@@ -2243,7 +2243,7 @@
 17	nouveau	nouveau	ADJ	ADJ	_	18	amod	0	PER	1943	1912
 18	maître	maître	NOUN	NOUN	_	2	obl:mod	0	PER	1944	1913
 19	qui	qui	PRON	PRON	_	20	nsubj	0	PER	1945	1914
-20	sortait	sortir	VERB	VERB	_	18	acl:relcl	88	PER	1946	1915
+20	sortait	sortir	VERB	VERB	_	18	acl:relcl	88	_	1946	1915
 21	;	;	PUNCT	PUNCT	_	2	punct	_	_	1947	1916
 22	puis	pouvoir	CCONJ	CCONJ	_	30	cc	_	_	1948	1917
 23	une	un	DET	DET	_	25	det	_	_	1949	1918
@@ -2259,9 +2259,9 @@
 33	Forster	Forster	PROPN	PROPN	_	32	flat:name	12	PER	1959	1928
 34	,	,	PUNCT	PUNCT	_	30	punct	_	_	1960	1929
 35	qui	qui	PRON	PRON	_	38	nsubj	12	PER	1961	1930
-36	s'	se	PRON	PRON	_	38	expl:comp	51	PER	1962	1931
-37	en	en	PRON	PRON	_	38	expl:comp	51	PER	1963	1932
-38	allait	aller	VERB	VERB	_	30	dep	51	PER	1964	1933
+36	s'	se	PRON	PRON	_	38	expl:comp	51	_	1962	1931
+37	en	en	PRON	PRON	_	38	expl:comp	51	_	1963	1932
+38	allait	aller	VERB	VERB	_	30	dep	51	_	1964	1933
 39	à	à	ADP	ADP	_	41	case	_	_	1965	1934
 40	son	son	DET	DET	_	41	det	12	PER	1966	1935
 41	tour	tour	NOUN	NOUN	_	38	obl:mod	_	_	1967	1936
@@ -2272,11 +2272,11 @@
 # Num paragr = 29
 1	Passepartout	Passepartout	PROPN	PROPN	_	2	nsubj	1	PER	1969	1938
 2	demeura	demeurer	VERB	VERB	_	0	root	55	LOC	1970	1939
-3	seul	seul	ADJ	ADJ	_	2	advmod	85	PER	1971	1940
-4	dans	dans	ADP	ADP	_	6	case	5	LOC	1972	1941
-5	la	le	DET	DET	_	6	det	5	LOC	1973	1942
-6	maison	maison	NOUN	NOUN	_	2	obl:mod	5	LOC	1974	1943
-7	de	de	ADP	ADP	_	8	case	5	LOC	1975	1944
+3	seul	seul	ADJ	ADJ	_	2	advmod	85	_	1971	1940
+4	dans	dans	ADP	ADP	_	6	case	5	FAC	1972	1941
+5	la	le	DET	DET	_	6	det	5	FAC	1973	1942
+6	maison	maison	NOUN	NOUN	_	2	obl:mod	5	FAC	1974	1943
+7	de	de	ADP	ADP	_	8	case	5	FAC	1975	1944
 8	Saville	Saville	PROPN	PROPN	_	6	nmod	10	FAC	1976	1945
 9	-	-	PROPN	PROPN	_	6	nmod	10	FAC	1977	_
 10	row	row	PROPN	PROPN	_	6	nmod	10	FAC	1978	1946
@@ -2518,13 +2518,13 @@
 35	,	,	PUNCT	PUNCT	_	27	punct	_	_	2190	2156
 36	et	et	CCONJ	CCONJ	_	42	cc	_	_	2191	2157
 37	dont	dont	PRON	PRON	_	42	aux:tense	_	_	2192	2158
-38	Angelica	Angelica	PROPN	PROPN	_	42	nsubj	20	PER	2193	2159
-39	Kauffmann	Kauffmann	PROPN	PROPN	_	38	flat:name	20	PER	2194	2160
+38	Angelica	Angelica	PROPN	PROPN	_	42	nsubj	20	_	2193	2159
+39	Kauffmann	Kauffmann	PROPN	PROPN	_	38	flat:name	20	_	2194	2160
 40	a	avoir	AUX	AUX	_	42	aux:tense	_	_	2195	2161
 41	merveilleusement	merveilleusement	ADV	ADV	_	42	advmod	_	_	2196	2162
 42	rendu	rendre	VERB	VERB	_	27	conj	_	_	2197	2163
 43	sous	sou	ADP	ADP	_	45	case	_	_	2198	2164
-44	son	son	DET	DET	_	45	det	20	PER	2199	2165
+44	son	son	DET	DET	_	45	det	20	_	2199	2165
 45	pinceau	pinceau	NOUN	NOUN	_	42	obl:mod	_	_	2200	2166
 46	l'	le	DET	DET	_	47	det	_	_	2201	2167
 47	attitude	attitude	NOUN	NOUN	_	42	obj	_	_	2202	2168
@@ -2820,20 +2820,20 @@
 16	ans	an	NOUN	NOUN	_	36	obl:mod	71	TIME	2448	2413
 17	qu'	que	SCONJ	SCONJ	_	19	mark	_	_	2449	2414
 18	il	il	PRON	PRON	_	19	nsubj	1	PER	2450	2415
-19	habitait	habiter	VERB	VERB	_	16	acl	39	PER	2451	2416
+19	habitait	habiter	VERB	VERB	_	16	acl	39	_	2451	2416
 20	l'	le	DET	DET	_	21	det	8	GPE	2452	2417
 21	Angleterre	Angleterre	PROPN	PROPN	_	19	obj	8	GPE	2453	2418
 22	et	et	CCONJ	CCONJ	_	24	cc	_	_	2454	2419
 23	y	y	PRON	PRON	_	24	iobj	8	GPE	2455	2420
-24	faisait	faire	VERB	VERB	_	19	conj	54	PER	2456	2421
+24	faisait	faire	VERB	VERB	_	19	conj	54	_	2456	2421
 25	à	à	ADP	ADP	_	26	case	9	GPE	2457	2422
 26	Londres	Londres	PROPN	PROPN	_	24	obl:mod	9	GPE	2458	2423
-27	le	le	DET	DET	_	28	det	31	PER	2459	2424
-28	métier	métier	NOUN	NOUN	_	24	obj	31	PER	2460	2425
-29	de	de	ADP	ADP	_	30	case	31	PER	2461	2426
-30	valet	valet	NOUN	NOUN	_	28	nmod	31	PER	2462	2427
-31	de	de	ADP	ADP	_	32	case	31	PER	2463	2428
-32	chambre	chambre	NOUN	NOUN	_	30	nmod	31	PER	2464	2429
+27	le	le	DET	DET	_	28	det	31	_	2459	2424
+28	métier	métier	NOUN	NOUN	_	24	obj	31	_	2460	2425
+29	de	de	ADP	ADP	_	30	case	31	_	2461	2426
+30	valet	valet	NOUN	NOUN	_	28	nmod	31	_	2462	2427
+31	de	de	ADP	ADP	_	32	case	31	_	2463	2428
+32	chambre	chambre	NOUN	NOUN	_	30	nmod	31	_	2464	2429
 33	,	,	PUNCT	PUNCT	_	36	punct	_	_	2465	2430
 34	il	il	PRON	PRON	_	36	nsubj	1	PER	2466	2431
 35	avait	avoir	AUX	AUX	_	36	aux:tense	_	_	2467	2432
@@ -3159,9 +3159,9 @@
 12	gentlemen	gentleman	NOUN	NOUN	_	9	nmod	_	_	2747	2712
 13	,	,	PUNCT	PUNCT	_	15	punct	_	_	2748	2713
 14	il	il	PRON	PRON	_	15	nsubj	1	PER	2749	2714
-15	vint	venir	VERB	VERB	_	0	root	32	PER	2750	2715
-16	chercher	chercher	VERB	VERB	_	15	xcomp	32	PER	2751	2716
-17	fortune	fortune	NOUN	NOUN	_	16	obj	28	PER	2752	2717
+15	vint	venir	VERB	VERB	_	0	root	32	_	2750	2715
+16	chercher	chercher	VERB	VERB	_	15	xcomp	32	_	2751	2716
+17	fortune	fortune	NOUN	NOUN	_	16	obj	28	_	2752	2717
 18	en	en	ADP	ADP	_	19	case	8	GPE	2753	2718
 19	Angleterre	Angleterre	PROPN	PROPN	_	16	obl:mod	8	GPE	2754	2719
 20	.	.	PUNCT	PUNCT	_	15	punct	_	_	2755	2720
@@ -3199,8 +3199,8 @@
 # Num phrase = 105
 # Num paragr = 36
 1	Il	il	PRON	PRON	_	3	nsubj	1	PER	2777	2742
-2	avait	avoir	AUX	AUX	_	3	aux:tense	19	PER	2778	2743
-3	fait	faire	VERB	VERB	_	0	root	19	PER	2779	2744
+2	avait	avoir	AUX	AUX	_	3	aux:tense	19	FAC	2778	2743
+3	fait	faire	VERB	VERB	_	0	root	19	FAC	2779	2744
 4	dix	dix	NUM	NUM	_	5	nummod	168	FAC	2780	2745
 5	maisons	maison	NOUN	NOUN	_	3	obj	168	FAC	2781	2746
 6	.	.	PUNCT	PUNCT	_	3	punct	_	_	2782	2747
@@ -3253,8 +3253,8 @@
 12	Parlement	parlement	NOUN	NOUN	_	10	nmod	_	_	2821	2785
 13	,	,	PUNCT	PUNCT	_	16	punct	_	_	2822	2786
 14	après	après	ADP	ADP	_	16	mark	49	TIME	2823	2787
-15	avoir	avoir	AUX	AUX	_	16	aux:tense	35	PER	2824	2788
-16	passé	passer	VERB	VERB	_	7	acl	35	PER	2825	2789
+15	avoir	avoir	AUX	AUX	_	16	aux:tense	35	_	2824	2788
+16	passé	passer	VERB	VERB	_	7	acl	35	_	2825	2789
 17	ses	son	DET	DET	_	18	det	48	PER	2826	2790
 18	nuits	nuit	NOUN	NOUN	_	16	obj	33	TIME	2827	2791
 19	dans	dans	ADP	ADP	_	22	case	43	LOC	2828	2792
@@ -3269,14 +3269,14 @@
 28	-	-	PROPN	PROPN	_	16	obl:mod	43	LOC	2837	_
 29	Market	Market	PROPN	PROPN	_	7	flat:name	43	LOC	2838	2800
 30	,	,	PUNCT	PUNCT	_	31	punct	_	_	2839	2801
-31	rentrait	rentraire	VERB	VERB	_	0	root	42	PER	2840	2802
-32	trop	trop	ADV	ADV	_	33	advmod	37	PER	2841	2803
-33	souvent	souvent	ADV	ADV	_	31	advmod	37	PER	2842	2804
+31	rentrait	rentraire	VERB	VERB	_	0	root	42	_	2840	2802
+32	trop	trop	ADV	ADV	_	33	advmod	37	VEH	2841	2803
+33	souvent	souvent	ADV	ADV	_	31	advmod	37	VEH	2842	2804
 34	au	au	ADP	ADP	_	35	case	167	FAC	2843	2805
 35	logis	logis	NOUN	NOUN	_	31	obl:arg	167	FAC	2844	2806
-36	sur	sur	ADP	ADP	_	38	case	36	PER	2845	2807
-37	les	le	DET	DET	_	38	det	36	PER	2846	2808
-38	épaules	épaule	NOUN	NOUN	_	31	obl:mod	36	PER	2847	2809
+36	sur	sur	ADP	ADP	_	38	case	36	VEH	2845	2807
+37	les	le	DET	DET	_	38	det	36	VEH	2846	2808
+38	épaules	épaule	NOUN	NOUN	_	31	obl:mod	36	VEH	2847	2809
 39	des	de	ADP	ADP	_	40	case	17	PER	2848	2810
 40	policemen	policeman	NOUN	NOUN	_	38	nmod	17	PER	2849	2811
 41	.	.	PUNCT	PUNCT	_	31	punct	_	_	2850	2812
@@ -3355,20 +3355,20 @@
 8	régulière	régulier	ADJ	ADJ	_	2	acl:relcl	_	_	2907	2869
 9	,	,	PUNCT	PUNCT	_	12	punct	_	_	2908	2870
 10	qui	qui	PRON	PRON	_	12	nsubj	0	PER	2909	2871
-11	ne	ne	ADV	ADV	_	12	advmod	44	PER	2910	2872
-12	découchait	découcher	VERB	VERB	_	8	conj	44	PER	2911	2873
-13	pas	pas	ADV	ADV	_	12	advmod	44	PER	2912	2874
+11	ne	ne	ADV	ADV	_	12	advmod	44	_	2910	2872
+12	découchait	découcher	VERB	VERB	_	8	conj	44	_	2911	2873
+13	pas	pas	ADV	ADV	_	12	advmod	44	_	2912	2874
 14	,	,	PUNCT	PUNCT	_	17	punct	_	_	2913	2875
 15	qui	qui	PRON	PRON	_	17	nsubj	0	PER	2914	2876
-16	ne	ne	ADV	ADV	_	17	advmod	53	PER	2915	2877
-17	voyageait	voyager	VERB	VERB	_	8	conj	53	PER	2916	2878
-18	pas	pas	ADV	ADV	_	17	advmod	53	PER	2917	2879
+16	ne	ne	ADV	ADV	_	17	advmod	53	_	2915	2877
+17	voyageait	voyager	VERB	VERB	_	8	conj	53	_	2916	2878
+18	pas	pas	ADV	ADV	_	17	advmod	53	_	2917	2879
 19	,	,	PUNCT	PUNCT	_	23	punct	_	_	2918	2880
 20	qui	qui	PRON	PRON	_	23	nsubj	0	PER	2919	2881
-21	ne	ne	ADV	ADV	_	23	advmod	62	PER	2920	2882
-22	s'	se	PRON	PRON	_	23	expl:comp	62	PER	2921	2883
-23	absentait	absenter	VERB	VERB	_	8	conj	62	PER	2922	2884
-24	jamais	jamais	ADV	ADV	_	23	advmod	62	PER	2923	2885
+21	ne	ne	ADV	ADV	_	23	advmod	62	_	2920	2882
+22	s'	se	PRON	PRON	_	23	expl:comp	62	_	2921	2883
+23	absentait	absenter	VERB	VERB	_	8	conj	62	_	2922	2884
+24	jamais	jamais	ADV	ADV	_	23	advmod	62	_	2923	2885
 25	,	,	PUNCT	PUNCT	_	8	punct	_	_	2924	2886
 26	pas	pas	ADV	ADV	_	29	advmod	_	_	2925	2887
 27	même	même	ADV	ADV	_	29	advmod	_	_	2926	2888
@@ -3386,8 +3386,8 @@
 # Num phrase = 112
 # Num paragr = 36
 1	Il	il	PRON	PRON	_	3	nsubj	1	PER	2936	2898
-2	se	se	PRON	PRON	_	3	expl:comp	59	PER	2937	2899
-3	présenta	présenter	VERB	VERB	_	0	root	59	PER	2938	2900
+2	se	se	PRON	PRON	_	3	expl:comp	59	VEH	2937	2899
+3	présenta	présenter	VERB	VERB	_	0	root	59	VEH	2938	2900
 4	et	et	CCONJ	CCONJ	_	6	cc	_	_	2939	2901
 5	fut	être	AUX	AUX	_	6	aux:pass	_	_	2940	2902
 6	admis	admettre	VERB	VERB	_	3	conj	_	_	2941	2903
@@ -3412,17 +3412,17 @@
 7	étant	être	AUX	AUX	_	8	aux:pass	_	_	2956	2917
 8	sonnées	sonner	VERB	VERB	_	0	xcomp	_	_	2957	2918
 9	-	-	PUNCT	PUNCT	_	11	punct	_	_	2958	_
-10	se	se	PRON	PRON	_	11	expl:comp	58	PER	2959	2919
-11	trouvait	trouver	VERB	VERB	_	0	root	58	PER	2960	2920
+10	se	se	PRON	PRON	_	11	expl:comp	58	_	2959	2919
+11	trouvait	trouver	VERB	VERB	_	0	root	58	_	2960	2920
 12	donc	donc	ADV	ADV	_	11	advmod	_	_	2961	2921
-13	seul	seul	ADJ	ADJ	_	11	advmod	60	PER	2962	2922
+13	seul	seul	ADJ	ADJ	_	11	advmod	60	_	2962	2922
 14	dans	dans	ADP	ADP	_	16	case	5	FAC	2963	2923
 15	la	le	DET	DET	_	16	det	5	FAC	2964	2924
 16	maison	maison	NOUN	NOUN	_	11	obl:mod	5	FAC	2965	2925
 17	de	de	ADP	ADP	_	16	nmod	5	FAC	2966	2926
-18	Saville	Saville	PROPN	PROPN	_	16	nmod	10	PER	2967	2927
-19	-	-	PROPN	PROPN	_	16	nmod	10	PER	2968	_
-20	row	row	PROPN	PROPN	_	16	nmod	10	PER	2969	2928
+18	Saville	Saville	PROPN	PROPN	_	16	nmod	10	FAC	2967	2927
+19	-	-	PROPN	PROPN	_	16	nmod	10	FAC	2968	_
+20	row	row	PROPN	PROPN	_	16	nmod	10	FAC	2969	2928
 21	.	.	PUNCT	PUNCT	_	11	punct	_	_	2970	2929
 
 # Nom fichier = all_annots.sacr
@@ -3441,32 +3441,32 @@
 # Num paragr = 37
 1	Il	il	PRON	PRON	_	3	nsubj	1	PER	2978	2937
 2	la	le	PRON	PRON	_	3	obj	5	FAC	2979	2938
-3	parcourut	parcourir	VERB	VERB	_	0	root	52	PER	2980	2939
-4	de	de	ADP	ADP	_	6	case	61	PER	2981	2940
-5	la	le	DET	DET	_	6	det	61	PER	2982	2941
-6	cave	cave	NOUN	NOUN	_	3	obl:arg	61	PER	2983	2942
-7	au	au	ADP	ADP	_	8	case	55	PER	2984	2943
-8	grenier	grenier	NOUN	NOUN	_	6	nmod	55	PER	2985	2944
+3	parcourut	parcourir	VERB	VERB	_	0	root	52	_	2980	2939
+4	de	de	ADP	ADP	_	6	case	61	_	2981	2940
+5	la	le	DET	DET	_	6	det	61	_	2982	2941
+6	cave	cave	NOUN	NOUN	_	3	obl:arg	61	_	2983	2942
+7	au	au	ADP	ADP	_	8	case	55	LOC	2984	2943
+8	grenier	grenier	NOUN	NOUN	_	6	nmod	55	LOC	2985	2944
 9	.	.	PUNCT	PUNCT	_	3	punct	_	_	2986	2945
 
 # Nom fichier = all_annots.sacr
 # Num phrase = 116
 # Num paragr = 37
-1	Cette	ce	DET	DET	_	2	det	5	PER	2987	2946
-2	maison	maison	NOUN	NOUN	_	18	nsubj	5	PER	2988	2947
-3	propre	propre	ADJ	ADJ	_	2	amod	5	PER	2989	2948
-4	,	,	PUNCT	PUNCT	_	5	punct	5	PER	2990	2949
-5	rangée	ranger	VERB	VERB	_	2	acl	5	PER	2991	2950
-6	,	,	PUNCT	PUNCT	_	7	punct	5	PER	2992	2951
-7	sévère	sévère	ADJ	ADJ	_	2	conj	5	PER	2993	2952
-8	,	,	PUNCT	PUNCT	_	9	punct	5	PER	2994	2953
-9	puritaine	puritain	ADJ	ADJ	_	2	conj	5	PER	2995	2954
-10	,	,	PUNCT	PUNCT	_	2	punct	5	PER	2996	2955
-11	bien	bien	ADV	ADV	_	12	advmod	5	PER	2997	2956
-12	organisée	organiser	VERB	VERB	_	2	acl	5	PER	2998	2957
-13	pour	pour	ADP	ADP	_	15	case	5	PER	2999	2958
-14	le	le	DET	DET	_	15	det	5	PER	3000	2959
-15	service	service	NOUN	NOUN	_	12	obl:mod	5	PER	3001	2960
+1	Cette	ce	DET	DET	_	2	det	5	FAC	2987	2946
+2	maison	maison	NOUN	NOUN	_	18	nsubj	5	FAC	2988	2947
+3	propre	propre	ADJ	ADJ	_	2	amod	5	FAC	2989	2948
+4	,	,	PUNCT	PUNCT	_	5	punct	5	FAC	2990	2949
+5	rangée	ranger	VERB	VERB	_	2	acl	5	FAC	2991	2950
+6	,	,	PUNCT	PUNCT	_	7	punct	5	FAC	2992	2951
+7	sévère	sévère	ADJ	ADJ	_	2	conj	5	FAC	2993	2952
+8	,	,	PUNCT	PUNCT	_	9	punct	5	FAC	2994	2953
+9	puritaine	puritain	ADJ	ADJ	_	2	conj	5	FAC	2995	2954
+10	,	,	PUNCT	PUNCT	_	2	punct	5	FAC	2996	2955
+11	bien	bien	ADV	ADV	_	12	advmod	5	FAC	2997	2956
+12	organisée	organiser	VERB	VERB	_	2	acl	5	FAC	2998	2957
+13	pour	pour	ADP	ADP	_	15	case	5	FAC	2999	2958
+14	le	le	DET	DET	_	15	det	5	FAC	3000	2959
+15	service	service	NOUN	NOUN	_	12	obl:mod	5	FAC	3001	2960
 16	,	,	PUNCT	PUNCT	_	18	punct	_	_	3002	2961
 17	lui	luire	PRON	PRON	_	18	iobj	1	PER	3003	2962
 18	plut	pleuvoir	VERB	VERB	_	0	root	_	_	3004	2963
@@ -3518,20 +3518,20 @@
 # Num phrase = 118
 # Num paragr = 37
 1	Passepartout	Passepartout	PROPN	PROPN	_	2	nsubj	1	PER	3044	3003
-2	trouva	trouver	VERB	VERB	_	0	root	34	PER	3045	3004
-3	sans	sans	ADP	ADP	_	4	case	51	PER	3046	3005
-4	peine	peine	NOUN	NOUN	_	2	obl:mod	51	PER	3047	3006
+2	trouva	trouver	VERB	VERB	_	0	root	34	_	3045	3004
+3	sans	sans	ADP	ADP	_	4	case	51	_	3046	3005
+4	peine	peine	NOUN	NOUN	_	2	obl:mod	51	_	3047	3006
 5	,	,	PUNCT	PUNCT	_	2	punct	_	_	3048	3007
-6	au	au	ADP	ADP	_	8	case	65	PER	3049	3008
-7	second	second	ADJ	ADJ	_	8	amod	65	PER	3050	3009
-8	étage	étage	NOUN	NOUN	_	2	obl:mod	65	PER	3051	3010
+6	au	au	ADP	ADP	_	8	case	65	_	3049	3008
+7	second	second	ADJ	ADJ	_	8	amod	65	_	3050	3009
+8	étage	étage	NOUN	NOUN	_	2	obl:mod	65	_	3051	3010
 9	,	,	PUNCT	PUNCT	_	2	punct	_	_	3052	3011
-10	la	le	DET	DET	_	11	det	15	PER	3053	3012
-11	chambre	chambre	NOUN	NOUN	_	2	obj	15	PER	3054	3013
+10	la	le	DET	DET	_	11	det	15	FAC	3053	3012
+11	chambre	chambre	NOUN	NOUN	_	2	obj	15	FAC	3054	3013
 12	qui	qui	PRON	PRON	_	15	nsubj:pass	15	FAC	3055	3014
 13	lui	luire	PRON	PRON	_	15	iobj	1	PER	3056	3015
-14	était	être	AUX	AUX	_	15	aux:pass	15	PER	3057	3016
-15	destinée	destiner	VERB	VERB	_	11	acl:relcl	15	PER	3058	3017
+14	était	être	AUX	AUX	_	15	aux:pass	15	FAC	3057	3016
+15	destinée	destiner	VERB	VERB	_	11	acl:relcl	15	FAC	3058	3017
 16	.	.	PUNCT	PUNCT	_	2	punct	_	_	3059	3018
 
 # Nom fichier = all_annots.sacr
@@ -3583,11 +3583,11 @@
 10	la	le	DET	DET	_	11	det	_	_	3095	3054
 11	pendule	pendule	NOUN	NOUN	_	8	obl:arg	_	_	3096	3055
 12	de	de	ADP	ADP	_	14	case	_	_	3097	3056
-13	la	le	DET	DET	_	14	det	45	PER	3098	3057
-14	chambre	chambre	NOUN	NOUN	_	11	nmod	45	PER	3099	3058
-15	à	à	ADP	ADP	_	16	case	45	PER	3100	3059
-16	coucher	coucher	NOUN	NOUN	_	14	nmod	45	PER	3101	3060
-17	de	de	ADP	ADP	_	18	case	45	PER	3102	3061
+13	la	le	DET	DET	_	14	det	45	FAC	3098	3057
+14	chambre	chambre	NOUN	NOUN	_	11	nmod	45	FAC	3099	3058
+15	à	à	ADP	ADP	_	16	case	45	FAC	3100	3059
+16	coucher	coucher	NOUN	NOUN	_	14	nmod	45	FAC	3101	3060
+17	de	de	ADP	ADP	_	18	case	45	FAC	3102	3061
 18	Phileas	Phileas	PROPN	PROPN	_	14	nmod	0	PER	3103	3062
 19	Fogg	Fogg	PROPN	PROPN	_	18	flat:name	0	PER	3104	3063
 20	,	,	PUNCT	PUNCT	_	8	punct	_	_	3105	3064
@@ -3671,8 +3671,8 @@
 11	réglementaire	réglementaire	ADJ	ADJ	_	10	amod	_	_	3167	3125
 12	à	à	ADP	ADP	_	13	case	_	_	3168	3126
 13	laquelle	lequel	PRON	PRON	_	15	dep	_	_	3169	3127
-14	se	se	PRON	PRON	_	15	expl:pass	38	PER	3170	3128
-15	levait	lever	VERB	VERB	_	10	acl:relcl	38	PER	3171	3129
+14	se	se	PRON	PRON	_	15	expl:pass	38	_	3170	3128
+15	levait	lever	VERB	VERB	_	10	acl:relcl	38	_	3171	3129
 16	Phileas	Phileas	PROPN	PROPN	_	15	nsubj	0	PER	3172	3130
 17	Fogg	Fogg	PROPN	PROPN	_	16	flat:name	0	PER	3173	3131
 18	,	,	PUNCT	PUNCT	_	6	punct	_	_	3174	3132
@@ -3687,12 +3687,12 @@
 27	à	à	ADP	ADP	_	28	case	_	_	3183	3141
 28	laquelle	lequel	PRON	PRON	_	30	dep	_	_	3184	3142
 29	il	il	PRON	PRON	_	30	nsubj	0	PER	3185	3143
-30	quittait	quitter	VERB	VERB	_	26	acl:relcl	41	PER	3186	3144
+30	quittait	quitter	VERB	VERB	_	26	acl:relcl	41	_	3186	3144
 31	sa	son	DET	DET	_	32	det	0	PER	3187	3145
 32	maison	maison	NOUN	NOUN	_	30	obj	5	FAC	3188	3146
-33	pour	pour	ADP	ADP	_	34	mark	40	PER	3189	3147
-34	aller	aller	VERB	VERB	_	30	advcl	40	PER	3190	3148
-35	déjeuner	déjeuner	VERB	VERB	_	34	xcomp	40	PER	3191	3149
+33	pour	pour	ADP	ADP	_	34	mark	40	FAC	3189	3147
+34	aller	aller	VERB	VERB	_	30	advcl	40	FAC	3190	3148
+35	déjeuner	déjeuner	VERB	VERB	_	34	xcomp	40	FAC	3191	3149
 36	au	au	ADP	ADP	_	37	case	3	FAC	3192	3150
 37	Reform	Reform	PROPN	PROPN	_	35	obl:arg	3	FAC	3193	3151
 38	-	-	PROPN	PROPN	_	35	obl:arg	3	FAC	3194	_
@@ -3744,11 +3744,11 @@
 84	à	à	ADP	ADP	_	85	case	_	_	3240	3196
 85	minuit	minuit	NOUN	NOUN	_	80	obl:mod	148	TIME	3241	3197
 86	-	-	NOUN	NOUN	_	79	nmod	_	_	3242	_
-87	heure	heure	NOUN	NOUN	_	79	nmod	64	PER	3243	3198
-88	à	à	ADP	ADP	_	89	case	63	PER	3244	3199
-89	laquelle	lequel	PRON	PRON	_	91	dep	63	PER	3245	3200
-90	se	se	PRON	PRON	_	91	expl:comp	30	PER	3246	3201
-91	couchait	coucher	VERB	VERB	_	87	acl:relcl	30	PER	3247	3202
+87	heure	heure	NOUN	NOUN	_	79	nmod	64	_	3243	3198
+88	à	à	ADP	ADP	_	89	case	63	_	3244	3199
+89	laquelle	lequel	PRON	PRON	_	91	dep	63	_	3245	3200
+90	se	se	PRON	PRON	_	91	expl:comp	30	_	3246	3201
+91	couchait	coucher	VERB	VERB	_	87	acl:relcl	30	_	3247	3202
 92	le	le	DET	DET	_	94	det	0	PER	3248	3203
 93	méthodique	méthodique	ADJ	ADJ	_	94	amod	0	PER	3249	3204
 94	gentleman	gentleman	NOUN	NOUN	_	91	nsubj	0	PER	3250	3205
@@ -3868,9 +3868,9 @@
 2	somme	somme	NOUN	NOUN	_	6	obl:mod	_	_	3344	3298
 3	,	,	PUNCT	PUNCT	_	6	punct	_	_	3345	3299
 4	dans	dans	ADP	ADP	_	6	case	_	_	3346	3300
-5	cette	ce	DET	DET	_	6	det	5	PER	3347	3301
-6	maison	maison	NOUN	NOUN	_	0	root	5	PER	3348	3302
-7	de	de	ADP	ADP	_	6	nmod	5	PER	3349	3303
+5	cette	ce	DET	DET	_	6	det	5	FAC	3347	3301
+6	maison	maison	NOUN	NOUN	_	0	root	5	FAC	3348	3302
+7	de	de	ADP	ADP	_	6	nmod	5	FAC	3349	3303
 8	Saville	Saville	PROPN	PROPN	_	6	nmod	10	FAC	3350	3304
 9	-	-	PROPN	PROPN	_	6	nmod	10	FAC	3351	_
 10	row	row	PROPN	PROPN	_	6	nmod	10	FAC	3352	3305
@@ -3885,11 +3885,11 @@
 19	l'	le	DET	DET	_	20	det	_	_	3361	3314
 20	époque	époque	NOUN	NOUN	_	15	obl:mod	_	_	3362	3315
 21	de	de	ADP	ADP	_	26	case	_	_	3363	3316
-22	l'	le	DET	DET	_	23	det	77	PER	3364	3317
-23	illustre	illustre	ADJ	ADJ	_	26	amod	77	PER	3365	3318
-24	mais	mais	CCONJ	CCONJ	_	25	cc	77	PER	3366	3319
-25	dissipé	dissipé	ADJ	ADJ	_	23	conj	77	PER	3367	3320
-26	Sheridan	Sheridan	PROPN	PROPN	_	20	nmod	77	PER	3368	3321
+22	l'	le	DET	DET	_	23	det	77	_	3364	3317
+23	illustre	illustre	ADJ	ADJ	_	26	amod	77	_	3365	3318
+24	mais	mais	CCONJ	CCONJ	_	25	cc	77	_	3366	3319
+25	dissipé	dissipé	ADJ	ADJ	_	23	conj	77	_	3367	3320
+26	Sheridan	Sheridan	PROPN	PROPN	_	20	nmod	77	_	3368	3321
 27	-	-	PROPN	PROPN	_	26	flat:name	_	_	3369	_
 28	,	,	PUNCT	PUNCT	_	26	punct	_	_	3370	3322
 29	ameublement	ameublement	NOUN	NOUN	_	26	appos	_	_	3371	3323
@@ -4109,8 +4109,8 @@
 # Num paragr = 44
 1	Phileas	Phileas	PROPN	PROPN	_	4	nsubj	0	PER	3542	3492
 2	Fogg	Fogg	PROPN	PROPN	_	1	flat:name	0	PER	3543	3493
-3	avait	avoir	AUX	AUX	_	4	aux:tense	19	PER	3544	3494
-4	quitté	quitter	VERB	VERB	_	0	root	19	PER	3545	3495
+3	avait	avoir	AUX	AUX	_	4	aux:tense	19	FAC	3544	3494
+4	quitté	quitter	VERB	VERB	_	0	root	19	FAC	3545	3495
 5	sa	son	DET	DET	_	6	det	0	PER	3546	3496
 6	maison	maison	NOUN	NOUN	_	4	obj	5	FAC	3547	3497
 7	de	de	ADP	ADP	_	8	case	5	FAC	3548	3498
@@ -4153,7 +4153,7 @@
 44	droit	droit	ADJ	ADJ	_	43	amod	_	_	3585	3534
 45	,	,	PUNCT	PUNCT	_	47	punct	_	_	3586	3535
 46	il	il	PRON	PRON	_	47	nsubj	0	PER	3587	3536
-47	arriva	arriver	VERB	VERB	_	4	conj	32	PER	3588	3537
+47	arriva	arriver	VERB	VERB	_	4	conj	32	_	3588	3537
 48	au	au	ADP	ADP	_	49	case	3	FAC	3589	3538
 49	Reform	Reform	PROPN	PROPN	_	47	obl:arg	3	FAC	3590	3539
 50	-	-	PROPN	PROPN	_	47	dep	3	FAC	3591	_
@@ -4186,9 +4186,9 @@
 # Num paragr = 45
 1	Phileas	Phileas	PROPN	PROPN	_	4	nsubj	0	PER	3615	3562
 2	Fogg	Fogg	PROPN	PROPN	_	1	flat:name	0	PER	3616	3563
-3	se	se	PRON	PRON	_	4	expl:comp	20	PER	3617	3564
-4	rendit	rendre	VERB	VERB	_	0	root	20	PER	3618	3565
-5	aussitôt	aussitôt	ADV	ADV	_	4	advmod	41	PER	3619	3566
+3	se	se	PRON	PRON	_	4	expl:comp	20	_	3617	3564
+4	rendit	rendre	VERB	VERB	_	0	root	20	_	3618	3565
+5	aussitôt	aussitôt	ADV	ADV	_	4	advmod	41	_	3619	3566
 6	à	à	ADP	ADP	_	8	case	66	FAC	3620	3567
 7	la	le	DET	DET	_	8	det	66	FAC	3621	3568
 8	salle	salle	NOUN	NOUN	_	4	obl:arg	66	FAC	3622	3569
@@ -4220,17 +4220,17 @@
 1	Là	là	ADV	ADV	_	4	advmod	66	FAC	3644	3591
 2	,	,	PUNCT	PUNCT	_	4	punct	_	_	3645	3592
 3	il	il	PRON	PRON	_	4	nsubj	0	PER	3646	3593
-4	prit	prendre	VERB	VERB	_	0	root	65	PER	3647	3594
-5	place	place	NOUN	NOUN	_	4	obj	65	PER	3648	3595
-6	à	à	ADP	ADP	_	8	case	102	PER	3649	3596
-7	la	le	DET	DET	_	8	det	102	PER	3650	3597
-8	table	table	NOUN	NOUN	_	4	obl:arg	102	PER	3651	3598
-9	habituelle	habituel	ADJ	ADJ	_	8	amod	102	PER	3652	3599
-10	où	où	PRON	PRON	_	14	iobj	102	PER	3653	3600
+4	prit	prendre	VERB	VERB	_	0	root	65	_	3647	3594
+5	place	place	NOUN	NOUN	_	4	obj	65	_	3648	3595
+6	à	à	ADP	ADP	_	8	case	102	_	3649	3596
+7	la	le	DET	DET	_	8	det	102	_	3650	3597
+8	table	table	NOUN	NOUN	_	4	obl:arg	102	_	3651	3598
+9	habituelle	habituel	ADJ	ADJ	_	8	amod	102	_	3652	3599
+10	où	où	PRON	PRON	_	14	iobj	102	_	3653	3600
 11	son	son	DET	DET	_	12	det	0	PER	3654	3601
-12	couvert	couvert	NOUN	NOUN	_	14	nsubj	102	PER	3655	3602
+12	couvert	couvert	NOUN	NOUN	_	14	nsubj	102	_	3655	3602
 13	l'	le	PRON	PRON	_	14	obj	0	PER	3656	3603
-14	attendait	attendre	VERB	VERB	_	8	acl:relcl	102	PER	3657	3604
+14	attendait	attendre	VERB	VERB	_	8	acl:relcl	102	_	3657	3604
 15	.	.	PUNCT	PUNCT	_	4	punct	_	_	3658	3605
 
 # Nom fichier = all_annots.sacr
@@ -4307,9 +4307,9 @@
 69	l'	le	DET	DET	_	70	det	_	_	3727	3673
 70	office	office	NOUN	NOUN	_	67	obl:mod	_	_	3728	3674
 71	du	de	ADP	ADP	_	72	case	_	_	3729	3675
-72	Reform	Reform	PROPN	PROPN	_	70	nmod	3	PER	3730	3676
-73	-	-	PROPN	PROPN	_	70	nmod	3	PER	3731	_
-74	Club	club	NOUN	NOUN	_	70	nmod	3	PER	3732	3677
+72	Reform	Reform	PROPN	PROPN	_	70	nmod	3	FAC	3730	3676
+73	-	-	PROPN	PROPN	_	70	nmod	3	FAC	3731	_
+74	Club	club	NOUN	NOUN	_	70	nmod	3	FAC	3732	3677
 75	.	.	PUNCT	PUNCT	_	4	punct	_	_	3733	3678
 
 # Nom fichier = all_annots.sacr
@@ -4323,15 +4323,15 @@
 6	,	,	PUNCT	PUNCT	_	10	punct	_	_	3739	3683
 7	ce	ce	DET	DET	_	8	det	0	PER	3740	3684
 8	gentleman	gentleman	NOUN	NOUN	_	10	nsubj	0	PER	3741	3685
-9	se	se	PRON	PRON	_	10	expl:comp	33	PER	3742	3686
-10	leva	lever	VERB	VERB	_	0	root	33	PER	3743	3687
+9	se	se	PRON	PRON	_	10	expl:comp	33	TIME	3742	3686
+10	leva	lever	VERB	VERB	_	0	root	33	TIME	3743	3687
 11	et	et	CCONJ	CCONJ	_	13	cc	_	_	3744	3688
-12	se	se	PRON	PRON	_	13	expl:comp	49	PER	3745	3689
-13	dirigea	diriger	VERB	VERB	_	10	conj	49	PER	3746	3690
-14	vers	vers	ADP	ADP	_	17	case	24	PER	3747	3691
-15	le	le	DET	DET	_	17	det	24	PER	3748	3692
-16	grand	grand	ADJ	ADJ	_	17	amod	24	PER	3749	3693
-17	salon	salon	NOUN	NOUN	_	13	obl:arg	24	PER	3750	3694
+12	se	se	PRON	PRON	_	13	expl:comp	49	TIME	3745	3689
+13	dirigea	diriger	VERB	VERB	_	10	conj	49	TIME	3746	3690
+14	vers	vers	ADP	ADP	_	17	case	24	FAC	3747	3691
+15	le	le	DET	DET	_	17	det	24	FAC	3748	3692
+16	grand	grand	ADJ	ADJ	_	17	amod	24	FAC	3749	3693
+17	salon	salon	NOUN	NOUN	_	13	obl:arg	24	FAC	3750	3694
 18	,	,	PUNCT	PUNCT	_	17	punct	_	_	3751	3695
 19	somptueuse	somptueux	ADJ	ADJ	_	20	amod	24	FAC	3752	3696
 20	pièce	pièce	NOUN	NOUN	_	17	appos	24	FAC	3753	3697
@@ -4450,11 +4450,11 @@
 6	,	,	PUNCT	PUNCT	_	9	punct	_	_	3850	3791
 7	le	le	DET	DET	_	8	det	0	PER	3851	3792
 8	gentleman	gentleman	NOUN	NOUN	_	9	nsubj	0	PER	3852	3793
-9	reparut	reparaître	VERB	VERB	_	0	root	35	PER	3853	3794
-10	dans	dans	ADP	ADP	_	13	case	24	PER	3854	3795
-11	le	le	DET	DET	_	13	det	24	PER	3855	3796
-12	grand	grand	ADJ	ADJ	_	13	amod	24	PER	3856	3797
-13	salon	salon	NOUN	NOUN	_	9	obl:arg	24	PER	3857	3798
+9	reparut	reparaître	VERB	VERB	_	0	root	35	_	3853	3794
+10	dans	dans	ADP	ADP	_	13	case	24	FAC	3854	3795
+11	le	le	DET	DET	_	13	det	24	FAC	3855	3796
+12	grand	grand	ADJ	ADJ	_	13	amod	24	FAC	3856	3797
+13	salon	salon	NOUN	NOUN	_	9	obl:arg	24	FAC	3857	3798
 14	et	et	CCONJ	CCONJ	_	16	cc	_	_	3858	3799
 15	s'	se	PRON	PRON	_	16	expl:comp	_	_	3859	3800
 16	absorba	absorber	VERB	VERB	_	9	conj	_	_	3860	3801
@@ -4477,20 +4477,20 @@
 6	divers	divers	DET	DET	_	7	det	4	PER	3873	3814
 7	membres	membre	NOUN	NOUN	_	12	nsubj	4	PER	3874	3815
 8	du	de	ADP	ADP	_	9	case	4	PER	3875	3816
-9	Reform	Reform	PROPN	PROPN	_	7	nmod	3	PER	3876	3817
-10	-	-	PROPN	PROPN	_	7	nmod	3	PER	3877	_
-11	Club	Club	PROPN	PROPN	_	7	nmod	3	PER	3878	3818
-12	faisaient	faire	VERB	VERB	_	0	root	55	PER	3879	3819
+9	Reform	Reform	PROPN	PROPN	_	7	nmod	3	FAC	3876	3817
+10	-	-	PROPN	PROPN	_	7	nmod	3	FAC	3877	_
+11	Club	Club	PROPN	PROPN	_	7	nmod	3	FAC	3878	3818
+12	faisaient	faire	VERB	VERB	_	0	root	55	LOC	3879	3819
 13	leur	son	DET	DET	_	14	det	4	PER	3880	3820
-14	entrée	entrée	NOUN	NOUN	_	12	obj	55	PER	3881	3821
+14	entrée	entrée	NOUN	NOUN	_	12	obj	55	LOC	3881	3821
 15	et	et	CCONJ	CCONJ	_	17	cc	_	_	3882	3822
-16	s'	se	PRON	PRON	_	17	expl:comp	54	PER	3883	3823
-17	approchaient	approcher	VERB	VERB	_	12	conj	54	PER	3884	3824
-18	de	de	ADP	ADP	_	20	case	31	PER	3885	3825
-19	la	le	DET	DET	_	20	det	31	PER	3886	3826
-20	cheminée	cheminée	NOUN	NOUN	_	17	obl:arg	31	PER	3887	3827
+16	s'	se	PRON	PRON	_	17	expl:comp	54	_	3883	3823
+17	approchaient	approcher	VERB	VERB	_	12	conj	54	_	3884	3824
+18	de	de	ADP	ADP	_	20	case	31	_	3885	3825
+19	la	le	DET	DET	_	20	det	31	_	3886	3826
+20	cheminée	cheminée	NOUN	NOUN	_	17	obl:arg	31	_	3887	3827
 21	,	,	PUNCT	PUNCT	_	20	punct	_	_	3888	3828
-22	où	où	PRON	PRON	_	23	iobj	31	PER	3889	3829
+22	où	où	PRON	PRON	_	23	iobj	31	_	3889	3829
 23	brûlait	brûler	VERB	VERB	_	20	acl:relcl	_	_	3890	3830
 24	un	un	DET	DET	_	25	det	_	_	3891	3831
 25	feu	feu	NOUN	NOUN	_	23	obj	_	_	3892	3832
@@ -4523,8 +4523,8 @@
 20	Andrew	Andrew	PROPN	PROPN	_	19	appos	2	PER	3915	3855
 21	Stuart	Stuart	PROPN	PROPN	_	20	flat:name	2	PER	3916	3856
 22	,	,	PUNCT	PUNCT	_	24	punct	_	_	3917	3857
-23	les	le	DET	DET	_	24	det	28	PER	3918	3858
-24	banquiers	banquier	NOUN	NOUN	_	19	conj	28	PER	3919	3859
+23	les	le	DET	DET	_	24	det	28	_	3918	3858
+24	banquiers	banquier	NOUN	NOUN	_	19	conj	28	_	3919	3859
 25	John	John	PROPN	PROPN	_	24	flat:name	25	PER	3920	3860
 26	Sullivan	Sullivan	PROPN	PROPN	_	25	flat:name	25	PER	3921	3861
 27	et	et	CCONJ	CCONJ	_	28	cc	_	_	3922	3862
@@ -4543,9 +4543,9 @@
 40	des	de	ADP	ADP	_	41	case	_	_	3935	3875
 41	administrateurs	administrateur	NOUN	NOUN	_	39	nmod	_	_	3936	3876
 42	de	de	ADP	ADP	_	44	case	_	_	3937	3877
-43	la	le	DET	DET	_	44	det	13	PER	3938	3878
-44	Banque	banque	NOUN	NOUN	_	41	nmod	13	PER	3939	3879
-45	d'	de	ADP	ADP	_	46	case	13	PER	3940	3880
+43	la	le	DET	DET	_	44	det	13	FAC	3938	3878
+44	Banque	banque	NOUN	NOUN	_	41	nmod	13	FAC	3939	3879
+45	d'	de	ADP	ADP	_	46	case	13	FAC	3940	3880
 46	Angleterre	Angleterre	PROPN	PROPN	_	44	nmod	8	GPE	3941	3881
 47	,	,	PUNCT	PUNCT	_	19	punct	_	_	3942	3882
 48	-	-	PUNCT	PUNCT	_	4	punct	_	_	3943	_
@@ -4561,7 +4561,7 @@
 58	qui	qui	PRON	PRON	_	59	nsubj	3	FAC	3953	3892
 59	compte	compte	VERB	VERB	_	57	acl:relcl	_	_	3954	3893
 60	parmi	parmi	ADP	ADP	_	62	case	_	_	3955	3894
-61	ses	son	DET	DET	_	62	det	3	PER	3956	3895
+61	ses	son	DET	DET	_	62	det	3	FAC	3956	3895
 62	membres	membre	NOUN	NOUN	_	59	obl:arg	_	_	3957	3896
 63	les	le	DET	DET	_	64	det	_	_	3958	3897
 64	sommités	sommité	NOUN	NOUN	_	59	obj	_	_	3959	3898
@@ -4607,12 +4607,12 @@
 6	Andrew	Andrew	PROPN	PROPN	_	5	nsubj	2	PER	3991	3929
 7	Stuart	Stuart	PROPN	PROPN	_	6	flat:name	2	PER	3992	3930
 8	,	,	PUNCT	PUNCT	_	12	punct	_	_	3993	3931
-9	la	le	DET	DET	_	10	det	13	PER	3994	3932
-10	Banque	banque	NOUN	NOUN	_	12	nsubj	13	PER	3995	3933
+9	la	le	DET	DET	_	10	det	13	FAC	3994	3932
+10	Banque	banque	NOUN	NOUN	_	12	nsubj	13	FAC	3995	3933
 11	en	en	PRON	PRON	_	12	expl:comp	_	_	3996	3934
 12	sera	être	VERB	VERB	_	0	root	_	_	3997	3935
 13	pour	pour	ADP	ADP	_	15	case	_	_	3998	3936
-14	son	son	DET	DET	_	15	det	13	PER	3999	3937
+14	son	son	DET	DET	_	15	det	13	FAC	3999	3937
 15	argent	argent	NOUN	NOUN	_	12	obl:arg	_	_	4000	3938
 16	.	.	PUNCT	PUNCT	_	12	punct	_	_	4001	3939
 
@@ -4630,7 +4630,7 @@
 9	Ralph	Ralph	PROPN	PROPN	_	8	flat:name	6	PER	4010	3948
 10	,	,	PUNCT	PUNCT	_	2	punct	_	_	4011	3949
 11	que	que	SCONJ	SCONJ	_	13	mark	_	_	4012	3950
-12	nous	nous	PRON	PRON	_	13	nsubj	13	PER	4013	3951
+12	nous	nous	PRON	PRON	_	13	nsubj	13	FAC	4013	3951
 13	mettrons	mettre	VERB	VERB	_	2	ccomp	_	_	4014	3952
 14	la	le	DET	DET	_	15	det	_	_	4015	3953
 15	main	main	NOUN	NOUN	_	13	obj	_	_	4016	3954
@@ -4653,33 +4653,33 @@
 7	fort	fort	ADV	ADV	_	8	advmod	_	_	4029	3967
 8	habiles	habile	ADJ	ADJ	_	6	amod	_	_	4030	3968
 9	,	,	PUNCT	PUNCT	_	12	punct	_	_	4031	3969
-10	ont	avoir	AUX	AUX	_	12	aux:tense	62	PER	4032	3970
-11	été	être	AUX	AUX	_	12	aux:pass	62	PER	4033	3971
-12	envoyés	envoyer	VERB	VERB	_	0	root	62	PER	4034	3972
-13	en	en	ADP	ADP	_	14	case	113	PER	4035	3973
-14	Amérique	Amérique	PROPN	PROPN	_	12	obl:arg	113	PER	4036	3974
+10	ont	avoir	AUX	AUX	_	12	aux:tense	62	_	4032	3970
+11	été	être	AUX	AUX	_	12	aux:pass	62	_	4033	3971
+12	envoyés	envoyer	VERB	VERB	_	0	root	62	_	4034	3972
+13	en	en	ADP	ADP	_	14	case	113	GPE	4035	3973
+14	Amérique	Amérique	PROPN	PROPN	_	12	obl:arg	113	GPE	4036	3974
 15	et	et	CCONJ	CCONJ	_	17	cc	_	_	4037	3975
-16	en	en	ADP	ADP	_	17	case	79	PER	4038	3976
-17	Europe	Europe	PROPN	PROPN	_	14	conj	79	PER	4039	3977
+16	en	en	ADP	ADP	_	17	case	79	GPE	4038	3976
+17	Europe	Europe	PROPN	PROPN	_	14	conj	79	GPE	4039	3977
 18	,	,	PUNCT	PUNCT	_	12	punct	_	_	4040	3978
-19	dans	dans	ADP	ADP	_	23	case	191	PER	4041	3979
-20	tous	tout	ADJ	ADJ	_	23	amod	191	PER	4042	3980
-21	les	le	DET	DET	_	23	det	191	PER	4043	3981
-22	principaux	principal	ADJ	ADJ	_	23	amod	191	PER	4044	3982
-23	ports	port	NOUN	NOUN	_	12	obl:mod	191	PER	4045	3983
-24	d'	de	ADP	ADP	_	25	case	191	PER	4046	3984
-25	embarquement	embarquement	NOUN	NOUN	_	23	nmod	191	PER	4047	3985
-26	et	et	CCONJ	CCONJ	_	28	cc	191	PER	4048	3986
-27	de	de	ADP	ADP	_	28	case	191	PER	4049	3987
-28	débarquement	débarquement	NOUN	NOUN	_	25	conj	191	PER	4050	3988
+19	dans	dans	ADP	ADP	_	23	case	191	_	4041	3979
+20	tous	tout	ADJ	ADJ	_	23	amod	191	_	4042	3980
+21	les	le	DET	DET	_	23	det	191	_	4043	3981
+22	principaux	principal	ADJ	ADJ	_	23	amod	191	_	4044	3982
+23	ports	port	NOUN	NOUN	_	12	obl:mod	191	_	4045	3983
+24	d'	de	ADP	ADP	_	25	case	191	_	4046	3984
+25	embarquement	embarquement	NOUN	NOUN	_	23	nmod	191	_	4047	3985
+26	et	et	CCONJ	CCONJ	_	28	cc	191	_	4048	3986
+27	de	de	ADP	ADP	_	28	case	191	_	4049	3987
+28	débarquement	débarquement	NOUN	NOUN	_	25	conj	191	_	4050	3988
 29	,	,	PUNCT	PUNCT	_	12	punct	_	_	4051	3989
 30	et	et	CCONJ	CCONJ	_	33	cc	_	_	4052	3990
 31	il	il	PRON	PRON	_	33	expl:subj	_	_	4053	3991
 32	sera	être	AUX	AUX	_	33	cop	_	_	4054	3992
 33	difficile	difficile	ADJ	ADJ	_	12	conj	_	_	4055	3993
 34	à	à	ADP	ADP	_	36	case	_	_	4056	3994
-35	ce	ce	DET	DET	_	36	det	7	PER	4057	3995
-36	monsieur	Monsieur	NOUN	NOUN	_	33	obl:arg	7	PER	4058	3996
+35	ce	ce	DET	DET	_	36	det	7	_	4057	3995
+36	monsieur	Monsieur	NOUN	NOUN	_	33	obl:arg	7	_	4058	3996
 37	de	de	ADP	ADP	_	39	mark	_	_	4059	3997
 38	leur	son	PRON	PRON	_	39	iobj	17	PER	4060	3998
 39	échapper	échapper	VERB	VERB	_	33	dep	Dpt au sens large	VERB	4061	3999
@@ -4695,8 +4695,8 @@
 5	donc	donc	ADV	ADV	_	4	advmod	_	_	4067	4004
 6	le	le	DET	DET	_	7	det	_	_	4068	4005
 7	signalement	signalement	NOUN	NOUN	_	4	obj	_	_	4069	4006
-8	du	de	ADP	ADP	_	9	case	7	PER	4070	4007
-9	voleur	voleur	NOUN	NOUN	_	7	nmod	7	PER	4071	4008
+8	du	de	ADP	ADP	_	9	case	7	_	4070	4007
+9	voleur	voleur	NOUN	NOUN	_	7	nmod	7	_	4071	4008
 10	?	?	PUNCT	PUNCT	_	4	punct	_	_	4072	4009
 11	demanda	demander	VERB	VERB	_	0	root	_	_	4073	4010
 12	Andrew	Andrew	PROPN	PROPN	_	11	nsubj	2	PER	4074	4011
@@ -4710,7 +4710,7 @@
 2	D'	de	ADP	ADP	_	10	advmod	_	_	4078	4014
 3	abord	abord	NOUN	NOUN	_	2	fixed	_	_	4079	4015
 4	,	,	PUNCT	PUNCT	_	10	punct	_	_	4080	4016
-5	ce	ce	PRON	PRON	_	10	nsubj	7	PER	4081	4017
+5	ce	ce	PRON	PRON	_	10	nsubj	7	_	4081	4017
 6	n'	ne	ADV	ADV	_	10	advmod	_	_	4082	4018
 7	est	être	AUX	AUX	_	10	cop	_	_	4083	4019
 8	pas	pas	ADV	ADV	_	10	advmod	_	_	4084	4020
@@ -4729,16 +4729,16 @@
 1	-	-	PUNCT	PUNCT	_	9	punct	_	_	4093	_
 2	Comment	comment	ADV	ADV	_	9	advmod	_	_	4094	4029
 3	,	,	PUNCT	PUNCT	_	9	punct	_	_	4095	4030
-4	ce	ce	PRON	PRON	_	9	nsubj	7	PER	4096	4031
+4	ce	ce	PRON	PRON	_	9	nsubj	7	_	4096	4031
 5	n'	ne	ADV	ADV	_	9	advmod	_	_	4097	4032
 6	est	être	AUX	AUX	_	9	cop	_	_	4098	4033
 7	pas	pas	ADV	ADV	_	9	advmod	_	_	4099	4034
 8	un	un	DET	DET	_	9	det	_	_	4100	4035
 9	voleur	voleur	NOUN	NOUN	_	0	root	_	_	4101	4036
 10	,	,	PUNCT	PUNCT	_	9	punct	_	_	4102	4037
-11	cet	ce	DET	DET	_	12	det	7	PER	4103	4038
-12	individu	individu	NOUN	NOUN	_	9	appos	7	PER	4104	4039
-13	qui	qui	PRON	PRON	_	15	nsubj	7	PER	4105	4040
+11	cet	ce	DET	DET	_	12	det	7	_	4103	4038
+12	individu	individu	NOUN	NOUN	_	9	appos	7	_	4104	4039
+13	qui	qui	PRON	PRON	_	15	nsubj	7	_	4105	4040
 14	a	avoir	AUX	AUX	_	15	aux:tense	_	_	4106	4041
 15	soustrait	soustraire	VERB	VERB	_	12	acl:relcl	_	_	4107	4042
 16	cinquante	cinquante	DET	DET	_	20	det	_	_	4108	4043
@@ -4774,7 +4774,7 @@
 # Num phrase = 160
 # Num paragr = 56
 1	-	-	PUNCT	PUNCT	_	6	punct	_	_	4132	_
-2	C'	ce	PRON	PRON	_	6	nsubj	7	PER	4133	4064
+2	C'	ce	PRON	PRON	_	6	nsubj	7	_	4133	4064
 3	est	être	AUX	AUX	_	6	cop	_	_	4134	4065
 4	donc	donc	ADV	ADV	_	6	advmod	_	_	4135	4066
 5	un	un	DET	DET	_	6	det	_	_	4136	4067
@@ -4794,7 +4794,7 @@
 4	Chronicle	Chronicle	X	X	_	3	flat:name	_	_	4146	4076
 5	assure	assurer	VERB	VERB	_	0	root	_	_	4147	4077
 6	que	que	SCONJ	SCONJ	_	10	mark	_	_	4148	4078
-7	c'	ce	PRON	PRON	_	10	nsubj	7	PER	4149	4079
+7	c'	ce	PRON	PRON	_	10	nsubj	7	_	4149	4079
 8	est	être	AUX	AUX	_	10	cop	_	_	4150	4080
 9	un	un	DET	DET	_	10	det	_	_	4151	4081
 10	gentleman	gentleman	NOUN	NOUN	_	5	ccomp	_	_	4152	4082
@@ -4954,8 +4954,8 @@
 27	moment	moment	NOUN	NOUN	_	33	obl:mod	_	_	4286	4213
 28	même	même	ADV	ADV	_	27	fixed	_	_	4287	4214
 29	,	,	PUNCT	PUNCT	_	33	punct	_	_	4288	4215
-30	le	le	DET	DET	_	31	det	107	PER	4289	4216
-31	caissier	caissier	NOUN	NOUN	_	33	nsubj	107	PER	4290	4217
+30	le	le	DET	DET	_	31	det	107	_	4289	4216
+31	caissier	caissier	NOUN	NOUN	_	33	nsubj	107	_	4290	4217
 32	s'	se	PRON	PRON	_	33	expl:comp	_	_	4291	4218
 33	occupait	occuper	VERB	VERB	_	23	ccomp	_	_	4292	4219
 34	d'	de	ADP	ADP	_	35	mark	_	_	4293	4220
@@ -5082,16 +5082,16 @@
 # Nom fichier = all_annots.sacr
 # Num phrase = 171
 # Num paragr = 61
-1	Un	un	DET	DET	_	8	nsubj	67	PER	4397	4322
-2	des	de	ADP	ADP	_	4	case	67	PER	4398	4323
-3	meilleurs	meilleur	ADJ	ADJ	_	4	amod	67	PER	4399	4324
-4	observateurs	observateur	NOUN	NOUN	_	1	nmod	67	PER	4400	4325
-5	des	de	ADP	ADP	_	6	case	67	PER	4401	4326
-6	usages	usage	NOUN	NOUN	_	4	nmod	67	PER	4402	4327
-7	anglais	anglais	ADJ	ADJ	_	6	amod	67	PER	4403	4328
-8	raconte	raconter	VERB	VERB	_	0	root	67	PER	4404	4329
-9	même	même	ADV	ADV	_	8	advmod	67	PER	4405	4330
-10	ceci	ceci	PRON	PRON	_	8	obj	67	PER	4406	4331
+1	Un	un	DET	DET	_	8	nsubj	67	_	4397	4322
+2	des	de	ADP	ADP	_	4	case	67	_	4398	4323
+3	meilleurs	meilleur	ADJ	ADJ	_	4	amod	67	_	4399	4324
+4	observateurs	observateur	NOUN	NOUN	_	1	nmod	67	_	4400	4325
+5	des	de	ADP	ADP	_	6	case	67	_	4401	4326
+6	usages	usage	NOUN	NOUN	_	4	nmod	67	_	4402	4327
+7	anglais	anglais	ADJ	ADJ	_	6	amod	67	_	4403	4328
+8	raconte	raconter	VERB	VERB	_	0	root	67	_	4404	4329
+9	même	même	ADV	ADV	_	8	advmod	67	_	4405	4330
+10	ceci	ceci	PRON	PRON	_	8	obj	67	_	4406	4331
 11	:	:	PUNCT	PUNCT	_	8	punct	_	_	4407	4332
 12	Dans	dans	ADP	ADP	_	13	case	_	_	4408	4333
 13	une	un	DET	DET	_	27	obl:mod	68	FAC	4409	4334
@@ -5101,13 +5101,13 @@
 17	la	le	DET	DET	_	18	det	13	FAC	4413	4338
 18	Banque	banque	NOUN	NOUN	_	15	nmod	13	FAC	4414	4339
 19	où	où	PRON	PRON	_	22	iobj	68	FAC	4415	4340
-20	il	il	PRON	PRON	_	22	nsubj	67	PER	4416	4341
-21	se	se	PRON	PRON	_	22	expl:comp	58	PER	4417	4342
-22	trouvait	trouver	VERB	VERB	_	15	acl:relcl	58	PER	4418	4343
+20	il	il	PRON	PRON	_	22	nsubj	67	_	4416	4341
+21	se	se	PRON	PRON	_	22	expl:comp	58	_	4417	4342
+22	trouvait	trouver	VERB	VERB	_	15	acl:relcl	58	_	4418	4343
 23	un	un	DET	DET	_	24	det	163	TIME	4419	4344
 24	jour	jour	NOUN	NOUN	_	22	obl:mod	163	TIME	4420	4345
 25	,	,	PUNCT	PUNCT	_	27	punct	_	_	4421	4346
-26	il	il	PRON	PRON	_	27	nsubj	67	PER	4422	4347
+26	il	il	PRON	PRON	_	27	nsubj	67	_	4422	4347
 27	eut	avoir	VERB	VERB	_	0	root	_	_	4423	4348
 28	la	le	DET	DET	_	29	det	_	_	4424	4349
 29	curiosité	curiosité	NOUN	NOUN	_	27	obj	_	_	4425	4350
@@ -5136,7 +5136,7 @@
 52	du	de	ADP	ADP	_	53	case	_	_	4448	4373
 53	caissier	caissier	NOUN	NOUN	_	51	nmod	_	_	4449	4374
 54	;	;	PUNCT	PUNCT	_	27	punct	_	_	4450	4375
-55	il	il	PRON	PRON	_	56	nsubj	67	PER	4451	4376
+55	il	il	PRON	PRON	_	56	nsubj	67	_	4451	4376
 56	prit	prendre	VERB	VERB	_	0	root	_	_	4452	4377
 57	ce	ce	DET	DET	_	58	det	_	_	4453	4378
 58	lingot	lingot	NOUN	NOUN	_	56	obj	_	_	4454	4379
@@ -5166,9 +5166,9 @@
 82	en	en	ADP	ADP	_	83	case	_	_	4478	4403
 83	main	main	NOUN	NOUN	_	81	nmod	_	_	4479	4404
 84	,	,	PUNCT	PUNCT	_	87	punct	_	_	4480	4405
-85	s'	se	PRON	PRON	_	87	expl:comp	42	PER	4481	4406
-86	en	en	PRON	PRON	_	87	expl:comp	42	PER	4482	4407
-87	alla	aller	VERB	VERB	_	64	advcl	42	PER	4483	4408
+85	s'	se	PRON	PRON	_	87	expl:comp	42	_	4481	4406
+86	en	en	PRON	PRON	_	87	expl:comp	42	_	4482	4407
+87	alla	aller	VERB	VERB	_	64	advcl	42	_	4483	4408
 88	jusqu'	jusque	ADP	ADP	_	90	case	_	_	4484	4409
 89	au	au	ADP	ADP	_	90	case	_	_	4485	4410
 90	fond	fond	NOUN	NOUN	_	87	obl:arg	_	_	4486	4411
@@ -5179,19 +5179,19 @@
 95	,	,	PUNCT	PUNCT	_	56	punct	_	_	4491	4416
 96	et	et	CCONJ	CCONJ	_	98	cc	_	_	4492	4417
 97	ne	ne	ADV	ADV	_	98	advmod	_	_	4493	4418
-98	revint	revenir	VERB	VERB	_	56	conj	60	PER	4494	4419
+98	revint	revenir	VERB	VERB	_	56	conj	60	_	4494	4419
 99	qu'	que	ADV	ADV	_	101	advmod	_	_	4495	4420
 100	une	un	DET	DET	_	101	det	144	TIME	4496	4421
 101	demi-heure	demi-heure	NOUN	NOUN	_	98	obl:mod	144	TIME	4497	4422
 102	après	après	ADP	ADP	_	103	mark	144	TIME	4498	4423
 103	reprendre	reprendre	VERB	VERB	_	101	acl	_	_	4499	4424
-104	sa	son	DET	DET	_	105	det	34	PER	4500	4425
-105	place	place	NOUN	NOUN	_	103	obj	34	PER	4501	4426
+104	sa	son	DET	DET	_	105	det	34	_	4500	4425
+105	place	place	NOUN	NOUN	_	103	obj	34	_	4501	4426
 106	,	,	PUNCT	PUNCT	_	101	punct	_	_	4502	4427
 107	sans	sans	ADP	ADP	_	113	mark	_	_	4503	4428
 108	que	que	SCONJ	SCONJ	_	113	mark	_	_	4504	4429
-109	le	le	DET	DET	_	110	det	107	PER	4505	4430
-110	caissier	caissier	NOUN	NOUN	_	113	nsubj	107	PER	4506	4431
+109	le	le	DET	DET	_	110	det	107	_	4505	4430
+110	caissier	caissier	NOUN	NOUN	_	113	nsubj	107	_	4506	4431
 111	eût	avoir	AUX	AUX	_	113	aux:tense	_	_	4507	4432
 112	seulement	seulement	ADV	ADV	_	113	advmod	_	_	4508	4433
 113	levé	lever	VERB	VERB	_	101	acl	_	_	4509	4434
@@ -5257,9 +5257,9 @@
 32	des	de	ADP	ADP	_	33	case	162	FAC	4561	4484
 33	bureaux	bureau	NOUN	NOUN	_	31	nmod	162	FAC	4562	4485
 34	,	,	PUNCT	PUNCT	_	40	punct	_	_	4563	4486
-35	la	le	DET	DET	_	36	det	13	PER	4564	4487
-36	Banque	banque	NOUN	NOUN	_	40	nsubj	13	PER	4565	4488
-37	d'	de	ADP	ADP	_	38	case	13	PER	4566	4489
+35	la	le	DET	DET	_	36	det	13	FAC	4564	4487
+36	Banque	banque	NOUN	NOUN	_	40	nsubj	13	FAC	4565	4488
+37	d'	de	ADP	ADP	_	38	case	13	FAC	4566	4489
 38	Angleterre	Angleterre	PROPN	PROPN	_	36	nmod	8	GPE	4567	4490
 39	n'	ne	ADV	ADV	_	40	advmod	_	_	4568	4491
 40	avait	avoir	VERB	VERB	_	8	advcl	_	_	4569	4492
@@ -5305,8 +5305,8 @@
 19	plus	plus	ADV	ADV	_	20	advmod	_	_	4605	4527
 20	habiles	habile	ADJ	ADJ	_	16	obl:arg	_	_	4606	4528
 21	,	,	PUNCT	PUNCT	_	23	punct	_	_	4607	4529
-22	furent	être	AUX	AUX	_	23	aux:pass	43	PER	4608	4530
-23	envoyés	envoyer	VERB	VERB	_	0	root	43	PER	4609	4531
+22	furent	être	AUX	AUX	_	23	aux:pass	43	LOC	4608	4530
+23	envoyés	envoyer	VERB	VERB	_	0	root	43	LOC	4609	4531
 24	dans	dans	ADP	ADP	_	27	case	40	FAC	4610	4532
 25	les	le	DET	DET	_	27	det	40	FAC	4611	4533
 26	principaux	principal	ADJ	ADJ	_	27	amod	40	FAC	4612	4534
@@ -5419,10 +5419,10 @@
 16	de	de	ADP	ADP	_	17	mark	_	_	4711	4633
 17	supposer	supposer	VERB	VERB	_	14	xcomp	_	_	4712	4634
 18	que	que	SCONJ	SCONJ	_	24	mark	_	_	4713	4635
-19	l'	le	DET	DET	_	20	det	7	PER	4714	4636
-20	auteur	auteur	NOUN	NOUN	_	24	nsubj	7	PER	4715	4637
-21	du	de	ADP	ADP	_	22	case	7	PER	4716	4638
-22	vol	vol	NOUN	NOUN	_	20	nmod	7	PER	4717	4639
+19	l'	le	DET	DET	_	20	det	7	_	4714	4636
+20	auteur	auteur	NOUN	NOUN	_	24	nsubj	7	_	4715	4637
+21	du	de	ADP	ADP	_	22	case	7	_	4716	4638
+22	vol	vol	NOUN	NOUN	_	20	nmod	7	_	4717	4639
 23	ne	ne	ADV	ADV	_	24	advmod	_	_	4718	4640
 24	faisait	faire	VERB	VERB	_	17	ccomp	_	_	4719	4641
 25	partie	partie	NOUN	NOUN	_	24	obj	_	_	4720	4642
@@ -5446,10 +5446,10 @@
 5	29	29	NUM	NUM	_	3	nmod	56	TIME	4734	4656
 6	septembre	septembre	NOUN	NOUN	_	5	nmod	56	TIME	4735	4657
 7	,	,	PUNCT	PUNCT	_	23	punct	_	_	4736	4658
-8	un	un	DET	DET	_	9	det	7	PER	4737	4659
-9	gentleman	gentleman	NOUN	NOUN	_	23	nsubj:pass	7	PER	4738	4660
-10	bien	bien	ADV	ADV	_	11	advmod	7	PER	4739	4661
-11	mis	mettre	VERB	VERB	_	9	acl	7	PER	4740	4662
+8	un	un	DET	DET	_	9	det	7	_	4737	4659
+9	gentleman	gentleman	NOUN	NOUN	_	23	nsubj:pass	7	_	4738	4660
+10	bien	bien	ADV	ADV	_	11	advmod	7	_	4739	4661
+11	mis	mettre	VERB	VERB	_	9	acl	7	_	4740	4662
 12	,	,	PUNCT	PUNCT	_	9	punct	_	_	4741	4663
 13	de	de	ADP	ADP	_	15	case	_	_	4742	4664
 14	bonnes	bon	ADJ	ADJ	_	15	amod	_	_	4743	4665
@@ -5463,19 +5463,19 @@
 22	été	être	AUX	AUX	_	23	aux:pass	_	_	4751	4673
 23	remarqué	remarquer	VERB	VERB	_	0	root	_	_	4752	4674
 24	,	,	PUNCT	PUNCT	_	23	punct	_	_	4753	4675
-25	qui	qui	PRON	PRON	_	26	nsubj	7	PER	4754	4676
-26	allait	aller	VERB	VERB	_	23	advcl	44	PER	4755	4677
+25	qui	qui	PRON	PRON	_	26	nsubj	7	_	4754	4676
+26	allait	aller	VERB	VERB	_	23	advcl	44	_	4755	4677
 27	et	et	CCONJ	CCONJ	_	28	cc	_	_	4756	4678
-28	venait	venir	VERB	VERB	_	26	conj	53	PER	4757	4679
-29	dans	dans	ADP	ADP	_	31	case	68	PER	4758	4680
-30	la	le	DET	DET	_	31	det	68	PER	4759	4681
-31	salle	salle	NOUN	NOUN	_	26	obl:mod	68	PER	4760	4682
-32	des	de	ADP	ADP	_	33	case	68	PER	4761	4683
-33	paiements	paiement	NOUN	NOUN	_	31	nmod	68	PER	4762	4684
+28	venait	venir	VERB	VERB	_	26	conj	53	_	4757	4679
+29	dans	dans	ADP	ADP	_	31	case	68	FAC	4758	4680
+30	la	le	DET	DET	_	31	det	68	FAC	4759	4681
+31	salle	salle	NOUN	NOUN	_	26	obl:mod	68	FAC	4760	4682
+32	des	de	ADP	ADP	_	33	case	68	FAC	4761	4683
+33	paiements	paiement	NOUN	NOUN	_	31	nmod	68	FAC	4762	4684
 34	,	,	PUNCT	PUNCT	_	31	punct	_	_	4763	4685
-35	théâtre	théâtre	NOUN	NOUN	_	31	appos	68	PER	4764	4686
-36	du	de	ADP	ADP	_	37	case	68	PER	4765	4687
-37	vol	vol	NOUN	NOUN	_	35	nmod	68	PER	4766	4688
+35	théâtre	théâtre	NOUN	NOUN	_	31	appos	68	FAC	4764	4686
+36	du	de	ADP	ADP	_	37	case	68	FAC	4765	4687
+37	vol	vol	NOUN	NOUN	_	35	nmod	68	FAC	4766	4688
 38	.	.	PUNCT	PUNCT	_	23	punct	_	_	4767	4689
 
 # Nom fichier = all_annots.sacr
@@ -5492,8 +5492,8 @@
 9	le	le	DET	DET	_	10	det	_	_	4776	4698
 10	signalement	signalement	NOUN	NOUN	_	6	obj	_	_	4777	4699
 11	de	de	ADP	ADP	_	13	case	_	_	4778	4700
-12	ce	ce	DET	DET	_	13	det	7	PER	4779	4701
-13	gentleman	gentleman	NOUN	NOUN	_	10	nmod	7	PER	4780	4702
+12	ce	ce	DET	DET	_	13	det	7	_	4779	4701
+13	gentleman	gentleman	NOUN	NOUN	_	10	nmod	7	_	4780	4702
 14	,	,	PUNCT	PUNCT	_	13	punct	_	_	4781	4703
 15	signalement	signalement	NOUN	NOUN	_	13	appos	_	_	4782	4704
 16	qui	qui	PRON	PRON	_	19	nsubj:pass	_	_	4783	4705
@@ -5529,8 +5529,8 @@
 46	à	à	ADP	ADP	_	47	mark	_	_	4813	4732
 47	espérer	espérer	VERB	VERB	_	45	xcomp	_	_	4814	4733
 48	que	que	SCONJ	SCONJ	_	52	mark	_	_	4815	4734
-49	le	le	DET	DET	_	50	det	7	PER	4816	4735
-50	voleur	voleur	NOUN	NOUN	_	52	nsubj	7	PER	4817	4736
+49	le	le	DET	DET	_	50	det	7	_	4816	4735
+50	voleur	voleur	NOUN	NOUN	_	52	nsubj	7	_	4817	4736
 51	n'	ne	ADV	ADV	_	52	advmod	_	_	4818	4737
 52	échapperait	échapper	VERB	VERB	_	47	ccomp	_	_	4819	4738
 53	pas	pas	ADV	ADV	_	52	advmod	_	_	4820	4739
@@ -5596,10 +5596,10 @@
 8	entendre	entendre	VERB	VERB	_	4	xcomp	_	_	4868	4787
 9	les	le	DET	DET	_	10	det	_	_	4869	4788
 10	membres	membre	NOUN	NOUN	_	8	obj	_	_	4870	4789
-11	du	de	ADP	ADP	_	12	case	3	PER	4871	4790
-12	Reform	Reform	PROPN	PROPN	_	10	nmod	3	PER	4872	4791
-13	-	-	PROPN	PROPN	_	10	nmod	3	PER	4873	_
-14	Club	Club	PROPN	PROPN	_	10	nmod	3	PER	4874	4792
+11	du	de	ADP	ADP	_	12	case	3	FAC	4871	4790
+12	Reform	Reform	PROPN	PROPN	_	10	nmod	3	FAC	4872	4791
+13	-	-	PROPN	PROPN	_	10	nmod	3	FAC	4873	_
+14	Club	Club	PROPN	PROPN	_	10	nmod	3	FAC	4874	4792
 15	traiter	traiter	VERB	VERB	_	8	xcomp	_	_	4875	4793
 16	la	le	DET	DET	_	18	det	_	_	4876	4794
 17	même	même	ADJ	ADJ	_	18	amod	_	_	4877	4795
@@ -5614,8 +5614,8 @@
 26	des	de	ADP	ADP	_	27	case	6	PER	4886	4804
 27	sous-gouverneurs	sous-gouverneur	NOUN	NOUN	_	25	nmod	6	PER	4887	4805
 28	de	de	ADP	ADP	_	30	case	6	PER	4888	4806
-29	la	le	DET	DET	_	30	det	13	PER	4889	4807
-30	Banque	banque	NOUN	NOUN	_	27	nmod	13	PER	4890	4808
+29	la	le	DET	DET	_	30	det	13	FAC	4889	4807
+30	Banque	banque	NOUN	NOUN	_	27	nmod	13	FAC	4890	4808
 31	se	se	PRON	PRON	_	32	expl:comp	_	_	4891	4809
 32	trouvait	trouver	VERB	VERB	_	20	ccomp	_	_	4892	4810
 33	parmi	parmi	ADP	ADP	_	34	case	_	_	4893	4811
@@ -5685,14 +5685,14 @@
 7	gentlemen	gentleman	NOUN	NOUN	_	3	obl:arg	4	PER	4945	4863
 8	,	,	PUNCT	PUNCT	_	7	punct	_	_	4946	4864
 9	qui	qui	PRON	PRON	_	12	nsubj	4	PER	4947	4865
-10	s'	se	PRON	PRON	_	12	expl:comp	52	PER	4948	4866
-11	étaient	être	AUX	AUX	_	12	aux:tense	52	PER	4949	4867
-12	assis	asseoir	VERB	VERB	_	7	acl:relcl	52	PER	4950	4868
-13	à	à	ADP	ADP	_	15	case	61	PER	4951	4869
-14	une	un	DET	DET	_	15	det	61	PER	4952	4870
-15	table	table	NOUN	NOUN	_	12	obl:arg	61	PER	4953	4871
-16	de	de	ADP	ADP	_	17	case	61	PER	4954	4872
-17	whist	whist	NOUN	NOUN	_	15	nmod	61	PER	4955	4873
+10	s'	se	PRON	PRON	_	12	expl:comp	52	_	4948	4866
+11	étaient	être	AUX	AUX	_	12	aux:tense	52	_	4949	4867
+12	assis	asseoir	VERB	VERB	_	7	acl:relcl	52	_	4950	4868
+13	à	à	ADP	ADP	_	15	case	61	_	4951	4869
+14	une	un	DET	DET	_	15	det	61	_	4952	4870
+15	table	table	NOUN	NOUN	_	12	obl:arg	61	_	4953	4871
+16	de	de	ADP	ADP	_	17	case	61	_	4954	4872
+17	whist	whist	NOUN	NOUN	_	15	nmod	61	_	4955	4873
 18	,	,	PUNCT	PUNCT	_	19	punct	_	_	4956	4874
 19	Stuart	Stuart	PROPN	PROPN	_	7	conj	2	PER	4957	4875
 20	devant	devant	ADP	ADP	_	21	case	_	_	4958	4876
@@ -5749,9 +5749,9 @@
 13	en	en	ADP	ADP	_	14	case	_	_	5001	4919
 14	faveur	faveur	NOUN	NOUN	_	3	ccomp	_	_	5002	4920
 15	du	de	ADP	ADP	_	16	case	_	_	5003	4921
-16	voleur	voleur	NOUN	NOUN	_	14	nmod	7	PER	5004	4922
+16	voleur	voleur	NOUN	NOUN	_	14	nmod	7	_	5004	4922
 17	,	,	PUNCT	PUNCT	_	16	punct	_	_	5005	4923
-18	qui	qui	PRON	PRON	_	20	nsubj	7	PER	5006	4924
+18	qui	qui	PRON	PRON	_	20	nsubj	7	_	5006	4924
 19	ne	ne	ADV	ADV	_	20	advmod	_	_	5007	4925
 20	peut	pouvoir	VERB	VERB	_	16	acl:relcl	_	_	5008	4926
 21	manquer	manquer	VERB	VERB	_	20	xcomp	_	_	5009	4927
@@ -5780,9 +5780,9 @@
 13	un	un	DET	DET	_	15	det	_	_	5028	4945
 14	seul	seul	ADJ	ADJ	_	15	amod	_	_	5029	4946
 15	pays	pays	NOUN	NOUN	_	11	obj	_	_	5030	4947
-16	Dans	dans	ADP	ADP	_	17	case	51	PER	5031	4948
+16	Dans	dans	ADP	ADP	_	17	case	51	_	5031	4948
 17	lequel	lequel	PRON	PRON	_	19	obl:mod	_	_	5032	4949
-18	il	il	PRON	PRON	_	19	nsubj	7	PER	5033	4950
+18	il	il	PRON	PRON	_	19	nsubj	7	_	5033	4950
 19	puisse	pouvoir	VERB	VERB	_	15	acl:relcl	_	_	5034	4951
 20	se	se	PRON	PRON	_	21	expl:comp	_	_	5035	4952
 21	réfugier	réfugier	VERB	VERB	_	19	xcomp	_	_	5036	4953
@@ -5804,8 +5804,8 @@
 3	voulez	vouloir	VERB	VERB	_	0	root	_	_	5044	4959
 4	-vous	vous	PRON	PRON	_	3	nsubj	2	PER	5045	4960
 5	qu'	que	SCONJ	SCONJ	_	7	mark	_	_	5046	4961
-6	il	il	PRON	PRON	_	7	nsubj	7	PER	5047	4962
-7	aille	aller	VERB	VERB	_	4	ccomp	39	PER	5048	4963
+6	il	il	PRON	PRON	_	7	nsubj	7	_	5047	4962
+7	aille	aller	VERB	VERB	_	4	ccomp	39	_	5048	4963
 8	?	?	PUNCT	PUNCT	_	3	punct	_	_	5049	4964
 
 # Nom fichier = all_annots.sacr
@@ -5950,15 +5950,15 @@
 # Nom fichier = all_annots.sacr
 # Num phrase = 198
 # Num paragr = 75
-1	La	le	DET	DET	_	2	det	30	PER	5157	5070
-2	terre	terre	NOUN	NOUN	_	4	nsubj	30	PER	5158	5071
+1	La	le	DET	DET	_	2	det	30	_	5157	5070
+2	terre	terre	NOUN	NOUN	_	4	nsubj	30	_	5158	5071
 3	a	avoir	AUX	AUX	_	4	aux:tense	_	_	5159	5072
 4	diminué	diminuer	VERB	VERB	_	0	root	_	_	5160	5073
 5	,	,	PUNCT	PUNCT	_	4	punct	_	_	5161	5074
 6	puisqu'	puisque	SCONJ	SCONJ	_	9	mark	_	_	5162	5075
-7	on	on	PRON	PRON	_	9	nsubj	64	PER	5163	5076
-8	la	le	PRON	PRON	_	9	obj	30	PER	5164	5077
-9	parcourt	parcourir	VERB	VERB	_	4	advcl	63	PER	5165	5078
+7	on	on	PRON	PRON	_	9	nsubj	64	_	5163	5076
+8	la	le	PRON	PRON	_	9	obj	30	_	5164	5077
+9	parcourt	parcourir	VERB	VERB	_	4	advcl	63	_	5165	5078
 10	maintenant	maintenant	ADV	ADV	_	9	advmod	_	_	5166	5079
 11	dix	dix	NUM	NUM	_	12	nummod	_	_	5167	5080
 12	fois	fois	NOUN	NOUN	_	14	obl:mod	_	_	5168	5081
@@ -6007,8 +6007,8 @@
 6	aussi	aussi	ADV	ADV	_	5	advmod	_	_	5203	5115
 7	la	le	DET	DET	_	8	det	_	_	5204	5116
 8	fuite	fuite	NOUN	NOUN	_	5	obj	_	_	5205	5117
-9	du	de	ADP	ADP	_	10	case	7	PER	5206	5118
-10	voleur	voleur	NOUN	NOUN	_	8	nmod	7	PER	5207	5119
+9	du	de	ADP	ADP	_	10	case	7	_	5206	5118
+10	voleur	voleur	NOUN	NOUN	_	8	nmod	7	_	5207	5119
 11	!	!	PUNCT	PUNCT	_	5	punct	_	_	5208	5120
 
 # Nom fichier = all_annots.sacr
@@ -6171,7 +6171,7 @@
 8	et	et	CCONJ	CCONJ	_	9	cc	_	_	5339	5247
 9	Brindisi	Brindisi	PROPN	PROPN	_	7	conj	110	GPE	5340	5248
 10	,	,	PUNCT	PUNCT	_	2	punct	_	_	5341	5249
-11	railways	railway	NOUN	NOUN	_	2	appos	75	PER	5342	5250
+11	railways	railway	NOUN	NOUN	_	2	appos	75	_	5342	5250
 12	et	et	CCONJ	CCONJ	_	13	cc	_	_	5343	5251
 13	paquebots	paquebot	NOUN	NOUN	_	11	conj	76	VEH	5344	5252
 14	:	:	PUNCT	PUNCT	_	11	punct	_	_	5345	5253
@@ -6236,7 +6236,7 @@
 5	à	à	ADP	ADP	_	6	case	91	GPE	5388	5294
 6	Yokohama	Yokohama	PROPN	PROPN	_	2	nmod	91	GPE	5389	5295
 7	(	(	PUNCT	PUNCT	_	6	punct	_	_	5390	5296
-8	Japon	Japon	PROPN	PROPN	_	6	nmod	178	PER	5391	5297
+8	Japon	Japon	PROPN	PROPN	_	6	nmod	178	_	5391	5297
 9	)	)	PUNCT	PUNCT	_	6	punct	_	_	5392	5298
 10	,	,	PUNCT	PUNCT	_	11	punct	_	_	5393	5299
 11	paquebot	paquebot	NOUN	NOUN	_	2	nmod	36	VEH	5394	5300
@@ -6285,7 +6285,7 @@
 4	à	à	ADP	ADP	_	5	case	9	GPE	5425	5331
 5	Londres	Londres	PROPN	PROPN	_	2	nmod	9	GPE	5426	5332
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_	5427	5333
-7	paquebot	paquebot	NOUN	NOUN	_	0	root	69	PER	5428	5334
+7	paquebot	paquebot	NOUN	NOUN	_	0	root	69	_	5428	5334
 8	et	et	CCONJ	CCONJ	_	9	cc	_	_	5429	5335
 9	railway	railway	NOUN	NOUN	_	7	conj	87	VEH	5430	5336
 10	:	:	PUNCT	PUNCT	_	7	punct	_	_	5431	5337
@@ -6298,8 +6298,8 @@
 # Num paragr = 90
 1	Total	total	NOUN	NOUN	_	0	root	_	_	5435	5341
 2	:	:	PUNCT	PUNCT	_	1	punct	_	_	5436	5342
-3	80	80	NUM	NUM	_	4	nummod	23	PER	5437	5343
-4	jours	jour	NOUN	NOUN	_	1	nmod	23	PER	5438	5344
+3	80	80	NUM	NUM	_	4	nummod	23	TIME	5437	5343
+4	jours	jour	NOUN	NOUN	_	1	nmod	23	TIME	5438	5344
 5	.	.	PUNCT	PUNCT	_	1	punct	_	_	5439	5345
 
 # Nom fichier = all_annots.sacr
@@ -6308,8 +6308,8 @@
 1	-	-	PUNCT	PUNCT	_	5	punct	_	_	5440	_
 2	Oui	oui	ADV	ADV	_	5	nmod	_	_	5441	5346
 3	,	,	PUNCT	PUNCT	_	5	punct	_	_	5442	5347
-4	quatre-vingts	quatre-vingts	NUM	NUM	_	5	nummod	23	PER	5443	5348
-5	jours	jour	NOUN	NOUN	_	0	root	23	PER	5444	5349
+4	quatre-vingts	quatre-vingts	NUM	NUM	_	5	nummod	23	TIME	5443	5348
+5	jours	jour	NOUN	NOUN	_	0	root	23	TIME	5444	5349
 6	!	!	PUNCT	PUNCT	_	5	punct	_	_	5445	5350
 7	s'	se	PRON	PRON	_	8	expl:pass	_	_	5446	5351
 8	écria	écrier	VERB	VERB	_	0	root	_	_	5447	5352
@@ -6522,8 +6522,8 @@
 # Nom fichier = all_annots.sacr
 # Num phrase = 226
 # Num paragr = 99
-1	Partons	partir	VERB	VERB	_	0	root	88	PER	5617	5517
-2	ensemble	ensemble	ADV	ADV	_	1	advmod	171	PER	5618	5518
+1	Partons	partir	VERB	VERB	_	0	root	88	_	5617	5517
+2	ensemble	ensemble	ADV	ADV	_	1	advmod	171	_	5618	5518
 3	.	.	PUNCT	PUNCT	_	1	punct	_	_	5619	5519
 
 # Nom fichier = all_annots.sacr
@@ -6634,9 +6634,9 @@
 # Num phrase = 234
 # Num paragr = 107
 1	-	-	PUNCT	PUNCT	_	5	punct	_	_	5696	_
-2	Tout	tout	ADV	ADV	_	5	advmod	99	PER	5697	5589
-3	de	de	ADP	ADP	_	2	fixed	99	PER	5698	5590
-4	suite	suite	NOUN	NOUN	_	2	fixed	99	PER	5699	5591
+2	Tout	tout	ADV	ADV	_	5	advmod	99	TIME	5697	5589
+3	de	de	ADP	ADP	_	2	fixed	99	TIME	5698	5590
+4	suite	suite	NOUN	NOUN	_	2	fixed	99	TIME	5699	5591
 5	.	.	PUNCT	PUNCT	_	0	root	_	_	5700	5592
 
 # Nom fichier = all_annots.sacr
@@ -6812,8 +6812,8 @@
 # Num paragr = 114
 1	Puis	pouvoir	CCONJ	CCONJ	_	4	cc	_	_	5829	5717
 2	,	,	PUNCT	PUNCT	_	4	punct	_	_	5830	5718
-3	se	se	PRON	PRON	_	4	expl:comp	85	PER	5831	5719
-4	tournant	tourner	VERB	VERB	_	0	root	85	PER	5832	5720
+3	se	se	PRON	PRON	_	4	expl:comp	85	_	5831	5719
+4	tournant	tourner	VERB	VERB	_	0	root	85	_	5832	5720
 5	vers	vers	ADP	ADP	_	7	case	4	PER	5833	5721
 6	ses	son	DET	DET	_	7	det	0	PER	5834	5722
 7	collègues	collègue	NOUN	NOUN	_	4	obl:arg	4	PER	5835	5723
@@ -7098,7 +7098,7 @@
 2	train	train	NOUN	NOUN	_	5	nsubj	196	VEH	6050	5930
 3	de	de	ADP	ADP	_	4	case	196	VEH	6051	5931
 4	Douvres	Douvres	PROPN	PROPN	_	2	nmod	78	GPE	6052	5932
-5	part	partir	VERB	VERB	_	0	root	38	PER	6053	5933
+5	part	partir	VERB	VERB	_	0	root	38	_	6053	5933
 6	à	à	ADP	ADP	_	8	case	16	TIME	6054	5934
 7	huit	huit	NUM	NUM	_	8	nummod	16	TIME	6055	5935
 8	heures	heure	NOUN	NOUN	_	5	obl:mod	16	TIME	6056	5936
@@ -7156,16 +7156,16 @@
 13	puisque	puisque	SCONJ	SCONJ	_	17	mark	_	_	6092	5971
 14	c'	ce	PRON	PRON	_	17	nsubj	_	_	6093	5972
 15	est	être	AUX	AUX	_	17	cop	_	_	6094	5973
-16	aujourd'hui	aujourd'hui	ADV	ADV	_	17	advmod	98	PER	6095	5974
+16	aujourd'hui	aujourd'hui	ADV	ADV	_	17	advmod	98	TIME	6095	5974
 17	mercredi	mercredi	NOUN	NOUN	_	3	obl:mod	98	TIME	6096	5975
 18	2	2	NUM	NUM	_	17	nmod	98	TIME	6097	5976
 19	octobre	octobre	NOUN	NOUN	_	18	nmod	98	TIME	6098	5977
 20	,	,	PUNCT	PUNCT	_	22	punct	_	_	6099	5978
 21	je	je	PRON	PRON	_	22	nsubj	0	PER	6100	5979
-22	devrai	devoir	VERB	VERB	_	0	root	97	PER	6101	5980
-23	être	être	AUX	AUX	_	25	cop	97	PER	6102	5981
-24	de	de	ADP	ADP	_	25	case	97	PER	6103	5982
-25	retour	retour	NOUN	NOUN	_	22	xcomp	97	PER	6104	5983
+22	devrai	devoir	VERB	VERB	_	0	root	97	_	6101	5980
+23	être	être	AUX	AUX	_	25	cop	97	_	6102	5981
+24	de	de	ADP	ADP	_	25	case	97	_	6103	5982
+25	retour	retour	NOUN	NOUN	_	22	xcomp	97	_	6104	5983
 26	à	à	ADP	ADP	_	27	case	9	GPE	6105	5984
 27	Londres	Londres	PROPN	PROPN	_	25	obl:arg	9	GPE	6106	5985
 28	,	,	PUNCT	PUNCT	_	25	punct	_	_	6107	5986
@@ -7363,8 +7363,8 @@
 # Nom fichier = all_annots.sacr
 # Num phrase = 272
 # Num paragr = 129
-1	Sept	Sept	NUM	NUM	_	2	nummod	57	PER	6274	6148
-2	heures	heure	NOUN	NOUN	_	3	nsubj	57	PER	6275	6149
+1	Sept	Sept	NUM	NUM	_	2	nummod	57	TIME	6274	6148
+2	heures	heure	NOUN	NOUN	_	3	nsubj	57	TIME	6275	6149
 3	sonnaient	sonner	VERB	VERB	_	0	root	_	_	6276	6150
 4	alors	alors	ADV	ADV	_	3	advmod	_	_	6277	6151
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_	6278	6152
@@ -7463,15 +7463,15 @@
 16	au	au	ADP	ADP	_	17	case	_	_	6347	6221
 17	whist	whist	PROPN	PROPN	_	11	obl:mod	_	_	6348	6222
 18	,	,	PUNCT	PUNCT	_	19	punct	_	_	6349	6223
-19	prit	prendre	VERB	VERB	_	0	root	58	PER	6350	6224
-20	congé	congé	NOUN	NOUN	_	19	obj	58	PER	6351	6225
+19	prit	prendre	VERB	VERB	_	0	root	58	_	6350	6224
+20	congé	congé	NOUN	NOUN	_	19	obj	58	_	6351	6225
 21	de	de	ADP	ADP	_	24	case	4	PER	6352	6226
 22	ses	son	DET	DET	_	24	det	0	PER	6353	6227
 23	honorables	honorable	ADJ	ADJ	_	24	amod	4	PER	6354	6228
 24	collègues	collègue	NOUN	NOUN	_	19	obl:arg	4	PER	6355	6229
 25	,	,	PUNCT	PUNCT	_	19	punct	_	_	6356	6230
 26	et	et	CCONJ	CCONJ	_	27	cc	_	_	6357	6231
-27	quitta	quitter	VERB	VERB	_	19	conj	28	PER	6358	6232
+27	quitta	quitter	VERB	VERB	_	19	conj	28	_	6358	6232
 28	le	le	DET	DET	_	29	det	3	FAC	6359	6233
 29	Reform	Reform	PROPN	PROPN	_	27	obj	3	FAC	6360	6234
 30	-	-	PROPN	PROPN	_	27	obl:arg	3	FAC	6361	_
@@ -7487,14 +7487,14 @@
 4	cinquante	cinquante	NUM	NUM	_	3	nummod	57	TIME	6367	6240
 5	,	,	PUNCT	PUNCT	_	7	punct	_	_	6368	6241
 6	il	il	PRON	PRON	_	7	nsubj	0	PER	6369	6242
-7	ouvrait	ouvrir	VERB	VERB	_	0	root	34	PER	6370	6243
-8	la	le	DET	DET	_	9	det	51	PER	6371	6244
-9	porte	porte	NOUN	NOUN	_	7	obj	51	PER	6372	6245
-10	de	de	ADP	ADP	_	12	case	51	PER	6373	6246
+7	ouvrait	ouvrir	VERB	VERB	_	0	root	34	_	6370	6243
+8	la	le	DET	DET	_	9	det	51	_	6371	6244
+9	porte	porte	NOUN	NOUN	_	7	obj	51	_	6372	6245
+10	de	de	ADP	ADP	_	12	case	51	_	6373	6246
 11	sa	son	DET	DET	_	12	det	0	PER	6374	6247
 12	maison	maison	NOUN	NOUN	_	9	nmod	5	FAC	6375	6248
 13	et	et	CCONJ	CCONJ	_	14	cc	_	_	6376	6249
-14	rentrait	rentraire	VERB	VERB	_	7	conj	60	PER	6377	6250
+14	rentrait	rentraire	VERB	VERB	_	7	conj	60	_	6377	6250
 15	chez	chez	ADP	ADP	_	16	case	0	PER	6378	6251
 16	lui	luire	PRON	PRON	_	14	obl:arg	0	PER	6379	6252
 17	.	.	PUNCT	PUNCT	_	7	punct	_	_	6380	6253
@@ -7540,9 +7540,9 @@
 5	le	le	DET	DET	_	6	det	0	PER	6412	6285
 6	locataire	locataire	NOUN	NOUN	_	12	nsubj	0	PER	6413	6286
 7	de	de	ADP	ADP	_	6	nmod	0	PER	6414	6287
-8	Saville	Saville	PROPN	PROPN	_	6	nmod	10	GPE	6415	6288
-9	-	-	PROPN	PROPN	_	6	nmod	10	GPE	6416	_
-10	row	row	PROPN	PROPN	_	6	nmod	10	GPE	6417	6289
+8	Saville	Saville	PROPN	PROPN	_	6	nmod	10	FAC	6415	6288
+9	-	-	PROPN	PROPN	_	6	nmod	10	FAC	6416	_
+10	row	row	PROPN	PROPN	_	6	nmod	10	FAC	6417	6289
 11	ne	ne	ADV	ADV	_	12	advmod	_	_	6418	6290
 12	devait	devoir	VERB	VERB	_	0	root	_	_	6419	6291
 13	rentrer	rentrer	VERB	VERB	_	12	xcomp	Dpt au sens large	VERB	6420	6292
@@ -7557,14 +7557,14 @@
 # Num paragr = 134
 1	Phileas	Phileas	PROPN	PROPN	_	7	nsubj	0	PER	6426	6298
 2	Fogg	Fogg	PROPN	PROPN	_	1	flat:name	0	PER	6427	6299
-3	était	être	AUX	AUX	_	7	aux:tense	20	PER	6428	6300
+3	était	être	AUX	AUX	_	7	aux:tense	20	_	6428	6300
 4	tout	tout	ADV	ADV	_	7	advmod	_	_	6429	6301
 5	d'	de	ADP	ADP	_	4	fixed	_	_	6430	6302
 6	abord	abord	ADV	ADV	_	4	fixed	_	_	6431	6303
-7	monté	monter	VERB	VERB	_	0	root	20	PER	6432	6304
-8	à	à	ADP	ADP	_	10	case	45	PER	6433	6305
+7	monté	monter	VERB	VERB	_	0	root	20	_	6432	6304
+8	à	à	ADP	ADP	_	10	case	45	FAC	6433	6305
 9	sa	son	DET	DET	_	10	det	0	PER	6434	6306
-10	chambre	chambre	NOUN	NOUN	_	7	obl:arg	45	PER	6435	6307
+10	chambre	chambre	NOUN	NOUN	_	7	obl:arg	45	FAC	6435	6307
 11	,	,	PUNCT	PUNCT	_	7	punct	_	_	6436	6308
 12	puis	pouvoir	CCONJ	CCONJ	_	14	cc	_	_	6437	6309
 13	il	il	PRON	PRON	_	14	nsubj	0	PER	6438	6310
@@ -7633,8 +7633,8 @@
 # Num phrase = 288
 # Num paragr = 138
 1	Passepartout	Passepartout	PROPN	PROPN	_	3	nsubj	1	PER	6479	6351
-2	se	se	PRON	PRON	_	3	expl:comp	19	PER	6480	6352
-3	montra	montrer	VERB	VERB	_	0	root	19	PER	6481	6353
+2	se	se	PRON	PRON	_	3	expl:comp	19	FAC	6480	6352
+3	montra	montrer	VERB	VERB	_	0	root	19	FAC	6481	6353
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_	6482	6354
 
 # Nom fichier = all_annots.sacr
@@ -7702,13 +7702,13 @@
 # Num phrase = 292
 # Num paragr = 141
 1	Nous	nous	PRON	PRON	_	2	nsubj	11	PER	6532	6403
-2	partons	partir	VERB	VERB	_	0	root	32	PER	6533	6404
+2	partons	partir	VERB	VERB	_	0	root	32	_	6533	6404
 3	dans	dans	ADP	ADP	_	5	case	16	TIME	6534	6405
 4	dix	dix	NUM	NUM	_	5	nummod	16	TIME	6535	6406
 5	minutes	minute	NOUN	NOUN	_	2	obl:mod	16	TIME	6536	6407
-6	pour	pour	ADP	ADP	_	7	case	41	PER	6537	6408
+6	pour	pour	ADP	ADP	_	7	case	41	_	6537	6408
 7	Douvres	Douvres	PROPN	PROPN	_	2	obl:arg	78	GPE	6538	6409
-8	et	et	CCONJ	CCONJ	_	9	cc	41	PER	6539	6410
+8	et	et	CCONJ	CCONJ	_	9	cc	41	_	6539	6410
 9	Calais	Calais	PROPN	PROPN	_	7	conj	109	GPE	6540	6411
 10	.	.	PUNCT	PUNCT	_	2	punct	_	_	6541	6412
 11	»	»	PUNCT	PUNCT	_	2	punct	_	_	6542	6413
@@ -7748,8 +7748,8 @@
 # Num paragr = 143
 1	«	«	PUNCT	PUNCT	_	4	punct	_	_	6565	6436
 2	Monsieur	Monsieur	NOUN	NOUN	_	4	nsubj	1	PER	6566	6437
-3	se	se	PRON	PRON	_	4	expl:comp	35	PER	6567	6438
-4	déplace	déplacer	VERB	VERB	_	0	root	35	PER	6568	6439
+3	se	se	PRON	PRON	_	4	expl:comp	35	_	6567	6438
+4	déplace	déplacer	VERB	VERB	_	0	root	35	_	6568	6439
 5	?	?	PUNCT	PUNCT	_	4	punct	_	_	6569	6440
 6	demanda	demander	VERB	VERB	_	0	root	_	_	6570	6441
 7	-t	-t	PRON	PRON	_	6	nsubj	_	_	6571	6442
@@ -7946,7 +7946,7 @@
 # Num phrase = 309
 # Num paragr = 149
 1	Vous	vous	PRON	PRON	_	2	nsubj	1	PER	6708	6575
-2	descendrez	descendre	VERB	VERB	_	0	root	40	PER	6709	6576
+2	descendrez	descendre	VERB	VERB	_	0	root	40	FAC	6709	6576
 3	mon	mon	DET	DET	_	4	det	0	PER	6710	6577
 4	mackintosh	mackintosh	NOUN	NOUN	_	2	obj	_	_	6711	6578
 5	et	et	CCONJ	CCONJ	_	7	cc	_	_	6712	6579
@@ -7972,7 +7972,7 @@
 2	ailleurs	ailleurs	ADV	ADV	_	5	obl:mod	_	_	6724	6591
 3	,	,	PUNCT	PUNCT	_	5	punct	_	_	6725	6592
 4	nous	nous	PRON	PRON	_	5	nsubj	11	PER	6726	6593
-5	marcherons	marcher	VERB	VERB	_	0	root	38	PER	6727	6594
+5	marcherons	marcher	VERB	VERB	_	0	root	38	_	6727	6594
 6	peu	peu	ADV	ADV	_	5	advmod	_	_	6728	6595
 7	ou	ou	CCONJ	CCONJ	_	8	cc	_	_	6729	6596
 8	pas	pas	ADV	ADV	_	6	conj	_	_	6730	6597
@@ -8006,22 +8006,22 @@
 # Num phrase = 315
 # Num paragr = 150
 1	Il	il	PRON	PRON	_	2	nsubj	1	PER	6744	6611
-2	quitta	quitter	VERB	VERB	_	0	root	33	PER	6745	6612
+2	quitta	quitter	VERB	VERB	_	0	root	33	TIME	6745	6612
 3	la	le	DET	DET	_	4	det	45	FAC	6746	6613
 4	chambre	chambre	NOUN	NOUN	_	2	obj	45	FAC	6747	6614
 5	de	de	ADP	ADP	_	6	case	45	FAC	6748	6615
 6	Mr.	mr.	NOUN	NOUN	_	4	nmod	0	PER	6749	6616
 7	Fogg	Fogg	PROPN	PROPN	_	6	flat:name	0	PER	6750	6617
 8	,	,	PUNCT	PUNCT	_	9	punct	_	_	6751	6618
-9	monta	monter	VERB	VERB	_	2	conj	49	PER	6752	6619
+9	monta	monter	VERB	VERB	_	2	conj	49	TIME	6752	6619
 10	dans	dans	ADP	ADP	_	12	case	15	FAC	6753	6620
 11	la	le	DET	DET	_	12	det	15	FAC	6754	6621
 12	sienne	sien	PRON	PRON	_	9	obl:arg	1	PER	6755	6622
 13	,	,	PUNCT	PUNCT	_	14	punct	_	_	6756	6623
-14	tomba	tomber	VERB	VERB	_	9	conj	39	PER	6757	6624
-15	sur	sur	ADP	ADP	_	17	case	37	PER	6758	6625
-16	une	un	DET	DET	_	17	det	37	PER	6759	6626
-17	chaise	chaise	NOUN	NOUN	_	14	obl:arg	37	PER	6760	6627
+14	tomba	tomber	VERB	VERB	_	9	conj	39	_	6757	6624
+15	sur	sur	ADP	ADP	_	17	case	37	VEH	6758	6625
+16	une	un	DET	DET	_	17	det	37	VEH	6759	6626
+17	chaise	chaise	NOUN	NOUN	_	14	obl:arg	37	VEH	6760	6627
 18	,	,	PUNCT	PUNCT	_	14	punct	_	_	6761	6628
 19	et	et	CCONJ	CCONJ	_	20	cc	_	_	6762	6629
 20	employant	employer	VERB	VERB	_	14	conj	_	_	6763	6630
@@ -8031,7 +8031,7 @@
 24	vulgaire	vulgaire	ADJ	ADJ	_	22	amod	_	_	6767	6634
 25	de	de	ADP	ADP	_	27	case	_	_	6768	6635
 26	son	son	DET	DET	_	27	det	1	PER	6769	6636
-27	pays	pays	NOUN	NOUN	_	22	nmod	92	PER	6770	6637
+27	pays	pays	NOUN	NOUN	_	22	nmod	92	GPE	6770	6637
 28	:	:	PUNCT	PUNCT	_	2	punct	_	_	6771	6638
 
 # Nom fichier = all_annots.sacr
@@ -8122,7 +8122,7 @@
 # Num phrase = 323
 # Num paragr = 152
 1	On	on	PRON	PRON	_	2	nsubj	11	PER	6828	6695
-2	allait	aller	VERB	VERB	_	0	root	43	PER	6829	6696
+2	allait	aller	VERB	VERB	_	0	root	43	LOC	6829	6696
 3	à	à	ADP	ADP	_	4	case	78	GPE	6830	6697
 4	Douvres	Douvres	PROPN	PROPN	_	2	obl:arg	78	GPE	6831	6698
 5	,	,	PUNCT	PUNCT	_	2	punct	_	_	6832	6699
@@ -8159,13 +8159,13 @@
 16	cinq	cinq	NUM	NUM	_	17	nummod	71	TIME	6855	6722
 17	ans	an	NOUN	NOUN	_	22	obl:mod	71	TIME	6856	6723
 18	,	,	PUNCT	PUNCT	_	22	punct	_	_	6857	6724
-19	n'	ne	ADV	ADV	_	22	advmod	36	PER	6858	6725
-20	avait	avoir	AUX	AUX	_	22	aux:tense	36	PER	6859	6726
-21	pas	pas	ADV	ADV	_	22	advmod	36	PER	6860	6727
-22	foulé	fouler	VERB	VERB	_	11	acl:relcl	36	PER	6861	6728
-23	le	le	DET	DET	_	24	det	59	PER	6862	6729
-24	sol	sol	NOUN	NOUN	_	22	obj	59	PER	6863	6730
-25	de	de	ADP	ADP	_	27	case	59	PER	6864	6731
+19	n'	ne	ADV	ADV	_	22	advmod	36	VEH	6858	6725
+20	avait	avoir	AUX	AUX	_	22	aux:tense	36	VEH	6859	6726
+21	pas	pas	ADV	ADV	_	22	advmod	36	VEH	6860	6727
+22	foulé	fouler	VERB	VERB	_	11	acl:relcl	36	VEH	6861	6728
+23	le	le	DET	DET	_	24	det	59	VEH	6862	6729
+24	sol	sol	NOUN	NOUN	_	22	obj	59	VEH	6863	6730
+25	de	de	ADP	ADP	_	27	case	59	VEH	6864	6731
 26	la	le	DET	DET	_	27	det	92	GPE	6865	6732
 27	patrie	patrie	NOUN	NOUN	_	24	nmod	92	GPE	6866	6733
 28	.	.	PUNCT	PUNCT	_	6	punct	_	_	6867	6734
@@ -8177,7 +8177,7 @@
 2	-	-	ADV	ADV	_	5	advmod	_	_	6869	_
 3	être	être	ADV	ADV	_	5	advmod	_	_	6870	6736
 4	même	même	ADV	ADV	_	5	advmod	_	_	6871	6737
-5	irait	aller	VERB	VERB	_	0	root	65	PER	6872	6738
+5	irait	aller	VERB	VERB	_	0	root	65	_	6872	6738
 6	-on	on	PRON	PRON	_	5	dep	11	PER	6873	6739
 7	jusqu'	jusque	ADP	ADP	_	9	case	22	GPE	6874	6740
 8	à	à	ADP	ADP	_	9	case	22	GPE	6875	6741
@@ -8211,9 +8211,9 @@
 9	de	de	ADP	ADP	_	11	case	0	PER	6899	6765
 10	ses	son	DET	DET	_	11	det	0	PER	6900	6766
 11	pas	pas	NOUN	NOUN	_	8	obl:arg	0	PER	6901	6767
-12	s'	se	PRON	PRON	_	13	expl:comp	30	PER	6902	6768
-13	arrêterait	arrêter	VERB	VERB	_	0	root	30	PER	6903	6769
-14	là	là	ADV	ADV	_	13	obl:arg	22	PER	6904	6770
+12	s'	se	PRON	PRON	_	13	expl:comp	30	_	6902	6768
+13	arrêterait	arrêter	VERB	VERB	_	0	root	30	_	6903	6769
+14	là	là	ADV	ADV	_	13	obl:arg	22	GPE	6904	6770
 15	…	…	PUNCT	PUNCT	_	13	punct	_	_	6905	6771
 16	Oui	oui	ADV	ADV	_	0	root	_	_	6906	6772
 17	,	,	PUNCT	PUNCT	_	16	punct	_	_	6907	6773
@@ -8230,12 +8230,12 @@
 28	vrai	vrai	ADJ	ADJ	_	16	conj	_	_	6918	6784
 29	qu'	que	SCONJ	SCONJ	_	31	mark	_	_	6919	6785
 30	il	il	PRON	PRON	_	31	nsubj	0	PER	6920	6786
-31	partait	partir	VERB	VERB	_	28	ccomp	64	PER	6921	6787
+31	partait	partir	VERB	VERB	_	28	ccomp	64	_	6921	6787
 32	,	,	PUNCT	PUNCT	_	36	punct	_	_	6922	6788
 33	qu'	que	SCONJ	SCONJ	_	36	mark	_	_	6923	6789
 34	il	il	PRON	PRON	_	36	nsubj	0	PER	6924	6790
-35	se	se	PRON	PRON	_	36	expl:comp	63	PER	6925	6791
-36	déplaçait	déplacer	VERB	VERB	_	31	conj	63	PER	6926	6792
+35	se	se	PRON	PRON	_	36	expl:comp	63	_	6925	6791
+36	déplaçait	déplacer	VERB	VERB	_	31	conj	63	_	6926	6792
 37	,	,	PUNCT	PUNCT	_	31	punct	_	_	6927	6793
 38	ce	ce	DET	DET	_	39	det	0	PER	6928	6794
 39	gentleman	gentleman	NOUN	NOUN	_	31	obj	0	PER	6929	6795
@@ -8277,11 +8277,11 @@
 26	troublé	troubler	VERB	VERB	_	24	acl	_	_	6961	6827
 27	,	,	PUNCT	PUNCT	_	29	punct	_	_	6962	6828
 28	il	il	PRON	PRON	_	29	nsubj	1	PER	6963	6829
-29	quitta	quitter	VERB	VERB	_	0	root	74	PER	6964	6830
+29	quitta	quitter	VERB	VERB	_	0	root	74	VEH	6964	6830
 30	sa	son	DET	DET	_	31	det	1	PER	6965	6831
 31	chambre	chambre	NOUN	NOUN	_	29	obj	15	FAC	6966	6832
 32	,	,	PUNCT	PUNCT	_	31	punct	_	_	6967	6833
-33	dont	dont	PRON	PRON	_	35	dep	15	PER	6968	6834
+33	dont	dont	PRON	PRON	_	35	dep	15	FAC	6968	6834
 34	il	il	PRON	PRON	_	35	nsubj	1	PER	6969	6835
 35	ferma	fermer	VERB	VERB	_	31	acl:relcl	_	_	6970	6836
 36	soigneusement	soigneusement	ADV	ADV	_	35	advmod	_	_	6971	6837
@@ -8290,7 +8290,7 @@
 39	,	,	PUNCT	PUNCT	_	29	punct	_	_	6974	6840
 40	et	et	CCONJ	CCONJ	_	42	cc	_	_	6975	6841
 41	il	il	PRON	PRON	_	42	nsubj	1	PER	6976	6842
-42	rejoignit	rejoindre	VERB	VERB	_	29	conj	42	PER	6977	6843
+42	rejoignit	rejoindre	VERB	VERB	_	29	conj	42	_	6977	6843
 43	Mr.	mr.	NOUN	NOUN	_	42	obj	0	PER	6978	6844
 44	Fogg	Fogg	PROPN	PROPN	_	43	flat:name	0	PER	6979	6845
 45	.	.	PUNCT	PUNCT	_	29	punct	_	_	6980	6846
@@ -8505,7 +8505,7 @@
 3	et	et	CCONJ	CCONJ	_	5	cc	11	PER	7137	6999
 4	le	le	DET	DET	_	5	det	1	PER	7138	7000
 5	domestique	domestique	NOUN	NOUN	_	2	conj	1	PER	7139	7001
-6	descendirent	descendre	VERB	VERB	_	0	root	75	PER	7140	7002
+6	descendirent	descendre	VERB	VERB	_	0	root	75	_	7140	7002
 7	alors	alors	ADV	ADV	_	6	advmod	_	_	7141	7003
 8	,	,	PUNCT	PUNCT	_	6	punct	_	_	7142	7004
 9	et	et	CCONJ	CCONJ	_	16	cc	_	_	7143	7005
@@ -8547,15 +8547,15 @@
 3	et	et	CCONJ	CCONJ	_	5	cc	11	PER	7171	7032
 4	son	son	DET	DET	_	5	det	0	PER	7172	7033
 5	domestique	domestique	NOUN	NOUN	_	1	conj	1	PER	7173	7034
-6	montèrent	monter	VERB	VERB	_	0	root	44	PER	7174	7035
+6	montèrent	monter	VERB	VERB	_	0	root	44	_	7174	7035
 7	dans	dans	ADP	ADP	_	9	case	83	VEH	7175	7036
 8	un	un	DET	DET	_	9	det	83	VEH	7176	7037
 9	cab	cab	NOUN	NOUN	_	6	obl:arg	83	VEH	7177	7038
 10	,	,	PUNCT	PUNCT	_	9	punct	_	_	7178	7039
 11	qui	qui	PRON	PRON	_	13	nsubj	83	VEH	7179	7040
-12	se	se	PRON	PRON	_	13	expl:comp	53	PER	7180	7041
-13	dirigea	diriger	VERB	VERB	_	9	acl:relcl	53	PER	7181	7042
-14	rapidement	rapidement	ADV	ADV	_	13	advmod	76	PER	7182	7043
+12	se	se	PRON	PRON	_	13	expl:comp	53	_	7180	7041
+13	dirigea	diriger	VERB	VERB	_	9	acl:relcl	53	_	7181	7042
+14	rapidement	rapidement	ADV	ADV	_	13	advmod	76	VEH	7182	7043
 15	vers	vers	ADP	ADP	_	17	case	47	FAC	7183	7044
 16	la	le	DET	DET	_	17	det	47	FAC	7184	7045
 17	gare	gare	NOUN	NOUN	_	13	obl:arg	47	FAC	7185	7046
@@ -8588,12 +8588,12 @@
 5	,	,	PUNCT	PUNCT	_	9	punct	_	_	7208	7066
 6	le	le	DET	DET	_	7	det	83	VEH	7209	7067
 7	cab	cab	NOUN	NOUN	_	9	nsubj	83	VEH	7210	7068
-8	s'	se	PRON	PRON	_	9	expl:comp	52	PER	7211	7069
-9	arrêta	arrêter	VERB	VERB	_	0	root	52	PER	7212	7070
-10	devant	devant	ADP	ADP	_	12	case	84	PER	7213	7071
-11	la	le	DET	DET	_	12	det	84	PER	7214	7072
-12	grille	grille	NOUN	NOUN	_	9	obl:arg	84	PER	7215	7073
-13	de	de	ADP	ADP	_	15	case	84	PER	7216	7074
+8	s'	se	PRON	PRON	_	9	expl:comp	52	_	7211	7069
+9	arrêta	arrêter	VERB	VERB	_	0	root	52	_	7212	7070
+10	devant	devant	ADP	ADP	_	12	case	84	VEH	7213	7071
+11	la	le	DET	DET	_	12	det	84	VEH	7214	7072
+12	grille	grille	NOUN	NOUN	_	9	obl:arg	84	VEH	7215	7073
+13	de	de	ADP	ADP	_	15	case	84	VEH	7216	7074
 14	la	le	DET	DET	_	15	det	47	FAC	7217	7075
 15	gare	gare	NOUN	NOUN	_	12	nmod	47	FAC	7218	7076
 16	.	.	PUNCT	PUNCT	_	9	punct	_	_	7219	7077
@@ -8602,9 +8602,9 @@
 # Num phrase = 345
 # Num paragr = 165
 1	Passepartout	Passepartout	PROPN	PROPN	_	2	nsubj	1	PER	7220	7078
-2	sauta	sauter	VERB	VERB	_	0	root	69	PER	7221	7079
-3	à	à	ADP	ADP	_	4	case	86	PER	7222	7080
-4	terre	terre	NOUN	NOUN	_	2	obl:arg	86	PER	7223	7081
+2	sauta	sauter	VERB	VERB	_	0	root	69	_	7221	7079
+3	à	à	ADP	ADP	_	4	case	86	VEH	7222	7080
+4	terre	terre	NOUN	NOUN	_	2	obl:arg	86	VEH	7223	7081
 5	.	.	PUNCT	PUNCT	_	2	punct	_	_	7224	7082
 
 # Nom fichier = all_annots.sacr
@@ -8613,7 +8613,7 @@
 1	Son	son	DET	DET	_	2	det	1	PER	7225	7083
 2	maître	maître	NOUN	NOUN	_	4	nsubj	0	PER	7226	7084
 3	le	le	PRON	PRON	_	4	obj	1	PER	7227	7085
-4	suivit	suivre	VERB	VERB	_	0	root	87	PER	7228	7086
+4	suivit	suivre	VERB	VERB	_	0	root	87	VEH	7228	7086
 5	et	et	CCONJ	CCONJ	_	6	cc	_	_	7229	7087
 6	paya	payer	VERB	VERB	_	4	conj	_	_	7230	7088
 7	le	le	DET	DET	_	8	det	132	PER	7231	7089
@@ -8663,8 +8663,8 @@
 38	ses	son	DET	DET	_	39	det	29	PER	7271	7129
 39	haillons	haillon	NOUN	NOUN	_	7	nmod	_	_	7272	7130
 40	,	,	PUNCT	PUNCT	_	42	punct	_	_	7273	7131
-41	s'	se	PRON	PRON	_	42	expl:comp	55	PER	7274	7132
-42	approcha	approcher	VERB	VERB	_	0	root	55	PER	7275	7133
+41	s'	se	PRON	PRON	_	42	expl:comp	55	LOC	7274	7132
+42	approcha	approcher	VERB	VERB	_	0	root	55	LOC	7275	7133
 43	de	de	ADP	ADP	_	44	case	0	PER	7276	7134
 44	Mr.	mr.	NOUN	NOUN	_	42	obl:arg	0	PER	7277	7135
 45	Fogg	Fogg	PROPN	PROPN	_	44	flat:name	0	PER	7278	7136
@@ -8772,8 +8772,8 @@
 2	Fogg	Fogg	PROPN	PROPN	_	1	flat:name	0	PER	7356	7214
 3	et	et	CCONJ	CCONJ	_	5	cc	11	PER	7357	7215
 4	lui	luire	PRON	PRON	_	5	iobj	1	PER	7358	7216
-5	entrèrent	entrer	VERB	VERB	_	0	root	88	PER	7359	7217
-6	aussitôt	aussitôt	ADV	ADV	_	5	advmod	85	PER	7360	7218
+5	entrèrent	entrer	VERB	VERB	_	0	root	88	_	7359	7217
+6	aussitôt	aussitôt	ADV	ADV	_	5	advmod	85	_	7360	7218
 7	dans	dans	ADP	ADP	_	10	case	104	FAC	7361	7219
 8	la	le	DET	DET	_	10	det	104	FAC	7362	7220
 9	grande	grand	ADJ	ADJ	_	10	amod	104	FAC	7363	7221
@@ -8811,8 +8811,8 @@
 # Num paragr = 171
 1	Puis	pouvoir	CCONJ	CCONJ	_	4	cc	_	_	7388	7246
 2	,	,	PUNCT	PUNCT	_	4	punct	_	_	7389	7247
-3	se	se	PRON	PRON	_	4	expl:comp	97	PER	7390	7248
-4	retournant	retourner	VERB	VERB	_	7	advcl	97	PER	7391	7249
+3	se	se	PRON	PRON	_	4	expl:comp	97	_	7390	7248
+4	retournant	retourner	VERB	VERB	_	7	advcl	97	_	7391	7249
 5	,	,	PUNCT	PUNCT	_	7	punct	_	_	7392	7250
 6	il	il	PRON	PRON	_	7	nsubj	0	PER	7393	7251
 7	aperçut	apercevoir	VERB	VERB	_	0	root	_	_	7394	7252
@@ -8832,7 +8832,7 @@
 2	Messieurs	monsieur	NOUN	NOUN	_	5	obl:mod	4	PER	7404	7261
 3	,	,	PUNCT	PUNCT	_	5	punct	_	_	7405	7262
 4	je	je	PRON	PRON	_	5	nsubj	0	PER	7406	7263
-5	pars	partir	VERB	VERB	_	0	root	61	PER	7407	7264
+5	pars	partir	VERB	VERB	_	0	root	61	_	7407	7264
 6	,	,	PUNCT	PUNCT	_	5	punct	_	_	7408	7265
 7	dit	dire	VERB	VERB	_	5	parataxis	_	_	7409	7266
 8	-il	il	PRON	PRON	_	7	nsubj	0	PER	7410	7267
@@ -8919,9 +8919,9 @@
 4	pas	pas	ADV	ADV	_	3	advmod	_	_	7475	7330
 5	que	que	SCONJ	SCONJ	_	7	mark	_	_	7476	7331
 6	vous	vous	PRON	PRON	_	7	nsubj	0	PER	7477	7332
-7	devez	devoir	VERB	VERB	_	3	ccomp	117	PER	7478	7333
-8	être	être	AUX	AUX	_	9	aux:pass	117	PER	7479	7334
-9	revenu	revenir	VERB	VERB	_	7	xcomp	117	PER	7480	7335
+7	devez	devoir	VERB	VERB	_	3	ccomp	117	_	7478	7333
+8	être	être	AUX	AUX	_	9	aux:pass	117	_	7479	7334
+9	revenu	revenir	VERB	VERB	_	7	xcomp	117	_	7480	7335
 10	?	?	PUNCT	PUNCT	_	3	punct	_	_	7481	7336
 
 # Nom fichier = all_annots.sacr
@@ -8986,8 +8986,8 @@
 8	et	et	CCONJ	CCONJ	_	10	cc	11	PER	7526	7379
 9	son	son	DET	DET	_	10	det	0	PER	7527	7380
 10	domestique	domestique	NOUN	NOUN	_	6	conj	1	PER	7528	7381
-11	prirent	prendre	VERB	VERB	_	0	root	54	PER	7529	7382
-12	place	place	NOUN	NOUN	_	11	obj	54	PER	7530	7383
+11	prirent	prendre	VERB	VERB	_	0	root	54	_	7529	7382
+12	place	place	NOUN	NOUN	_	11	obj	54	_	7530	7383
 13	dans	dans	ADP	ADP	_	16	case	82	VEH	7531	7384
 14	le	le	DET	DET	_	16	det	82	VEH	7532	7385
 15	même	même	ADJ	ADJ	_	16	amod	82	VEH	7533	7386
@@ -9013,10 +9013,10 @@
 14	et	et	CCONJ	CCONJ	_	18	cc	_	_	7549	7401
 15	le	le	DET	DET	_	16	det	82	VEH	7550	7402
 16	train	train	NOUN	NOUN	_	18	nsubj	82	VEH	7551	7403
-17	se	se	PRON	PRON	_	18	expl:pass	31	PER	7552	7404
-18	mit	mettre	VERB	VERB	_	12	conj	31	PER	7553	7405
-19	en	en	ADP	ADP	_	20	case	31	PER	7554	7406
-20	marche	marche	NOUN	NOUN	_	18	obl:arg	31	PER	7555	7407
+17	se	se	PRON	PRON	_	18	expl:pass	31	_	7552	7404
+18	mit	mettre	VERB	VERB	_	12	conj	31	_	7553	7405
+19	en	en	ADP	ADP	_	20	case	31	_	7554	7406
+20	marche	marche	NOUN	NOUN	_	18	obl:arg	31	_	7555	7407
 21	.	.	PUNCT	PUNCT	_	12	punct	_	_	7556	7408
 
 # Nom fichier = all_annots.sacr
@@ -9080,10 +9080,10 @@
 1	Mais	mais	CCONJ	CCONJ	_	7	cc	_	_	7596	7447
 2	le	le	DET	DET	_	3	det	82	VEH	7597	7448
 3	train	train	NOUN	NOUN	_	7	nsubj	82	VEH	7598	7449
-4	n'	ne	ADV	ADV	_	7	advmod	62	PER	7599	7450
-5	avait	avoir	AUX	AUX	_	7	aux:tense	62	PER	7600	7451
-6	pas	pas	ADV	ADV	_	7	advmod	62	PER	7601	7452
-7	dépassé	dépasser	VERB	VERB	_	0	conj	62	PER	7602	7453
+4	n'	ne	ADV	ADV	_	7	advmod	62	_	7599	7450
+5	avait	avoir	AUX	AUX	_	7	aux:tense	62	_	7600	7451
+6	pas	pas	ADV	ADV	_	7	advmod	62	_	7601	7452
+7	dépassé	dépasser	VERB	VERB	_	0	conj	62	_	7602	7453
 8	Sydenham	Sydenham	PROPN	PROPN	_	7	obj	201	GPE	7603	7454
 9	,	,	PUNCT	PUNCT	_	7	punct	_	_	7604	7455
 10	que	que	SCONJ	SCONJ	_	12	mark	_	_	7605	7456
@@ -9182,8 +9182,8 @@
 1	Phileas	Phileas	PROPN	PROPN	_	10	nsubj	0	PER	7674	7521
 2	Fogg	Fogg	PROPN	PROPN	_	1	flat:name	0	PER	7675	7522
 3	,	,	PUNCT	PUNCT	_	10	punct	_	_	7676	7523
-4	en	en	ADP	ADP	_	5	mark	19	PER	7677	7524
-5	quittant	quitter	VERB	VERB	_	10	advcl	19	PER	7678	7525
+4	en	en	ADP	ADP	_	5	mark	19	FAC	7677	7524
+5	quittant	quitter	VERB	VERB	_	10	advcl	19	FAC	7678	7525
 6	Londres	Londres	PROPN	PROPN	_	5	obj	9	GPE	7679	7526
 7	,	,	PUNCT	PUNCT	_	10	punct	_	_	7680	7527
 8	ne	ne	ADV	ADV	_	10	advmod	_	_	7681	7528
@@ -9227,12 +9227,12 @@
 18	véritable	véritable	ADJ	ADJ	_	19	amod	_	_	7715	7561
 19	émotion	émotion	NOUN	NOUN	_	16	obj	_	_	7716	7562
 20	parmi	parmi	ADP	ADP	_	22	case	_	_	7717	7563
-21	les	le	DET	DET	_	22	det	3	PER	7718	7564
-22	membres	membre	NOUN	NOUN	_	16	obl:mod	3	PER	7719	7565
-23	de	de	ADP	ADP	_	26	case	3	PER	7720	7566
-24	l'	le	DET	DET	_	26	det	3	PER	7721	7567
-25	honorable	honorable	ADJ	ADJ	_	26	amod	3	PER	7722	7568
-26	cercle	cercle	NOUN	NOUN	_	22	nmod	3	PER	7723	7569
+21	les	le	DET	DET	_	22	det	3	FAC	7718	7564
+22	membres	membre	NOUN	NOUN	_	16	obl:mod	3	FAC	7719	7565
+23	de	de	ADP	ADP	_	26	case	3	FAC	7720	7566
+24	l'	le	DET	DET	_	26	det	3	FAC	7721	7567
+25	honorable	honorable	ADJ	ADJ	_	26	amod	3	FAC	7722	7568
+26	cercle	cercle	NOUN	NOUN	_	22	nmod	3	FAC	7723	7569
 27	.	.	PUNCT	PUNCT	_	6	punct	_	_	7724	7570
 
 # Nom fichier = all_annots.sacr
@@ -9450,9 +9450,9 @@
 13	ses	son	DET	DET	_	14	det	0	PER	7910	7753
 14	collègues	collègue	NOUN	NOUN	_	20	nsubj:pass	4	PER	7911	7754
 15	du	de	ADP	ADP	_	16	case	4	PER	7912	7755
-16	Reform	Reform	PROPN	PROPN	_	14	nmod	3	PER	7913	7756
-17	-	-	PROPN	PROPN	_	14	nmod	3	PER	7914	_
-18	Club	Club	PROPN	PROPN	_	14	nmod	3	PER	7915	7757
+16	Reform	Reform	PROPN	PROPN	_	14	nmod	3	FAC	7913	7756
+17	-	-	PROPN	PROPN	_	14	nmod	3	FAC	7914	_
+18	Club	Club	PROPN	PROPN	_	14	nmod	3	FAC	7915	7757
 19	furent	être	AUX	AUX	_	20	aux:pass	_	_	7916	7758
 20	blâmés	blâmer	VERB	VERB	_	5	conj	_	_	7917	7759
 21	d'	de	ADP	ADP	_	23	mark	_	_	7918	7760
@@ -10083,9 +10083,9 @@
 6	divers	divers	ADJ	ADJ	_	7	amod	_	_	8455	8294
 7	membres	membre	NOUN	NOUN	_	12	nsubj	_	_	8456	8295
 8	du	de	ADP	ADP	_	9	case	_	_	8457	8296
-9	Reform	Reform	PROPN	PROPN	_	7	nmod	3	PER	8458	8297
-10	-	-	PROPN	PROPN	_	7	nmod	3	PER	8459	_
-11	Club	Club	PROPN	PROPN	_	7	nmod	3	PER	8460	8298
+9	Reform	Reform	PROPN	PROPN	_	7	nmod	3	FAC	8458	8297
+10	-	-	PROPN	PROPN	_	7	nmod	3	FAC	8459	_
+11	Club	Club	PROPN	PROPN	_	7	nmod	3	FAC	8460	8298
 12	établirent	établir	VERB	VERB	_	0	root	_	_	8461	8299
 13	-ils	il	PRON	PRON	_	12	dep	_	_	8462	8300
 14	des	un	DET	DET	_	15	det	_	_	8463	8301
@@ -10434,11 +10434,11 @@
 49	,	,	PUNCT	PUNCT	_	37	punct	_	_	8754	8592
 50	quand	quand	SCONJ	SCONJ	_	64	mark	_	_	8755	8593
 51	,	,	PUNCT	PUNCT	_	64	punct	_	_	8756	8594
-52	sept	sept	NUM	NUM	_	53	nummod	119	PER	8757	8595
-53	jours	jour	NOUN	NOUN	_	56	nmod	119	PER	8758	8596
-54	après	après	ADP	ADP	_	56	case	119	PER	8759	8597
+52	sept	sept	NUM	NUM	_	53	nummod	119	_	8757	8595
+53	jours	jour	NOUN	NOUN	_	56	nmod	119	_	8758	8596
+54	après	après	ADP	ADP	_	56	case	119	_	8759	8597
 55	son	son	DET	DET	_	56	det	0	PER	8760	8598
-56	départ	départ	NOUN	NOUN	_	64	obl:mod	119	PER	8761	8599
+56	départ	départ	NOUN	NOUN	_	64	obl:mod	119	_	8761	8599
 57	,	,	PUNCT	PUNCT	_	64	punct	_	_	8762	8600
 58	un	un	DET	DET	_	59	det	_	_	8763	8601
 59	incident	incident	NOUN	NOUN	_	64	nsubj	_	_	8764	8602
@@ -10518,10 +10518,10 @@
 # Num paragr = 198
 1	«	«	PUNCT	PUNCT	_	3	punct	_	_	8823	8661
 2	Je	je	PRON	PRON	_	3	nsubj	108	PER	8824	8662
-3	file	file	VERB	VERB	_	0	root	32	PER	8825	8663
-4	voleur	voleur	NOUN	NOUN	_	3	obj	90	PER	8826	8664
-5	de	de	ADP	ADP	_	6	case	90	PER	8827	8665
-6	Banque	banque	NOUN	NOUN	_	4	nmod	90	PER	8828	8666
+3	file	file	VERB	VERB	_	0	root	32	_	8825	8663
+4	voleur	voleur	NOUN	NOUN	_	3	obj	90	_	8826	8664
+5	de	de	ADP	ADP	_	6	case	90	_	8827	8665
+6	Banque	banque	NOUN	NOUN	_	4	nmod	90	_	8828	8666
 7	,	,	PUNCT	PUNCT	_	3	punct	_	_	8829	8667
 8	Phileas	Phileas	PROPN	PROPN	_	3	obl:mod	0	PER	8830	8668
 9	Fogg	Fogg	PROPN	PROPN	_	8	flat:name	0	PER	8831	8669
@@ -10576,12 +10576,12 @@
 5	pour	pour	ADP	ADP	_	6	mark	_	_	8864	8702
 6	faire	faire	VERB	VERB	_	4	advcl	_	_	8865	8703
 7	place	place	NOUN	NOUN	_	6	obj	_	_	8866	8704
-8	au	au	ADP	ADP	_	9	case	90	PER	8867	8705
-9	voleur	voleur	NOUN	NOUN	_	6	obl:arg	90	PER	8868	8706
-10	de	de	ADP	ADP	_	11	case	90	PER	8869	8707
-11	bank	bank	NOUN	NOUN	_	9	nmod	90	PER	8870	8708
-12	-	-	NOUN	NOUN	_	9	nmod	90	PER	8871	_
-13	notes	note	NOUN	NOUN	_	9	nmod	90	PER	8872	8709
+8	au	au	ADP	ADP	_	9	case	90	_	8867	8705
+9	voleur	voleur	NOUN	NOUN	_	6	obl:arg	90	_	8868	8706
+10	de	de	ADP	ADP	_	11	case	90	_	8869	8707
+11	bank	bank	NOUN	NOUN	_	9	nmod	90	_	8870	8708
+12	-	-	NOUN	NOUN	_	9	nmod	90	_	8871	_
+13	notes	note	NOUN	NOUN	_	9	nmod	90	_	8872	8709
 14	.	.	PUNCT	PUNCT	_	4	punct	_	_	8873	8710
 
 # Nom fichier = all_annots.sacr

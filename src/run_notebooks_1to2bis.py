@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-MODE = "auto"   # "auto" ou "manuel" => auto pour les fichiers strictement PROPP et manuel pour les fichiers SACR
+MODE = "manuel"   # "auto" ou "manuel" => auto pour les fichiers strictement PROPP et manuel pour les fichiers SACR
 
 env = os.environ.copy()
 
