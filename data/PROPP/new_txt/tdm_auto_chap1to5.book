@@ -1,0 +1,4430 @@
+[
+    {
+        "id": 0,
+        "count": {
+            "occurrence": 253,
+            "mention_ratio": 0.3307
+        },
+        "gender": {
+            "ratio": 0.5494,
+            "inference": {
+                "Male": 0.99,
+                "Female": 0.01
+            },
+            "max": 0.99,
+            "argmax": "Male"
+        },
+        "number": {
+            "ratio": 0.917,
+            "inference": {
+                "Singular": 0.99,
+                "Plural": 0.01
+            },
+            "max": 0.99,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "phileas fogg",
+                    "c": 54
+                },
+                {
+                    "n": "ce phileas fogg",
+                    "c": 2
+                },
+                {
+                    "n": "fogg",
+                    "c": 1
+                },
+                {
+                    "n": "angelica kauffmann",
+                    "c": 1
+                },
+                {
+                    "n": "mr. phileas fogg",
+                    "c": 1
+                },
+                {
+                    "n": "du caissier principal de la banque d' angleterre",
+                    "c": 1
+                },
+                {
+                    "n": "ses collègues du reform - club",
+                    "c": 1
+                },
+                {
+                    "n": "le phileas fogg",
+                    "c": 1
+                },
+                {
+                    "n": "lord albermale",
+                    "c": 1
+                },
+                {
+                    "n": "les partisans de phileas fogg",
+                    "c": 1
+                }
+            ],
+            "common": [
+                {
+                    "n": "ce gentleman",
+                    "c": 5
+                },
+                {
+                    "n": "monsieur",
+                    "c": 5
+                },
+                {
+                    "n": "du voleur",
+                    "c": 3
+                },
+                {
+                    "n": "l' auteur du vol",
+                    "c": 2
+                },
+                {
+                    "n": "le caissier",
+                    "c": 2
+                },
+                {
+                    "n": "l' honorable gentleman",
+                    "c": 2
+                },
+                {
+                    "n": "des plus beaux gentlemen de la haute société anglaise",
+                    "c": 1
+                },
+                {
+                    "n": "anglais",
+                    "c": 1
+                },
+                {
+                    "n": "un gentleman aussi mystérieux",
+                    "c": 1
+                },
+                {
+                    "n": "du locataire",
+                    "c": 1
+                },
+                {
+                    "n": "son nouveau maître",
+                    "c": 1
+                },
+                {
+                    "n": "son prédécesseur",
+                    "c": 1
+                },
+                {
+                    "n": "mon nouveau maître",
+                    "c": 1
+                },
+                {
+                    "n": "son futur maître",
+                    "c": 1
+                },
+                {
+                    "n": "un homme",
+                    "c": 1
+                },
+                {
+                    "n": "l' homme le moins hâté du monde",
+                    "c": 1
+                },
+                {
+                    "n": "un personnage",
+                    "c": 1
+                },
+                {
+                    "n": "le méthodique gentleman",
+                    "c": 1
+                },
+                {
+                    "n": "le gentleman",
+                    "c": 1
+                },
+                {
+                    "n": "ce monsieur",
+                    "c": 1
+                },
+                {
+                    "n": "cet individu",
+                    "c": 1
+                },
+                {
+                    "n": "du caissier",
+                    "c": 1
+                },
+                {
+                    "n": "un gentleman bien mis",
+                    "c": 1
+                },
+                {
+                    "n": "le voleur",
+                    "c": 1
+                },
+                {
+                    "n": "le voyageur",
+                    "c": 1
+                },
+                {
+                    "n": "du gentleman",
+                    "c": 1
+                },
+                {
+                    "n": "un seul partisan",
+                    "c": 1
+                },
+                {
+                    "n": "le vieux paralytique",
+                    "c": 1
+                },
+                {
+                    "n": "voleur de banque",
+                    "c": 1
+                },
+                {
+                    "n": "au voleur de bank - notes",
+                    "c": 1
+                },
+                {
+                    "n": "l' homme",
+                    "c": 1
+                },
+                {
+                    "n": "ce personnage",
+                    "c": 1
+                }
+            ],
+            "pronoun": [
+                {
+                    "n": "il",
+                    "c": 38
+                },
+                {
+                    "n": "son",
+                    "c": 35
+                },
+                {
+                    "n": "sa",
+                    "c": 13
+                },
+                {
+                    "n": "lui",
+                    "c": 11
+                },
+                {
+                    "n": "ses",
+                    "c": 10
+                },
+                {
+                    "n": "qui",
+                    "c": 9
+                },
+                {
+                    "n": "je",
+                    "c": 6
+                },
+                {
+                    "n": "dont",
+                    "c": 4
+                },
+                {
+                    "n": "le",
+                    "c": 4
+                },
+                {
+                    "n": "c'",
+                    "c": 3
+                },
+                {
+                    "n": "l'",
+                    "c": 3
+                },
+                {
+                    "n": "-il",
+                    "c": 3
+                },
+                {
+                    "n": "ce",
+                    "c": 2
+                },
+                {
+                    "n": "vous",
+                    "c": 1
+                },
+                {
+                    "n": "-je",
+                    "c": 1
+                },
+                {
+                    "n": "mon",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "ressembler",
+                "i": 124
+            },
+            {
+                "w": "figurer",
+                "i": 224
+            },
+            {
+                "w": "plaider",
+                "i": 264
+            },
+            {
+                "w": "faire",
+                "i": 306
+            },
+            {
+                "w": "compter",
+                "i": 441
+            },
+            {
+                "w": "passer",
+                "i": 454
+            },
+            {
+                "w": "avoir",
+                "i": 466
+            },
+            {
+                "w": "faire",
+                "i": 513
+            },
+            {
+                "w": "quitter",
+                "i": 772
+            },
+            {
+                "w": "vivre",
+                "i": 966
+            },
+            {
+                "w": "rentraire",
+                "i": 1033
+            },
+            {
+                "w": "passer",
+                "i": 1072
+            },
+            {
+                "w": "dormir",
+                "i": 1081
+            },
+            {
+                "w": "occuper",
+                "i": 1087
+            },
+            {
+                "w": "promener",
+                "i": 1095
+            },
+            {
+                "w": "dîner",
+                "i": 1143
+            },
+            {
+                "w": "déjeuner",
+                "i": 1145
+            },
+            {
+                "w": "exiger",
+                "i": 1333
+            },
+            {
+                "w": "donner",
+                "i": 1356
+            },
+            {
+                "w": "attendre",
+                "i": 1391
+            },
+            {
+                "w": "regarder",
+                "i": 1445
+            },
+            {
+                "w": "tenir",
+                "i": 1518
+            },
+            {
+                "w": "demander",
+                "i": 1563
+            },
+            {
+                "w": "pardonner",
+                "i": 1844
+            },
+            {
+                "w": "lever",
+                "i": 1900
+            },
+            {
+                "w": "prendre",
+                "i": 1902
+            },
+            {
+                "w": "placer",
+                "i": 1911
+            },
+            {
+                "w": "disparaître",
+                "i": 1921
+            },
+            {
+                "w": "sortir",
+                "i": 1946
+            },
+            {
+                "w": "pouvoir",
+                "i": 2074
+            },
+            {
+                "w": "paraître",
+                "i": 2123
+            },
+            {
+                "w": "rendre",
+                "i": 2197
+            },
+            {
+                "w": "donner",
+                "i": 2218
+            },
+            {
+                "w": "faire",
+                "i": 2329
+            },
+            {
+                "w": "perdre",
+                "i": 2345
+            },
+            {
+                "w": "permettre",
+                "i": 2355
+            },
+            {
+                "w": "arriver",
+                "i": 2382
+            },
+            {
+                "w": "vivre",
+                "i": 2393
+            },
+            {
+                "w": "savoir",
+                "i": 2407
+            },
+            {
+                "w": "frotter",
+                "i": 2429
+            },
+            {
+                "w": "chercher",
+                "i": 2888
+            },
+            {
+                "w": "découcher",
+                "i": 2911
+            },
+            {
+                "w": "voyager",
+                "i": 2916
+            },
+            {
+                "w": "absenter",
+                "i": 2922
+            },
+            {
+                "w": "pouvoir",
+                "i": 2931
+            },
+            {
+                "w": "lever",
+                "i": 3171
+            },
+            {
+                "w": "quitter",
+                "i": 3186
+            },
+            {
+                "w": "coucher",
+                "i": 3247
+            },
+            {
+                "w": "quitter",
+                "i": 3545
+            },
+            {
+                "w": "arriver",
+                "i": 3588
+            },
+            {
+                "w": "rendre",
+                "i": 3618
+            },
+            {
+                "w": "prendre",
+                "i": 3647
+            },
+            {
+                "w": "lever",
+                "i": 3743
+            },
+            {
+                "w": "diriger",
+                "i": 3746
+            },
+            {
+                "w": "opérer",
+                "i": 3775
+            },
+            {
+                "w": "reparaître",
+                "i": 3853
+            },
+            {
+                "w": "absorber",
+                "i": 3860
+            },
+            {
+                "w": "soustraire",
+                "i": 4107
+            },
+            {
+                "w": "saluer",
+                "i": 4187
+            },
+            {
+                "w": "occuper",
+                "i": 4292
+            },
+            {
+                "w": "lever",
+                "i": 4509
+            },
+            {
+                "w": "faire",
+                "i": 4719
+            },
+            {
+                "w": "aller",
+                "i": 4755
+            },
+            {
+                "w": "venir",
+                "i": 4757
+            },
+            {
+                "w": "échapper",
+                "i": 4819
+            },
+            {
+                "w": "pouvoir",
+                "i": 5008
+            },
+            {
+                "w": "pouvoir",
+                "i": 5034
+            },
+            {
+                "w": "aller",
+                "i": 5048
+            },
+            {
+                "w": "dire",
+                "i": 5219
+            },
+            {
+                "w": "dire",
+                "i": 5284
+            },
+            {
+                "w": "répondre",
+                "i": 5483
+            },
+            {
+                "w": "respecter",
+                "i": 5499
+            },
+            {
+                "w": "répondre",
+                "i": 5540
+            },
+            {
+                "w": "ajouter",
+                "i": 5550
+            },
+            {
+                "w": "vouloir",
+                "i": 5690
+            },
+            {
+                "w": "répondre",
+                "i": 5734
+            },
+            {
+                "w": "avoir",
+                "i": 5741
+            },
+            {
+                "w": "répondre",
+                "i": 5887
+            },
+            {
+                "w": "répondre",
+                "i": 5980
+            },
+            {
+                "w": "parier",
+                "i": 5985
+            },
+            {
+                "w": "faire",
+                "i": 5994
+            },
+            {
+                "w": "répondre",
+                "i": 6076
+            },
+            {
+                "w": "ajouter",
+                "i": 6082
+            },
+            {
+                "w": "devoir",
+                "i": 6101
+            },
+            {
+                "w": "demeurer",
+                "i": 6182
+            },
+            {
+                "w": "parier",
+                "i": 6190
+            },
+            {
+                "w": "engager",
+                "i": 6197
+            },
+            {
+                "w": "prévoir",
+                "i": 6213
+            },
+            {
+                "w": "pouvoir",
+                "i": 6216
+            },
+            {
+                "w": "prendre",
+                "i": 6350
+            },
+            {
+                "w": "quitter",
+                "i": 6358
+            },
+            {
+                "w": "ouvrir",
+                "i": 6370
+            },
+            {
+                "w": "rentraire",
+                "i": 6377
+            },
+            {
+                "w": "monter",
+                "i": 6432
+            },
+            {
+                "w": "appeler",
+                "i": 6439
+            },
+            {
+                "w": "appeler",
+                "i": 6492
+            },
+            {
+                "w": "reprendre",
+                "i": 6519
+            },
+            {
+                "w": "faire",
+                "i": 6527
+            },
+            {
+                "w": "répondre",
+                "i": 6577
+            },
+            {
+                "w": "monter",
+                "i": 7174
+            },
+            {
+                "w": "donner",
+                "i": 7373
+            },
+            {
+                "w": "prendre",
+                "i": 7529
+            },
+            {
+                "w": "parler",
+                "i": 7577
+            },
+            {
+                "w": "douter",
+                "i": 7683
+            },
+            {
+                "w": "manquer",
+                "i": 8337
+            },
+            {
+                "w": "baisser",
+                "i": 8567
+            },
+            {
+                "w": "rester",
+                "i": 8604
+            },
+            {
+                "w": "donner",
+                "i": 8625
+            },
+            {
+                "w": "parier",
+                "i": 8643
+            },
+            {
+                "w": "contenter",
+                "i": 8679
+            },
+            {
+                "w": "raréfier",
+                "i": 8719
+            },
+            {
+                "w": "file",
+                "i": 8825
+            },
+            {
+                "w": "disparaître",
+                "i": 8863
+            },
+            {
+                "w": "avoir",
+                "i": 8953
+            }
+        ],
+        "patient": [
+            {
+                "w": "succéder",
+                "i": 84
+            },
+            {
+                "w": "voir",
+                "i": 181
+            },
+            {
+                "w": "servir",
+                "i": 997
+            },
+            {
+                "w": "servir",
+                "i": 1198
+            },
+            {
+                "w": "entrevoir",
+                "i": 2054
+            },
+            {
+                "w": "examiner",
+                "i": 2064
+            },
+            {
+                "w": "voir",
+                "i": 2365
+            },
+            {
+                "w": "attendre",
+                "i": 3657
+            },
+            {
+                "w": "occuper",
+                "i": 3799
+            },
+            {
+                "w": "prendre",
+                "i": 8742
+            },
+            {
+                "w": "prendre",
+                "i": 8774
+            },
+            {
+                "w": "reproduire",
+                "i": 8893
+            }
+        ],
+        "mod": [
+            {
+                "w": "galant",
+                "i": 105
+            },
+            {
+                "w": "homme",
+                "i": 106
+            },
+            {
+                "w": "haut",
+                "i": 116
+            },
+            {
+                "w": "anglais",
+                "i": 118
+            },
+            {
+                "w": "irréprochable",
+                "i": 135
+            },
+            {
+                "w": "industriel",
+                "i": 293
+            },
+            {
+                "w": "membre",
+                "i": 420
+            },
+            {
+                "w": "mystérieux",
+                "i": 440
+            },
+            {
+                "w": "riche",
+                "i": 505
+            },
+            {
+                "w": "nouveau",
+                "i": 1943
+            },
+            {
+                "w": "nouveau",
+                "i": 2008
+            },
+            {
+                "w": "futur",
+                "i": 2066
+            },
+            {
+                "w": "exactitude",
+                "i": 2255
+            },
+            {
+                "w": "gens",
+                "i": 2305
+            },
+            {
+                "w": "exact",
+                "i": 2307
+            },
+            {
+                "w": "économe",
+                "i": 2318
+            },
+            {
+                "w": "homme",
+                "i": 2373
+            },
+            {
+                "w": "hâter",
+                "i": 2376
+            },
+            {
+                "w": "régulier",
+                "i": 2907
+            },
+            {
+                "w": "méthodique",
+                "i": 3249
+            },
+            {
+                "w": "voleur",
+                "i": 4086
+            },
+            {
+                "w": "voleur",
+                "i": 4101
+            },
+            {
+                "w": "gentleman",
+                "i": 4152
+            },
+            {
+                "w": "principal",
+                "i": 4253
+            },
+            {
+                "w": "seul",
+                "i": 8601
+            },
+            {
+                "w": "vieux",
+                "i": 8609
+            },
+            {
+                "w": "honorable",
+                "i": 8616
+            },
+            {
+                "w": "honorable",
+                "i": 8861
+            }
+        ],
+        "poss": [
+            {
+                "w": "gentleman",
+                "i": 113
+            },
+            {
+                "w": "nom",
+                "i": 232
+            },
+            {
+                "w": "crédit",
+                "i": 468
+            },
+            {
+                "w": "chèque",
+                "i": 484
+            },
+            {
+                "w": "compte",
+                "i": 495
+            },
+            {
+                "w": "maison",
+                "i": 970
+            },
+            {
+                "w": "intérieur",
+                "i": 983
+            },
+            {
+                "w": "collègue",
+                "i": 1024
+            },
+            {
+                "w": "domicile",
+                "i": 1076
+            },
+            {
+                "w": "toilette",
+                "i": 1090
+            },
+            {
+                "w": "table",
+                "i": 1170
+            },
+            {
+                "w": "sherry",
+                "i": 1225
+            },
+            {
+                "w": "porto",
+                "i": 1228
+            },
+            {
+                "w": "claret",
+                "i": 1231
+            },
+            {
+                "w": "boisson",
+                "i": 1263
+            },
+            {
+                "w": "habitude",
+                "i": 1316
+            },
+            {
+                "w": "congé",
+                "i": 1358
+            },
+            {
+                "w": "barbe",
+                "i": 1375
+            },
+            {
+                "w": "successeur",
+                "i": 1393
+            },
+            {
+                "w": "fauteuil",
+                "i": 1415
+            },
+            {
+                "w": "chapeau",
+                "i": 1904
+            },
+            {
+                "w": "tête",
+                "i": 1914
+            },
+            {
+                "w": "prédécesseur",
+                "i": 1956
+            },
+            {
+                "w": "pinceau",
+                "i": 2200
+            },
+            {
+                "w": "existence",
+                "i": 2214
+            },
+            {
+                "w": "pied",
+                "i": 2269
+            },
+            {
+                "w": "main",
+                "i": 2273
+            },
+            {
+                "w": "chambre",
+                "i": 3099
+            },
+            {
+                "w": "maison",
+                "i": 3188
+            },
+            {
+                "w": "maison",
+                "i": 3547
+            },
+            {
+                "w": "pied",
+                "i": 3568
+            },
+            {
+                "w": "pied",
+                "i": 3572
+            },
+            {
+                "w": "pied",
+                "i": 3580
+            },
+            {
+                "w": "pied",
+                "i": 3584
+            },
+            {
+                "w": "couvert",
+                "i": 3655
+            },
+            {
+                "w": "déjeuner",
+                "i": 3660
+            },
+            {
+                "w": "partenaire",
+                "i": 3899
+            },
+            {
+                "w": "signalement",
+                "i": 4069
+            },
+            {
+                "w": "collègue",
+                "i": 4189
+            },
+            {
+                "w": "tablette",
+                "i": 4250
+            },
+            {
+                "w": "tablette",
+                "i": 4447
+            },
+            {
+                "w": "signalement",
+                "i": 4777
+            },
+            {
+                "w": "faveur",
+                "i": 5002
+            },
+            {
+                "w": "fuite",
+                "i": 5205
+            },
+            {
+                "w": "jeu",
+                "i": 5548
+            },
+            {
+                "w": "crédit",
+                "i": 6142
+            },
+            {
+                "w": "fortune",
+                "i": 6207
+            },
+            {
+                "w": "adversaire",
+                "i": 6239
+            },
+            {
+                "w": "collègue",
+                "i": 6355
+            },
+            {
+                "w": "maison",
+                "i": 6375
+            },
+            {
+                "w": "chambre",
+                "i": 6435
+            },
+            {
+                "w": "domestique",
+                "i": 7173
+            },
+            {
+                "w": "domestique",
+                "i": 7528
+            },
+            {
+                "w": "coin",
+                "i": 7574
+            },
+            {
+                "w": "départ",
+                "i": 7696
+            },
+            {
+                "w": "collègue",
+                "i": 7911
+            },
+            {
+                "w": "auteur",
+                "i": 7934
+            },
+            {
+                "w": "cas",
+                "i": 7990
+            },
+            {
+                "w": "portrait",
+                "i": 8021
+            },
+            {
+                "w": "photographie",
+                "i": 8025
+            },
+            {
+                "w": "voyage",
+                "i": 8367
+            },
+            {
+                "w": "action",
+                "i": 8387
+            },
+            {
+                "w": "départ",
+                "i": 8401
+            },
+            {
+                "w": "entreprise",
+                "i": 8418
+            },
+            {
+                "w": "départ",
+                "i": 8545
+            },
+            {
+                "w": "fauteuil",
+                "i": 8622
+            },
+            {
+                "w": "fortune",
+                "i": 8627
+            },
+            {
+                "w": "faveur",
+                "i": 8653
+            },
+            {
+                "w": "partisan",
+                "i": 8714
+            },
+            {
+                "w": "départ",
+                "i": 8761
+            },
+            {
+                "w": "voleur",
+                "i": 8826
+            },
+            {
+                "w": "photographie",
+                "i": 8875
+            },
+            {
+                "w": "collègue",
+                "i": 8887
+            },
+            {
+                "w": "existence",
+                "i": 8914
+            },
+            {
+                "w": "isolement",
+                "i": 8923
+            },
+            {
+                "w": "départ",
+                "i": 8926
+            },
+            {
+                "w": "but",
+                "i": 8956
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "count": {
+            "occurrence": 196,
+            "mention_ratio": 0.2562
+        },
+        "gender": {
+            "ratio": 0.3367,
+            "inference": {
+                "Male": 1.0,
+                "Female": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Male"
+        },
+        "number": {
+            "ratio": 0.8776,
+            "inference": {
+                "Singular": 0.99,
+                "Plural": 0.01
+            },
+            "max": 0.99,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "passepartout",
+                    "c": 32
+                },
+                {
+                    "n": "james forster",
+                    "c": 3
+                },
+                {
+                    "n": "jean",
+                    "c": 2
+                },
+                {
+                    "n": "jean passepartout",
+                    "c": 1
+                },
+                {
+                    "n": "le jeune lord longsferry",
+                    "c": 1
+                },
+                {
+                    "n": "l' illustre mais dissipé sheridan",
+                    "c": 1
+                },
+                {
+                    "n": "le locataire de saville - row",
+                    "c": 1
+                },
+                {
+                    "n": "fogg et lui",
+                    "c": 1
+                }
+            ],
+            "common": [
+                {
+                    "n": "son maître",
+                    "c": 4
+                },
+                {
+                    "n": "ce garçon",
+                    "c": 2
+                },
+                {
+                    "n": "un domestique",
+                    "c": 2
+                },
+                {
+                    "n": "monsieur",
+                    "c": 2
+                },
+                {
+                    "n": "son domestique",
+                    "c": 2
+                },
+                {
+                    "n": "un seul domestique",
+                    "c": 1
+                },
+                {
+                    "n": "son unique domestique",
+                    "c": 1
+                },
+                {
+                    "n": "son successeur",
+                    "c": 1
+                },
+                {
+                    "n": "le congédié",
+                    "c": 1
+                },
+                {
+                    "n": "le nouveau domestique",
+                    "c": 1
+                },
+                {
+                    "n": "un garçon âgé d' une trentaine d' années",
+                    "c": 1
+                },
+                {
+                    "n": "le nouveau venu",
+                    "c": 1
+                },
+                {
+                    "n": "un brave garçon",
+                    "c": 1
+                },
+                {
+                    "n": "un être doux et serviable",
+                    "c": 1
+                },
+                {
+                    "n": "son dernier maître",
+                    "c": 1
+                },
+                {
+                    "n": "du morning chronicle",
+                    "c": 1
+                },
+                {
+                    "n": "le brave garçon",
+                    "c": 1
+                },
+                {
+                    "n": "ce gentleman",
+                    "c": 1
+                },
+                {
+                    "n": "le maître",
+                    "c": 1
+                },
+                {
+                    "n": "le domestique",
+                    "c": 1
+                },
+                {
+                    "n": "mon garçon",
+                    "c": 1
+                }
+            ],
+            "pronoun": [
+                {
+                    "n": "il",
+                    "c": 29
+                },
+                {
+                    "n": "son",
+                    "c": 15
+                },
+                {
+                    "n": "vous",
+                    "c": 10
+                },
+                {
+                    "n": "lui",
+                    "c": 9
+                },
+                {
+                    "n": "sa",
+                    "c": 7
+                },
+                {
+                    "n": "qui",
+                    "c": 6
+                },
+                {
+                    "n": "j'",
+                    "c": 6
+                },
+                {
+                    "n": "-il",
+                    "c": 5
+                },
+                {
+                    "n": "mon",
+                    "c": 5
+                },
+                {
+                    "n": "me",
+                    "c": 5
+                },
+                {
+                    "n": "je",
+                    "c": 5
+                },
+                {
+                    "n": "ses",
+                    "c": 5
+                },
+                {
+                    "n": "ma",
+                    "c": 4
+                },
+                {
+                    "n": "-vous",
+                    "c": 3
+                },
+                {
+                    "n": "votre",
+                    "c": 2
+                },
+                {
+                    "n": "sienne",
+                    "c": 2
+                },
+                {
+                    "n": "moi",
+                    "c": 2
+                },
+                {
+                    "n": "m'",
+                    "c": 1
+                },
+                {
+                    "n": "mes",
+                    "c": 1
+                },
+                {
+                    "n": "lui-même",
+                    "c": 1
+                },
+                {
+                    "n": "l'",
+                    "c": 1
+                },
+                {
+                    "n": "-en",
+                    "c": 1
+                },
+                {
+                    "n": "le",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "suffire",
+                "i": 994
+            },
+            {
+                "w": "rendre",
+                "i": 1367
+            },
+            {
+                "w": "devoir",
+                "i": 1396
+            },
+            {
+                "w": "apparaître",
+                "i": 1528
+            },
+            {
+                "w": "dire",
+                "i": 1536
+            },
+            {
+                "w": "nommer",
+                "i": 1559
+            },
+            {
+                "w": "répondre",
+                "i": 1576
+            },
+            {
+                "w": "croire",
+                "i": 1604
+            },
+            {
+                "w": "faire",
+                "i": 1620
+            },
+            {
+                "w": "devenir",
+                "i": 1653
+            },
+            {
+                "w": "avoir",
+                "i": 1682
+            },
+            {
+                "w": "quitter",
+                "i": 1698
+            },
+            {
+                "w": "goûter",
+                "i": 1705
+            },
+            {
+                "w": "présenter",
+                "i": 1751
+            },
+            {
+                "w": "connaître",
+                "i": 1795
+            },
+            {
+                "w": "avoir",
+                "i": 1809
+            },
+            {
+                "w": "retarder",
+                "i": 1834
+            },
+            {
+                "w": "retarder",
+                "i": 1852
+            },
+            {
+                "w": "être",
+                "i": 1888
+            },
+            {
+                "w": "entendre",
+                "i": 1928
+            },
+            {
+                "w": "aller",
+                "i": 1964
+            },
+            {
+                "w": "demeurer",
+                "i": 1970
+            },
+            {
+                "w": "dire",
+                "i": 1986
+            },
+            {
+                "w": "connaître",
+                "i": 1998
+            },
+            {
+                "w": "venir",
+                "i": 2052
+            },
+            {
+                "w": "avoir",
+                "i": 2059
+            },
+            {
+                "w": "examiner",
+                "i": 2064
+            },
+            {
+                "w": "habiter",
+                "i": 2451
+            },
+            {
+                "w": "faire",
+                "i": 2456
+            },
+            {
+                "w": "chercher",
+                "i": 2468
+            },
+            {
+                "w": "pouvoir",
+                "i": 2474
+            },
+            {
+                "w": "avoir",
+                "i": 2567
+            },
+            {
+                "w": "pouvoir",
+                "i": 2583
+            },
+            {
+                "w": "posséder",
+                "i": 2606
+            },
+            {
+                "w": "aspirer",
+                "i": 2732
+            },
+            {
+                "w": "venir",
+                "i": 2750
+            },
+            {
+                "w": "pouvoir",
+                "i": 2771
+            },
+            {
+                "w": "faire",
+                "i": 2779
+            },
+            {
+                "w": "rentraire",
+                "i": 2840
+            },
+            {
+                "w": "risquer",
+                "i": 2861
+            },
+            {
+                "w": "rompre",
+                "i": 2872
+            },
+            {
+                "w": "apprendre",
+                "i": 2875
+            },
+            {
+                "w": "prendre",
+                "i": 2893
+            },
+            {
+                "w": "présenter",
+                "i": 2938
+            },
+            {
+                "w": "admettre",
+                "i": 2941
+            },
+            {
+                "w": "commencer",
+                "i": 2974
+            },
+            {
+                "w": "parcourir",
+                "i": 2980
+            },
+            {
+                "w": "trouver",
+                "i": 3045
+            },
+            {
+                "w": "dire",
+                "i": 3130
+            },
+            {
+                "w": "remarquer",
+                "i": 3134
+            },
+            {
+                "w": "faire",
+                "i": 3263
+            },
+            {
+                "w": "frotter",
+                "i": 3484
+            },
+            {
+                "w": "répéter",
+                "i": 3496
+            },
+            {
+                "w": "fâcher",
+                "i": 3535
+            },
+            {
+                "w": "remettre",
+                "i": 3766
+            },
+            {
+                "w": "étudier",
+                "i": 6386
+            },
+            {
+                "w": "devoir",
+                "i": 6419
+            },
+            {
+                "w": "répondre",
+                "i": 6447
+            },
+            {
+                "w": "montrer",
+                "i": 6481
+            },
+            {
+                "w": "répondre",
+                "i": 6506
+            },
+            {
+                "w": "présenter",
+                "i": 6612
+            },
+            {
+                "w": "dire",
+                "i": 6662
+            },
+            {
+                "w": "balancer",
+                "i": 6666
+            },
+            {
+                "w": "descendre",
+                "i": 6709
+            },
+            {
+                "w": "vouloir",
+                "i": 6737
+            },
+            {
+                "w": "pouvoir",
+                "i": 6742
+            },
+            {
+                "w": "quitter",
+                "i": 6745
+            },
+            {
+                "w": "monter",
+                "i": 6752
+            },
+            {
+                "w": "dire",
+                "i": 6777
+            },
+            {
+                "w": "vouloir",
+                "i": 6789
+            },
+            {
+                "w": "faire",
+                "i": 6800
+            },
+            {
+                "w": "fouler",
+                "i": 6861
+            },
+            {
+                "w": "revoir",
+                "i": 6884
+            },
+            {
+                "w": "partir",
+                "i": 6921
+            },
+            {
+                "w": "déplacer",
+                "i": 6926
+            },
+            {
+                "w": "préparer",
+                "i": 6942
+            },
+            {
+                "w": "quitter",
+                "i": 6964
+            },
+            {
+                "w": "fermer",
+                "i": 6970
+            },
+            {
+                "w": "rejoindre",
+                "i": 6977
+            },
+            {
+                "w": "oublier",
+                "i": 7050
+            },
+            {
+                "w": "descendre",
+                "i": 7140
+            },
+            {
+                "w": "fermer",
+                "i": 7150
+            },
+            {
+                "w": "sauter",
+                "i": 7221
+            },
+            {
+                "w": "suivre",
+                "i": 7228
+            },
+            {
+                "w": "payer",
+                "i": 7230
+            },
+            {
+                "w": "avoir",
+                "i": 7334
+            },
+            {
+                "w": "faire",
+                "i": 7348
+            },
+            {
+                "w": "presser",
+                "i": 7585
+            },
+            {
+                "w": "pousser",
+                "i": 7607
+            }
+        ],
+        "patient": [
+            {
+                "w": "attendre",
+                "i": 1391
+            },
+            {
+                "w": "disposer",
+                "i": 2651
+            },
+            {
+                "w": "servir",
+                "i": 2766
+            },
+            {
+                "w": "respecter",
+                "i": 2857
+            },
+            {
+                "w": "chercher",
+                "i": 2888
+            },
+            {
+                "w": "monter",
+                "i": 6432
+            },
+            {
+                "w": "appeler",
+                "i": 6492
+            },
+            {
+                "w": "contrarier",
+                "i": 6847
+            },
+            {
+                "w": "partir",
+                "i": 6921
+            },
+            {
+                "w": "suivre",
+                "i": 7228
+            }
+        ],
+        "mod": [
+            {
+                "w": "seul",
+                "i": 992
+            },
+            {
+                "w": "unique",
+                "i": 1336
+            },
+            {
+                "w": "nouveau",
+                "i": 1532
+            },
+            {
+                "w": "français",
+                "i": 1555
+            },
+            {
+                "w": "nouveau",
+                "i": 1578
+            },
+            {
+                "w": "chanteur",
+                "i": 1627
+            },
+            {
+                "w": "ambulant",
+                "i": 1628
+            },
+            {
+                "w": "sergent",
+                "i": 1674
+            },
+            {
+                "w": "valet",
+                "i": 1714
+            },
+            {
+                "w": "brave",
+                "i": 2519
+            },
+            {
+                "w": "garçon",
+                "i": 2520
+            },
+            {
+                "w": "doux",
+                "i": 2542
+            },
+            {
+                "w": "serviable",
+                "i": 2544
+            },
+            {
+                "w": "domestique",
+                "i": 2699
+            },
+            {
+                "w": "exact",
+                "i": 2701
+            },
+            {
+                "w": "dernier",
+                "i": 2811
+            },
+            {
+                "w": "jeune",
+                "i": 2815
+            },
+            {
+                "w": "dissipé",
+                "i": 3367
+            },
+            {
+                "w": "brave",
+                "i": 6849
+            },
+            {
+                "w": "casanier",
+                "i": 6932
+            }
+        ],
+        "poss": [
+            {
+                "w": "aptitude",
+                "i": 1595
+            },
+            {
+                "w": "talent",
+                "i": 1662
+            },
+            {
+                "w": "dossier",
+                "i": 1686
+            },
+            {
+                "w": "incendie",
+                "i": 1688
+            },
+            {
+                "w": "compte",
+                "i": 1792
+            },
+            {
+                "w": "gousset",
+                "i": 1826
+            },
+            {
+                "w": "maître",
+                "i": 1944
+            },
+            {
+                "w": "tour",
+                "i": 1967
+            },
+            {
+                "w": "foi",
+                "i": 1983
+            },
+            {
+                "w": "maître",
+                "i": 2009
+            },
+            {
+                "w": "maître",
+                "i": 2067
+            },
+            {
+                "w": "oeil",
+                "i": 2569
+            },
+            {
+                "w": "joue",
+                "i": 2590
+            },
+            {
+                "w": "jeunesse",
+                "i": 2615
+            },
+            {
+                "w": "cheveu",
+                "i": 2621
+            },
+            {
+                "w": "caractère",
+                "i": 2669
+            },
+            {
+                "w": "maître",
+                "i": 2707
+            },
+            {
+                "w": "maître",
+                "i": 2812
+            },
+            {
+                "w": "nuit",
+                "i": 2827
+            },
+            {
+                "w": "maître",
+                "i": 2859
+            },
+            {
+                "w": "chambre",
+                "i": 3139
+            },
+            {
+                "w": "esprit",
+                "i": 3279
+            },
+            {
+                "w": "garde-robe",
+                "i": 3284
+            },
+            {
+                "w": "figure",
+                "i": 3490
+            },
+            {
+                "w": "affaire",
+                "i": 3506
+            },
+            {
+                "w": "lecture",
+                "i": 3863
+            },
+            {
+                "w": "programme",
+                "i": 6388
+            },
+            {
+                "w": "montre",
+                "i": 6510
+            },
+            {
+                "w": "tête",
+                "i": 6669
+            },
+            {
+                "w": "mackintosh",
+                "i": 6711
+            },
+            {
+                "w": "couverture",
+                "i": 6714
+            },
+            {
+                "w": "pays",
+                "i": 6770
+            },
+            {
+                "w": "préparatif",
+                "i": 6802
+            },
+            {
+                "w": "foi",
+                "i": 6881
+            },
+            {
+                "w": "pas",
+                "i": 6901
+            },
+            {
+                "w": "garde-robe",
+                "i": 6949
+            },
+            {
+                "w": "maître",
+                "i": 6954
+            },
+            {
+                "w": "chambre",
+                "i": 6966
+            },
+            {
+                "w": "voyage",
+                "i": 7012
+            },
+            {
+                "w": "main",
+                "i": 7019
+            },
+            {
+                "w": "couverture",
+                "i": 7065
+            },
+            {
+                "w": "main",
+                "i": 7117
+            },
+            {
+                "w": "maître",
+                "i": 7226
+            },
+            {
+                "w": "sensation",
+                "i": 7337
+            },
+            {
+                "w": "maître",
+                "i": 7346
+            },
+            {
+                "w": "cœur",
+                "i": 7353
+            },
+            {
+                "w": "compte",
+                "i": 7671
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "count": {
+            "occurrence": 121,
+            "mention_ratio": 0.1582
+        },
+        "gender": {
+            "ratio": 0.5372,
+            "inference": {
+                "Male": 1.0,
+                "Female": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Male"
+        },
+        "number": {
+            "ratio": 0.9256,
+            "inference": {
+                "Singular": 0.92,
+                "Plural": 0.08
+            },
+            "max": 0.92,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "mr. fogg",
+                    "c": 27
+                },
+                {
+                    "n": "m. phileas fogg",
+                    "c": 1
+                }
+            ],
+            "common": [
+                {
+                    "n": "messieurs",
+                    "c": 3
+                },
+                {
+                    "n": "ce gentleman",
+                    "c": 1
+                },
+                {
+                    "n": "un homme",
+                    "c": 1
+                },
+                {
+                    "n": "le gentleman",
+                    "c": 1
+                },
+                {
+                    "n": "un homme casanier et régulier",
+                    "c": 1
+                },
+                {
+                    "n": "son partenaire",
+                    "c": 1
+                },
+                {
+                    "n": "les six co-intéressés",
+                    "c": 1
+                },
+                {
+                    "n": "ses adversaires",
+                    "c": 1
+                },
+                {
+                    "n": "cet impassible gentleman",
+                    "c": 1
+                },
+                {
+                    "n": "du français",
+                    "c": 1
+                },
+                {
+                    "n": "monsieur",
+                    "c": 1
+                },
+                {
+                    "n": "son maître",
+                    "c": 1
+                },
+                {
+                    "n": "mr.",
+                    "c": 1
+                },
+                {
+                    "n": "son auteur",
+                    "c": 1
+                }
+            ],
+            "pronoun": [
+                {
+                    "n": "il",
+                    "c": 17
+                },
+                {
+                    "n": "sa",
+                    "c": 7
+                },
+                {
+                    "n": "-il",
+                    "c": 7
+                },
+                {
+                    "n": "je",
+                    "c": 6
+                },
+                {
+                    "n": "ses",
+                    "c": 5
+                },
+                {
+                    "n": "son",
+                    "c": 4
+                },
+                {
+                    "n": "j'",
+                    "c": 4
+                },
+                {
+                    "n": "vous",
+                    "c": 4
+                },
+                {
+                    "n": "lui",
+                    "c": 3
+                },
+                {
+                    "n": "mon",
+                    "c": 3
+                },
+                {
+                    "n": "ma",
+                    "c": 3
+                },
+                {
+                    "n": "le",
+                    "c": 2
+                },
+                {
+                    "n": "me",
+                    "c": 2
+                },
+                {
+                    "n": "ils",
+                    "c": 2
+                },
+                {
+                    "n": "qui",
+                    "c": 1
+                },
+                {
+                    "n": "l'",
+                    "c": 1
+                },
+                {
+                    "n": "m'",
+                    "c": 1
+                },
+                {
+                    "n": "mes",
+                    "c": 1
+                },
+                {
+                    "n": "eux",
+                    "c": 1
+                },
+                {
+                    "n": "on",
+                    "c": 1
+                },
+                {
+                    "n": "nous",
+                    "c": 1
+                },
+                {
+                    "n": "-vous",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "apporter",
+                "i": 576
+            },
+            {
+                "w": "parler",
+                "i": 594
+            },
+            {
+                "w": "sembler",
+                "i": 601
+            },
+            {
+                "w": "faire",
+                "i": 622
+            },
+            {
+                "w": "voyager",
+                "i": 642
+            },
+            {
+                "w": "paraître",
+                "i": 669
+            },
+            {
+                "w": "redresser",
+                "i": 688
+            },
+            {
+                "w": "indiquer",
+                "i": 706
+            },
+            {
+                "w": "trouver",
+                "i": 716
+            },
+            {
+                "w": "devoir",
+                "i": 740
+            },
+            {
+                "w": "parcourir",
+                "i": 802
+            },
+            {
+                "w": "gagner",
+                "i": 851
+            },
+            {
+                "w": "entrer",
+                "i": 858
+            },
+            {
+                "w": "jouer",
+                "i": 885
+            },
+            {
+                "w": "devoir",
+                "i": 1485
+            },
+            {
+                "w": "répondre",
+                "i": 1776
+            },
+            {
+                "w": "avoir",
+                "i": 1786
+            },
+            {
+                "w": "dire",
+                "i": 1836
+            },
+            {
+                "w": "répondre",
+                "i": 5663
+            },
+            {
+                "w": "dire",
+                "i": 5825
+            },
+            {
+                "w": "avoir",
+                "i": 5839
+            },
+            {
+                "w": "risquer",
+                "i": 5855
+            },
+            {
+                "w": "dire",
+                "i": 6045
+            },
+            {
+                "w": "prendre",
+                "i": 6063
+            },
+            {
+                "w": "paraître",
+                "i": 6244
+            },
+            {
+                "w": "faire",
+                "i": 6263
+            },
+            {
+                "w": "offrir",
+                "i": 6280
+            },
+            {
+                "w": "pouvoir",
+                "i": 6291
+            },
+            {
+                "w": "retourne",
+                "i": 6317
+            },
+            {
+                "w": "dire",
+                "i": 6320
+            },
+            {
+                "w": "reprendre",
+                "i": 6470
+            },
+            {
+                "w": "dire",
+                "i": 6494
+            },
+            {
+                "w": "entendre",
+                "i": 6563
+            },
+            {
+                "w": "déplacer",
+                "i": 6568
+            },
+            {
+                "w": "répondre",
+                "i": 6641
+            },
+            {
+                "w": "porter",
+                "i": 6987
+            },
+            {
+                "w": "prendre",
+                "i": 7015
+            },
+            {
+                "w": "ouvrir",
+                "i": 7024
+            },
+            {
+                "w": "glisser",
+                "i": 7027
+            },
+            {
+                "w": "remettre",
+                "i": 7081
+            },
+            {
+                "w": "tirer",
+                "i": 7287
+            },
+            {
+                "w": "venir",
+                "i": 7296
+            },
+            {
+                "w": "présenter",
+                "i": 7305
+            },
+            {
+                "w": "dire",
+                "i": 7317
+            },
+            {
+                "w": "passer",
+                "i": 7331
+            },
+            {
+                "w": "entrer",
+                "i": 7359
+            },
+            {
+                "w": "apercevoir",
+                "i": 7394
+            },
+            {
+                "w": "partir",
+                "i": 7407
+            },
+            {
+                "w": "dire",
+                "i": 7409
+            },
+            {
+                "w": "emporter",
+                "i": 7422
+            },
+            {
+                "w": "permettre",
+                "i": 7427
+            },
+            {
+                "w": "rapporter",
+                "i": 7455
+            },
+            {
+                "w": "dire",
+                "i": 7468
+            },
+            {
+                "w": "devoir",
+                "i": 7478
+            },
+            {
+                "w": "répondre",
+                "i": 7493
+            },
+            {
+                "w": "avoir",
+                "i": 7616
+            },
+            {
+                "w": "demander",
+                "i": 7619
+            },
+            {
+                "w": "oublier",
+                "i": 7639
+            },
+            {
+                "w": "répondre",
+                "i": 7662
+            }
+        ],
+        "patient": [
+            {
+                "w": "connaître",
+                "i": 782
+            },
+            {
+                "w": "voir",
+                "i": 820
+            },
+            {
+                "w": "répondre",
+                "i": 6305
+            },
+            {
+                "w": "voir",
+                "i": 6394
+            },
+            {
+                "w": "rejoindre",
+                "i": 6977
+            },
+            {
+                "w": "soutenir",
+                "i": 7892
+            }
+        ],
+        "mod": [
+            {
+                "w": "dernier",
+                "i": 532
+            },
+            {
+                "w": "prodigue",
+                "i": 550
+            },
+            {
+                "w": "avare",
+                "i": 556
+            },
+            {
+                "w": "silencieux",
+                "i": 609
+            },
+            {
+                "w": "homme",
+                "i": 1735
+            },
+            {
+                "w": "exact",
+                "i": 1738
+            },
+            {
+                "w": "casanier",
+                "i": 3520
+            },
+            {
+                "w": "régulier",
+                "i": 3522
+            },
+            {
+                "w": "prêt",
+                "i": 6302
+            },
+            {
+                "w": "impassible",
+                "i": 6307
+            },
+            {
+                "w": "coupable",
+                "i": 6398
+            },
+            {
+                "w": "prêt",
+                "i": 6984
+            },
+            {
+                "w": "content",
+                "i": 7322
+            }
+        ],
+        "poss": [
+            {
+                "w": "vie",
+                "i": 613
+            },
+            {
+                "w": "parole",
+                "i": 713
+            },
+            {
+                "w": "maison",
+                "i": 809
+            },
+            {
+                "w": "passe-temps",
+                "i": 825
+            },
+            {
+                "w": "nature",
+                "i": 848
+            },
+            {
+                "w": "gain",
+                "i": 856
+            },
+            {
+                "w": "bourse",
+                "i": 862
+            },
+            {
+                "w": "budget",
+                "i": 871
+            },
+            {
+                "w": "caractère",
+                "i": 925
+            },
+            {
+                "w": "habitude",
+                "i": 1490
+            },
+            {
+                "w": "renseignement",
+                "i": 1789
+            },
+            {
+                "w": "condition",
+                "i": 1797
+            },
+            {
+                "w": "service",
+                "i": 1891
+            },
+            {
+                "w": "disposition",
+                "i": 3404
+            },
+            {
+                "w": "avis",
+                "i": 5152
+            },
+            {
+                "w": "insistance",
+                "i": 5720
+            },
+            {
+                "w": "collègue",
+                "i": 5835
+            },
+            {
+                "w": "livre",
+                "i": 5842
+            },
+            {
+                "w": "préparatif",
+                "i": 6294
+            },
+            {
+                "w": "face",
+                "i": 6552
+            },
+            {
+                "w": "chambre",
+                "i": 6747
+            },
+            {
+                "w": "bras",
+                "i": 6990
+            },
+            {
+                "w": "poche",
+                "i": 7290
+            },
+            {
+                "w": "femme",
+                "i": 7315
+            },
+            {
+                "w": "collègue",
+                "i": 7397
+            },
+            {
+                "w": "itinéraire",
+                "i": 7435
+            },
+            {
+                "w": "précipitation",
+                "i": 7632
+            },
+            {
+                "w": "trouble",
+                "i": 7635
+            },
+            {
+                "w": "chambre",
+                "i": 7653
+            },
+            {
+                "w": "faculté",
+                "i": 7930
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "count": {
+            "occurrence": 44,
+            "mention_ratio": 0.0575
+        },
+        "gender": {
+            "ratio": 0.6364,
+            "inference": {
+                "Male": 1.0,
+                "Female": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Male"
+        },
+        "number": {
+            "ratio": 0.8864,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "gauthier ralph",
+                    "c": 7
+                },
+                {
+                    "n": "ralph",
+                    "c": 3
+                },
+                {
+                    "n": "john sullivan",
+                    "c": 3
+                },
+                {
+                    "n": "stuart",
+                    "c": 3
+                },
+                {
+                    "n": "thomas flanagan",
+                    "c": 2
+                },
+                {
+                    "n": "des administrateurs de la banque d' angleterre",
+                    "c": 1
+                },
+                {
+                    "n": "le sous-gouverneur gauthier ralph",
+                    "c": 1
+                },
+                {
+                    "n": "l' honorable gauthier ralph",
+                    "c": 1
+                },
+                {
+                    "n": "l' incrédule stuart",
+                    "c": 1
+                },
+                {
+                    "n": "monsieur ralph",
+                    "c": 1
+                },
+                {
+                    "n": "cher stuart",
+                    "c": 1
+                }
+            ],
+            "common": [
+                {
+                    "n": "son voisin",
+                    "c": 1
+                },
+                {
+                    "n": "son collègue",
+                    "c": 1
+                }
+            ],
+            "pronoun": [
+                {
+                    "n": "son",
+                    "c": 3
+                },
+                {
+                    "n": "il",
+                    "c": 3
+                },
+                {
+                    "n": "je",
+                    "c": 3
+                },
+                {
+                    "n": "lui",
+                    "c": 2
+                },
+                {
+                    "n": "ses",
+                    "c": 1
+                },
+                {
+                    "n": "qui",
+                    "c": 1
+                },
+                {
+                    "n": "dont",
+                    "c": 1
+                },
+                {
+                    "n": "-il",
+                    "c": 1
+                },
+                {
+                    "n": "vous",
+                    "c": 1
+                },
+                {
+                    "n": "-vous",
+                    "c": 1
+                },
+                {
+                    "n": "-je",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "demander",
+                "i": 3974
+            },
+            {
+                "w": "dire",
+                "i": 4008
+            },
+            {
+                "w": "répondre",
+                "i": 4088
+            },
+            {
+                "w": "répondre",
+                "i": 4128
+            },
+            {
+                "w": "dire",
+                "i": 4139
+            },
+            {
+                "w": "faire",
+                "i": 4157
+            },
+            {
+                "w": "borner",
+                "i": 4280
+            },
+            {
+                "w": "trouver",
+                "i": 4418
+            },
+            {
+                "w": "avoir",
+                "i": 4423
+            },
+            {
+                "w": "prendre",
+                "i": 4452
+            },
+            {
+                "w": "examiner",
+                "i": 4457
+            },
+            {
+                "w": "passer",
+                "i": 4460
+            },
+            {
+                "w": "revenir",
+                "i": 4494
+            },
+            {
+                "w": "vouloir",
+                "i": 4901
+            },
+            {
+                "w": "répondre",
+                "i": 5144
+            },
+            {
+                "w": "reprendre",
+                "i": 5246
+            },
+            {
+                "w": "trouver",
+                "i": 5252
+            },
+            {
+                "w": "dire",
+                "i": 5807
+            },
+            {
+                "w": "parier",
+                "i": 5810
+            },
+            {
+                "w": "écrier",
+                "i": 5864
+            },
+            {
+                "w": "sauter",
+                "i": 5950
+            },
+            {
+                "w": "demander",
+                "i": 6069
+            },
+            {
+                "w": "répondre",
+                "i": 7443
+            }
+        ],
+        "patient": [
+            {
+                "w": "répondre",
+                "i": 5020
+            },
+            {
+                "w": "écrier",
+                "i": 5628
+            }
+        ],
+        "mod": [
+            {
+                "w": "nombre",
+                "i": 4807
+            },
+            {
+                "w": "honorable",
+                "i": 4897
+            },
+            {
+                "w": "avis",
+                "i": 5152
+            },
+            {
+                "w": "incrédule",
+                "i": 5225
+            },
+            {
+                "w": "cher",
+                "i": 5789
+            }
+        ],
+        "poss": [
+            {
+                "w": "administrateur",
+                "i": 3936
+            },
+            {
+                "w": "membre",
+                "i": 3957
+            },
+            {
+                "w": "flot",
+                "i": 4173
+            },
+            {
+                "w": "salut",
+                "i": 4195
+            },
+            {
+                "w": "curiosité",
+                "i": 4425
+            },
+            {
+                "w": "voisin",
+                "i": 4463
+            },
+            {
+                "w": "collègue",
+                "i": 4927
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "count": {
+            "occurrence": 33,
+            "mention_ratio": 0.0431
+        },
+        "gender": {
+            "ratio": 0.6061,
+            "inference": {
+                "Male": 1.0,
+                "Female": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Male"
+        },
+        "number": {
+            "ratio": 0.7879,
+            "inference": {
+                "Singular": 0.96,
+                "Plural": 0.04
+            },
+            "max": 0.96,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "andrew stuart",
+                    "c": 13
+                },
+                {
+                    "n": "monsieur fogg",
+                    "c": 4
+                },
+                {
+                    "n": "mm. stuart",
+                    "c": 1
+                },
+                {
+                    "n": "sullivan",
+                    "c": 1
+                }
+            ],
+            "common": [],
+            "pronoun": [
+                {
+                    "n": "qui",
+                    "c": 3
+                },
+                {
+                    "n": "je",
+                    "c": 2
+                },
+                {
+                    "n": "-vous",
+                    "c": 2
+                },
+                {
+                    "n": "-je",
+                    "c": 2
+                },
+                {
+                    "n": "-il",
+                    "c": 2
+                },
+                {
+                    "n": "vous",
+                    "c": 1
+                },
+                {
+                    "n": "son",
+                    "c": 1
+                },
+                {
+                    "n": "votre",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "répondre",
+                "i": 3990
+            },
+            {
+                "w": "demander",
+                "i": 4073
+            },
+            {
+                "w": "soutenir",
+                "i": 4991
+            },
+            {
+                "w": "dire",
+                "i": 4993
+            },
+            {
+                "w": "vouloir",
+                "i": 5044
+            },
+            {
+                "w": "savoir",
+                "i": 5053
+            },
+            {
+                "w": "répondre",
+                "i": 5056
+            },
+            {
+                "w": "ajouter",
+                "i": 5096
+            },
+            {
+                "w": "reprendre",
+                "i": 5120
+            },
+            {
+                "w": "couper",
+                "i": 5456
+            },
+            {
+                "w": "ramasser",
+                "i": 5572
+            },
+            {
+                "w": "avoir",
+                "i": 5582
+            },
+            {
+                "w": "vouloir",
+                "i": 5603
+            },
+            {
+                "w": "écrier",
+                "i": 5709
+            },
+            {
+                "w": "commencer",
+                "i": 5714
+            },
+            {
+                "w": "reprendre",
+                "i": 5747
+            },
+            {
+                "w": "dire",
+                "i": 5776
+            },
+            {
+                "w": "parier",
+                "i": 5782
+            },
+            {
+                "w": "répondre",
+                "i": 5812
+            }
+        ],
+        "patient": [
+            {
+                "w": "écrier",
+                "i": 5517
+            },
+            {
+                "w": "répondre",
+                "i": 6025
+            },
+            {
+                "w": "observer",
+                "i": 7484
+            }
+        ],
+        "mod": [
+            {
+                "w": "inutile",
+                "i": 7450
+            }
+        ],
+        "poss": [
+            {
+                "w": "raison",
+                "i": 5583
+            },
+            {
+                "w": "partenaire",
+                "i": 5723
+            },
+            {
+                "w": "honneur",
+                "i": 7458
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "count": {
+            "occurrence": 16,
+            "mention_ratio": 0.0209
+        },
+        "gender": {
+            "ratio": 0.0625,
+            "inference": {
+                "Male": 1.0,
+                "Female": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Male"
+        },
+        "number": {
+            "ratio": 0.8125,
+            "inference": {
+                "Singular": 0.08,
+                "Plural": 0.92
+            },
+            "max": 0.92,
+            "argmax": "Plural"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "divers membres du reform - club",
+                    "c": 1
+                },
+                {
+                    "n": "les partenaires habituels de mr. phileas fogg",
+                    "c": 1
+                }
+            ],
+            "common": [
+                {
+                    "n": "ses collègues",
+                    "c": 1
+                },
+                {
+                    "n": "des agents",
+                    "c": 1
+                },
+                {
+                    "n": "des « détectives",
+                    "c": 1
+                },
+                {
+                    "n": "ces inspecteurs",
+                    "c": 1
+                },
+                {
+                    "n": "les gentlemen",
+                    "c": 1
+                },
+                {
+                    "n": "les joueurs",
+                    "c": 1
+                },
+                {
+                    "n": "messieurs",
+                    "c": 1
+                }
+            ],
+            "pronoun": [
+                {
+                    "n": "leur",
+                    "c": 2
+                },
+                {
+                    "n": "nous",
+                    "c": 2
+                },
+                {
+                    "n": "qui",
+                    "c": 2
+                },
+                {
+                    "n": "on",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "faire",
+                "i": 3879
+            },
+            {
+                "w": "approcher",
+                "i": 3884
+            },
+            {
+                "w": "mettre",
+                "i": 4014
+            },
+            {
+                "w": "rendre",
+                "i": 4193
+            },
+            {
+                "w": "avoir",
+                "i": 4681
+            },
+            {
+                "w": "discuter",
+                "i": 4844
+            },
+            {
+                "w": "passionner",
+                "i": 4848
+            },
+            {
+                "w": "asseoir",
+                "i": 4950
+            },
+            {
+                "w": "parler",
+                "i": 4973
+            },
+            {
+                "w": "reprendre",
+                "i": 4984
+            },
+            {
+                "w": "occuper",
+                "i": 5190
+            }
+        ],
+        "patient": [
+            {
+                "w": "saluer",
+                "i": 4187
+            }
+        ],
+        "mod": [
+            {
+                "w": "habituel",
+                "i": 3900
+            },
+            {
+                "w": "enragé",
+                "i": 3908
+            }
+        ],
+        "poss": [
+            {
+                "w": "entrée",
+                "i": 3881
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "count": {
+            "occurrence": 7,
+            "mention_ratio": 0.0092
+        },
+        "gender": {
+            "ratio": 0.4286,
+            "inference": {
+                "Male": 1.0,
+                "Female": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Male"
+        },
+        "number": {
+            "ratio": 0.7143,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "monsieur stuart",
+                    "c": 3
+                }
+            ],
+            "common": [],
+            "pronoun": [
+                {
+                    "n": "vous",
+                    "c": 2
+                },
+                {
+                    "n": "m'",
+                    "c": 1
+                },
+                {
+                    "n": "je",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "parier",
+                "i": 5633
+            }
+        ],
+        "patient": [
+            {
+                "w": "voir",
+                "i": 5607
+            }
+        ],
+        "mod": [],
+        "poss": []
+    },
+    {
+        "id": 7,
+        "count": {
+            "occurrence": 7,
+            "mention_ratio": 0.0092
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 0.7143,
+            "inference": {
+                "Singular": 0.0,
+                "Plural": 1.0
+            },
+            "max": 1.0,
+            "argmax": "Plural"
+        },
+        "mentions": {
+            "proper": [],
+            "common": [],
+            "pronoun": [
+                {
+                    "n": "nous",
+                    "c": 5
+                },
+                {
+                    "n": "on",
+                    "c": 1
+                },
+                {
+                    "n": "-on",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "partir",
+                "i": 6533
+            },
+            {
+                "w": "aller",
+                "i": 6582
+            },
+            {
+                "w": "avoir",
+                "i": 6649
+            },
+            {
+                "w": "acheter",
+                "i": 6704
+            },
+            {
+                "w": "marcher",
+                "i": 6727
+            },
+            {
+                "w": "aller",
+                "i": 6829
+            }
+        ],
+        "patient": [],
+        "mod": [],
+        "poss": [
+            {
+                "w": "instant",
+                "i": 6652
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "count": {
+            "occurrence": 5,
+            "mention_ratio": 0.0065
+        },
+        "gender": {
+            "ratio": 0.6,
+            "inference": {
+                "Male": 0.0,
+                "Female": 1.0
+            },
+            "max": 1.0,
+            "argmax": "Female"
+        },
+        "number": {
+            "ratio": 0.8,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [],
+            "common": [
+                {
+                    "n": "une pauvre mendiante",
+                    "c": 1
+                },
+                {
+                    "n": "la mendiante",
+                    "c": 1
+                },
+                {
+                    "n": "ma brave femme",
+                    "c": 1
+                }
+            ],
+            "pronoun": [
+                {
+                    "n": "ses",
+                    "c": 1
+                },
+                {
+                    "n": "vous",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "approcher",
+                "i": 7275
+            },
+            {
+                "w": "demander",
+                "i": 7281
+            }
+        ],
+        "patient": [
+            {
+                "w": "rencontrer",
+                "i": 7326
+            }
+        ],
+        "mod": [
+            {
+                "w": "pauvre",
+                "i": 7239
+            },
+            {
+                "w": "brave",
+                "i": 7314
+            }
+        ],
+        "poss": [
+            {
+                "w": "haillon",
+                "i": 7272
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "count": {
+            "occurrence": 4,
+            "mention_ratio": 0.0052
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 0.5,
+            "inference": {
+                "Singular": 0.5,
+                "Plural": 0.5
+            },
+            "max": 0.5,
+            "argmax": "Null"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "du reform - club",
+                    "c": 1
+                }
+            ],
+            "common": [],
+            "pronoun": [
+                {
+                    "n": "on",
+                    "c": 2
+                },
+                {
+                    "n": "-ils",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "prendre",
+                "i": 8742
+            },
+            {
+                "w": "prendre",
+                "i": 8774
+            }
+        ],
+        "patient": [],
+        "mod": [],
+        "poss": [
+            {
+                "w": "membre",
+                "i": 8456
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "count": {
+            "occurrence": 3,
+            "mention_ratio": 0.0039
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 0.6667,
+            "inference": {
+                "Singular": 0.0,
+                "Plural": 1.0
+            },
+            "max": 1.0,
+            "argmax": "Plural"
+        },
+        "mentions": {
+            "proper": [],
+            "common": [
+                {
+                    "n": "les domestiques du club",
+                    "c": 1
+                },
+                {
+                    "n": "graves personnages en habit noir , chaussés de souliers à semelles de molleton",
+                    "c": 1
+                }
+            ],
+            "pronoun": [
+                {
+                    "n": "qui",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "servir",
+                "i": 1198
+            }
+        ],
+        "patient": [],
+        "mod": [
+            {
+                "w": "grave",
+                "i": 1182
+            }
+        ],
+        "poss": []
+    },
+    {
+        "id": 11,
+        "count": {
+            "occurrence": 3,
+            "mention_ratio": 0.0039
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 0.67,
+                "Plural": 0.33
+            },
+            "max": 0.67,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "du reform - club",
+                    "c": 2
+                }
+            ],
+            "common": [],
+            "pronoun": [
+                {
+                    "n": "eux",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [],
+        "patient": [],
+        "mod": [],
+        "poss": [
+            {
+                "w": "membre",
+                "i": 3874
+            },
+            {
+                "w": "membre",
+                "i": 4870
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "count": {
+            "occurrence": 3,
+            "mention_ratio": 0.0039
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "fallentin",
+                    "c": 3
+                }
+            ],
+            "common": [],
+            "pronoun": []
+        },
+        "agent": [],
+        "patient": [
+            {
+                "w": "dire",
+                "i": 5792
+            }
+        ],
+        "mod": [],
+        "poss": []
+    },
+    {
+        "id": 13,
+        "count": {
+            "occurrence": 3,
+            "mention_ratio": 0.0039
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 0,
+            "inference": {
+                "Singular": 0,
+                "Plural": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "mentions": {
+            "proper": [],
+            "common": [],
+            "pronoun": [
+                {
+                    "n": "on",
+                    "c": 3
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "faire",
+                "i": 8500
+            },
+            {
+                "w": "demander",
+                "i": 8518
+            },
+            {
+                "w": "offrir",
+                "i": 8571
+            }
+        ],
+        "patient": [],
+        "mod": [],
+        "poss": []
+    },
+    {
+        "id": 14,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0026
+        },
+        "gender": {
+            "ratio": 0.5,
+            "inference": {
+                "Male": 1.0,
+                "Female": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Male"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 0.0,
+                "Plural": 1.0
+            },
+            "max": 1.0,
+            "argmax": "Plural"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "mm. baring frères",
+                    "c": 1
+                }
+            ],
+            "common": [],
+            "pronoun": [
+                {
+                    "n": "lesquels",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [],
+        "patient": [],
+        "mod": [
+            {
+                "w": "frère",
+                "i": 461
+            }
+        ],
+        "poss": [
+            {
+                "w": "recommandation",
+                "i": 457
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0026
+        },
+        "gender": {
+            "ratio": 1.0,
+            "inference": {
+                "Male": 0.0,
+                "Female": 1.0
+            },
+            "max": 1.0,
+            "argmax": "Female"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "mme tussaud",
+                    "c": 2
+                }
+            ],
+            "common": [],
+            "pronoun": []
+        },
+        "agent": [],
+        "patient": [],
+        "mod": [],
+        "poss": [
+            {
+                "w": "bonhomme",
+                "i": 2020
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0026
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 0.0,
+                "Plural": 1.0
+            },
+            "max": 1.0,
+            "argmax": "Plural"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "fogg et moi",
+                    "c": 1
+                }
+            ],
+            "common": [],
+            "pronoun": [
+                {
+                    "n": "nous",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "entendre",
+                "i": 3510
+            }
+        ],
+        "patient": [],
+        "mod": [],
+        "poss": []
+    },
+    {
+        "id": 17,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0026
+        },
+        "gender": {
+            "ratio": 0.5,
+            "inference": {
+                "Male": 1.0,
+                "Female": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Male"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "l' ingénieur andrew stuart",
+                    "c": 1
+                },
+                {
+                    "n": "le brasseur thomas flanagan",
+                    "c": 1
+                }
+            ],
+            "common": [],
+            "pronoun": []
+        },
+        "agent": [],
+        "patient": [],
+        "mod": [],
+        "poss": []
+    },
+    {
+        "id": 18,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0026
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [],
+            "common": [
+                {
+                    "n": "la banque",
+                    "c": 1
+                }
+            ],
+            "pronoun": [
+                {
+                    "n": "son",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "être",
+                "i": 3997
+            }
+        ],
+        "patient": [],
+        "mod": [],
+        "poss": [
+            {
+                "w": "argent",
+                "i": 4000
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0026
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "le morning chronicle",
+                    "c": 2
+                }
+            ],
+            "common": [],
+            "pronoun": []
+        },
+        "agent": [
+            {
+                "w": "assurer",
+                "i": 4147
+            },
+            {
+                "w": "dire",
+                "i": 4703
+            }
+        ],
+        "patient": [],
+        "mod": [],
+        "poss": []
+    },
+    {
+        "id": 20,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0026
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "flanagan",
+                    "c": 2
+                }
+            ],
+            "common": [],
+            "pronoun": []
+        },
+        "agent": [],
+        "patient": [],
+        "mod": [],
+        "poss": []
+    },
+    {
+        "id": 21,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0026
+        },
+        "gender": {
+            "ratio": 0.5,
+            "inference": {
+                "Male": 1.0,
+                "Female": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Male"
+        },
+        "number": {
+            "ratio": 0.5,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [],
+            "common": [
+                {
+                    "n": "monsieur",
+                    "c": 1
+                }
+            ],
+            "pronoun": [
+                {
+                    "n": "vous",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [],
+        "patient": [],
+        "mod": [],
+        "poss": []
+    },
+    {
+        "id": 22,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0026
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 0.0,
+                "Plural": 1.0
+            },
+            "max": 1.0,
+            "argmax": "Plural"
+        },
+        "mentions": {
+            "proper": [],
+            "common": [
+                {
+                    "n": "les indous",
+                    "c": 1
+                }
+            ],
+            "pronoun": [
+                {
+                    "n": "ils",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "enlever",
+                "i": 5512
+            },
+            {
+                "w": "arrêter",
+                "i": 5523
+            },
+            {
+                "w": "piller",
+                "i": 5527
+            },
+            {
+                "w": "scalper",
+                "i": 5531
+            }
+        ],
+        "patient": [],
+        "mod": [],
+        "poss": []
+    },
+    {
+        "id": 23,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0026
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 0.0,
+                "Plural": 1.0
+            },
+            "max": 1.0,
+            "argmax": "Plural"
+        },
+        "mentions": {
+            "proper": [],
+            "common": [
+                {
+                    "n": "ses collègues",
+                    "c": 1
+                },
+                {
+                    "n": "ses honorables collègues",
+                    "c": 1
+                }
+            ],
+            "pronoun": []
+        },
+        "agent": [],
+        "patient": [],
+        "mod": [
+            {
+                "w": "honorable",
+                "i": 6354
+            }
+        ],
+        "poss": []
+    },
+    {
+        "id": 24,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0026
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "baring frères",
+                    "c": 2
+                }
+            ],
+            "common": [],
+            "pronoun": []
+        },
+        "agent": [],
+        "patient": [],
+        "mod": [],
+        "poss": []
+    },
+    {
+        "id": 25,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0026
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 0.0,
+                "Plural": 1.0
+            },
+            "max": 1.0,
+            "argmax": "Plural"
+        },
+        "mentions": {
+            "proper": [],
+            "common": [],
+            "pronoun": [
+                {
+                    "n": "les autres",
+                    "c": 1
+                },
+                {
+                    "n": "ils",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "former",
+                "i": 7805
+            }
+        ],
+        "patient": [],
+        "mod": [],
+        "poss": []
+    }
+]
