@@ -1,12 +1,11 @@
 ## Identifier le déplacement des personnages dans le roman : vers une modélisation de l’espace littéraire.
 
 Stage de recherche au laboratoire Lattice (ENS, CNRS, Sorbonne Nouvelle).
-Dans le cadre du projet [PROPP](https://lattice-8094.github.io/propp/)  (Pattern Recognition and Ontologies for Prose Processing) 
+Dans le cadre du projet [PROPP](https://lattice-8094.github.io/propp/)  (Pattern Recognition and Ontologies for Prose Processing).
 
-### Utilisation/Fichiers 
 ### Utilisation/Fichiers
 
-Le projet est organisé autour de deux chaînes de traitement : une chaîne automatique à partir de PROPP et une chaîne manuelle à partir des annotations SACR.
+Le projet est organisé autour de deux chaînes de traitement : une chaîne automatique à partir de PROPP et une chaîne manuelle à partir de nos annotations SACR. (Les deux sont faites à partir du roman *Le Tour du monde en quatre-vingts jours* de Jules Vernes.)
 
 #### Données d’entrée
 
