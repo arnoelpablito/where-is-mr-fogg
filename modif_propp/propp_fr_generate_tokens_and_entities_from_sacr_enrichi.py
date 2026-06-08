@@ -291,9 +291,15 @@ def generate_tokens_and_entities_from_sacr_enrichi(file_name,
     print("2- ras")
  
     entities_df["cat"] = entities_df["cat"].map(cat_replace_dict)
+
+    # modif en plus : on propage l'entité nommée sur toute la chaine
+    known_cats = entities_df[entities_df["cat"] != "_"]   
+    cat_by_coref = (known_cats.groupby("COREF_name")["cat"].agg(lambda x: x.value_counts().index[0]))
+    entities_df["cat"] = (entities_df["COREF_name"].map(cat_by_coref).fillna(entities_df["cat"]))
+
     #print(entities_df["cat"])
     # utiliser le dico pour simplifier étiquette "p PER" -> "PER"
-    print("3- ras")
+    print("3- ras : catégories propagées par chaîne de coréférence")
 
     tokens_df = generate_tokens_df(recovered_text, spacy_model, max_char_sentence_length=max_char_sentence_length)
     #print(tokens_df)
