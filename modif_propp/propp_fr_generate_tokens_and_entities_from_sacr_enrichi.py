@@ -125,11 +125,24 @@ def extract_entities_annotations(sacr_content):
     df["COREF_name"] = df["annotation"].str.extract(r'\{([A-Za-z0-9_-]+):EN="')
     # Apply regex to extract text between the first two quotation marks
 
-    # MODIF : un "_" pour garder la 'cat' (exemple : EN=p PER)
-    #df["cat"] = df["annotation"].str.extract(r'="([^"]*)"')
-    df["annotation"] = df["annotation"].str.extract(r'EN="([^"]*)"') # on prends ce qui a l'interieur des annotations SACR comme colonne
+    # MODIF
+    df["annotation"] = df["annotation"].str.extract(r'EN="([^"]*)"')
 
-    df["cat"] = df["annotation"].str.extract(r'TYPE=([^;]*)') # on selectionne en particulier TYPE car c'est la ou on la cat
+    # On transforme "FUNCT=...;TYPE=...;VERBTYPE=..." en dictionnaire
+    annotations_dict = df["annotation"].fillna("").apply(
+        lambda x: dict(re.findall(r'([A-Za-z0-9_-]+)=([^;]*)', x))
+    )
+    # On crée une colonne par label d'annotation
+    annotations_df = pd.DataFrame(annotations_dict.tolist())
+
+    # TYPE sert déjà à construire cat, donc on ne garde pas une colonne TYPE séparée
+    df["cat"] = annotations_df["TYPE"] if "TYPE" in annotations_df.columns else ""
+
+    annotations_df = annotations_df.drop(columns=["TYPE"], errors="ignore")
+    annotations_df = annotations_df.fillna("_")
+
+    # On ajoute les colonnes d'annotation au dataframe principal
+    df = pd.concat([df, annotations_df], axis=1)
 
     df["cat"] = df["cat"].fillna("")
 
@@ -317,8 +330,16 @@ def generate_tokens_and_entities_from_sacr_enrichi(file_name,
     print("6- ras")
 
     # MODIF
-    entities_df = entities_df[['COREF_name', 'COREF', 'start_token', 'end_token', 'cat', 'sacr_text', 'byte_onset', 'byte_offset','annotation']]
+    base_cols = ['COREF_name', 'COREF', 'start_token', 'end_token', 'cat', 'sacr_text', 'byte_onset', 'byte_offset']
+
+    annotation_cols = [
+        col for col in entities_df.columns
+        if col not in base_cols + ['sacr_start_id', 'sacr_end_id', 'annotation']
+    ]
+
+    entities_df = entities_df[base_cols + annotation_cols]
     # selectionner les champs du df que l'on veut garder
+    # FIN DE MODIF 
     print("7- ajout annotation")
 
     entities_df = extract_text_for_entities(tokens_df, entities_df, recovered_text)
