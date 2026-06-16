@@ -4,9 +4,9 @@ from propp_fr import process_text_file
 
 
 def main():
-    src = "Model_TDM/data/SACR/all_annots.sacr.txt"
-    outdir = "Model_TDM/data/PROPP/new_txt"
-    name = "tdm_auto_chap1to5"
+    src = "Model_TDM/data/PROPP/all_txt/tdm_auto_allchap.txt"
+    outdir = "Model_TDM/data/PROPP/all_txt"
+    name = "tdm_auto_allchap"
 
     txt = outdir + "/" + name + ".txt"
 
