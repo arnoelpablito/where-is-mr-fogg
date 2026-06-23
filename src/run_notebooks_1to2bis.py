@@ -11,11 +11,11 @@ MODE = sys.argv[1] # "auto" ou "manuel" comme argument dans cmd line => auto pou
 env = os.environ.copy()
 
 if MODE == "auto":
-    env["DATA"] = "../data/PROPP/new_txt"
+    env["DATA"] = "../data/PROPP/all_txt" # ou new_txt
     env["CONLLU_OUTPUT"] = "../results/conllu/from_propp"
-    env["CONLLU_INPUT"] = "../results/conllu/from_propp/tdm_auto_chap1to5.conllu"
-    env["TRIPTYQUES_OUTPUT"] = "../results/csv_triptyques/auto_chap1to5.csv"
-    env["TRIPTYQUES_CHAP_OUTPUT"] = "../results/csv_triptyques/auto_chap1to5_chap.csv"
+    env["CONLLU_INPUT"] = "../results/conllu/from_propp/tdm_auto_allchap.conllu" # ou tdm_auto_chap1to5
+    env["TRIPTYQUES_OUTPUT"] = "../results/csv_triptyques/auto_all.csv"
+    env["TRIPTYQUES_CHAP_OUTPUT"] = "../results/csv_triptyques/auto_all_chap.csv" # ou auto_chap1to5_chap
 
 elif MODE == "manuel":
     env["DATA"] = "../data/SACR"

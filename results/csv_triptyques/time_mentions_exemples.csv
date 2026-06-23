@@ -1,0 +1,155 @@
+groupe,entity_id,paragraph_ID,sentence_ID,start_token,end_token,text,time_kind,precision,annee,mois,jour,heure,minute,datetime_auto,time_code_auto,jour_romanesque,debut_auto,fin_auto,duration_value,duration_unit,duration_relation,regle
+date_absolue,0,0,0,0,3,en l' année 1872,date_absolue,annee,1872.0,,,,,1872,1872-00-00-00-00,,,,,,,annee_seule
+date_absolue,1,0,0,24,25,en 1814,date_absolue,annee,1814.0,,,,,1814,1814-00-00-00-00,,,,,,,annee_seule
+date_absolue,8,12,44,1350,1351,2 octobre,date_absolue,jour,1872.0,10.0,2.0,,,1872-10-02,1872-10-02-00-00,1.0,,,,,,date_complete
+date_absolue,17,26,71,1881,1885,ce mercredi 2 octobre 1872,date_absolue,jour,1872.0,10.0,2.0,,,1872-10-02,1872-10-02-00-00,1.0,,,,,,date_complete
+date_absolue,37,59,164,4223,4225,le 29 septembre,date_absolue,jour,1872.0,9.0,29.0,,,1872-09-29,1872-09-29-00-00,-2.0,,,,,,date_complete
+date_absolue,40,62,172,4515,4517,le 29 septembre,date_absolue,jour,1872.0,9.0,29.0,,,1872-09-29,1872-09-29-00-00,-2.0,,,,,,date_complete
+date_absolue,42,64,177,4730,4735,pendant cette journée du 29 septembre,date_absolue,jour,1872.0,9.0,29.0,,,1872-09-29,1872-09-29-00-00,-2.0,,,,,,date_complete
+date_absolue,61,127,265,6096,6098,mercredi 2 octobre,date_absolue,jour,1872.0,10.0,2.0,,,1872-10-02,1872-10-02-00-00,1.0,,,,,,date_complete
+date_absolue,62,127,265,6117,6120,le samedi 21 décembre,date_absolue,jour,1872.0,12.0,21.0,,,1872-12-21,1872-12-21-00-00,81.0,,,,,,date_complete
+date_absolue,77,176,362,7497,7501,le samedi 21 décembre 1872,date_absolue,jour,1872.0,12.0,21.0,,,1872-12-21,1872-12-21-00-00,81.0,,,,,,date_complete
+date_absolue,83,190,392,8087,8089,le 7 octobre,date_absolue,jour,1872.0,10.0,7.0,,,1872-10-07,1872-10-07-00-00,6.0,,,,,,date_complete
+date_absolue,97,202,432,8982,8985,le mercredi 9 octobre,date_absolue,jour,1872.0,10.0,9.0,,,1872-10-09,1872-10-09-00-00,8.0,,,,,,date_complete
+date_absolue,107,283,568,11581,11583,mercredi 2 octobre,date_absolue,jour,1872.0,10.0,2.0,,,1872-10-02,1872-10-02-00-00,1.0,,,,,,date_complete
+date_absolue,109,284,569,11595,11597,jeudi 3 octobre,date_absolue,jour,1872.0,10.0,3.0,,,1872-10-03,1872-10-03-00-00,2.0,,,,,,date_complete
+date_absolue,113,286,571,11623,11625,vendredi 4 octobre,date_absolue,jour,1872.0,10.0,4.0,,,1872-10-04,1872-10-04-00-00,3.0,,,,,,date_complete
+date_absolue,117,288,573,11648,11650,samedi 5 octobre,date_absolue,jour,1872.0,10.0,5.0,,,1872-10-05,1872-10-05-00-00,4.0,,,,,,date_complete
+date_absolue,121,290,575,11673,11675,mercredi 9 octobre,date_absolue,jour,1872.0,10.0,9.0,,,1872-10-09,1872-10-09-00-00,8.0,,,,,,date_complete
+date_absolue,125,292,577,11714,11721,depuis le 2 octobre jusqu' au 21 décembre,date_absolue,jour,1872.0,10.0,2.0,,,1872-10-02,1872-10-02-00-00,1.0,,,,,,date_complete
+date_absolue,130,294,579,11821,11823,mercredi 9 octobre,date_absolue,jour,1872.0,10.0,9.0,,,1872-10-09,1872-10-09-00-00,8.0,,,,,,date_complete
+date_absolue,153,371,722,14284,14286,le 10 octobre,date_absolue,jour,1872.0,10.0,10.0,,,1872-10-10,1872-10-10-00-00,9.0,,,,,,date_complete
+relatif_non_calcule,2,9,26,762,765,depuis de longues années,relatif_non_calcule,non_instancie,,,,,,,,,,,,,,relatif_non_calcule
+relatif_non_calcule,192,447,878,17793,17796,depuis son jeune âge,relatif_non_calcule,non_instancie,,,,,,,,,,,,,,relatif_non_calcule
+relatif_non_calcule,476,1183,2575,49839,49841,le plus tôt,relatif_non_calcule,non_instancie,,,,,,,,,,,,,,relatif_non_calcule
+relatif_non_calcule,600,1428,3189,63881,63885,après deux cents milles environ,relatif_non_calcule,non_instancie,,,,,,,,,,,,,,relatif_non_calcule
+relatif_non_calcule,619,1511,3351,66786,66788,après notre rencontre,relatif_non_calcule,non_instancie,,,,,,,,,,,,,,relatif_non_calcule
+frequence,3,9,27,803,804,chaque jour,frequence,non_instancie,,,,,,,,,,,,,,frequence
+frequence,4,10,36,1004,1008,à des heures chronométriquement déterminées,frequence,non_instancie,,,,,,,,,,,,,,frequence
+frequence,177,409,808,15860,15861,chaque jour,frequence,non_instancie,,,,,,,,,,,,,,frequence
+frequence,309,781,1610,31780,31783,à de certaines heures,frequence,non_instancie,,,,,,,,,,,,,,frequence
+frequence,334,851,1834,36221,36223,tous les jours,frequence,non_instancie,,,,,,,,,,,,,,frequence
+frequence,594,1406,3134,62955,62956,chaque jour,frequence,non_instancie,,,,,,,,,,,,,,frequence
+frequence,688,1685,3778,74209,74211,jour par jour,frequence,non_instancie,,,,,,,,,,,,,,frequence
+heure,5,10,36,1041,1043,à minuit précis,heure,heure,1872.0,,,0.0,0.0,,1872-00-00-00-00,,,,,,,heure_seule
+heure,11,13,46,1476,1481,à onze heures et demie sonnant,heure,heure,1872.0,10.0,2.0,11.0,30.0,1872-10-02 11:30,1872-10-02-11-30,1.0,,,,,,heure_seule
+heure,14,23,65,1813,1815,onze heures vingt-deux,heure,heure,1872.0,10.0,2.0,11.0,22.0,1872-10-02 11:22,1872-10-02-11-22,1.0,,,,,,heure_seule
+heure,16,26,71,1875,1879,onze heures vingt-neuf du matin,heure,heure,1872.0,10.0,2.0,11.0,29.0,1872-10-02 11:29,1872-10-02-11-29,1.0,,,,,,heure_seule
+heure,20,37,113,2952,2955,onze heures et demie,heure,heure,1872.0,10.0,2.0,11.0,30.0,1872-10-02 11:30,1872-10-02-11-30,1.0,,,,,,heure_seule
+heure,23,39,125,3209,3211,huit heures vingt-trois,heure,heure,1872.0,10.0,2.0,8.0,23.0,1872-10-02 08:23,1872-10-02-08-23,1.0,,,,,,heure_seule
+heure,24,39,125,3219,3221,neuf heures trente-sept,heure,heure,1872.0,10.0,2.0,9.0,37.0,1872-10-02 09:37,1872-10-02-09-37,1.0,,,,,,heure_seule
+heure,25,39,125,3226,3229,dix heures moins vingt,heure,heure,1872.0,10.0,2.0,9.0,40.0,1872-10-02 09:40,1872-10-02-09-40,1.0,,,,,,heure_seule
+heure,26,39,125,3233,3239,de onze heures et demie du matin,heure,heure,1872.0,10.0,2.0,11.0,30.0,1872-10-02 11:30,1872-10-02-11-30,1.0,,,,,,heure_seule
+heure,27,39,125,3241,3241,minuit,heure,heure,1872.0,10.0,2.0,0.0,0.0,1872-10-02 00:00,1872-10-02-00-00,1.0,,,,,,heure_seule
+heure,28,44,141,3552,3556,à onze heures et demie,heure,heure,1872.0,10.0,2.0,11.0,30.0,1872-10-02 11:30,1872-10-02-11-30,1.0,,,,,,heure_seule
+heure,29,46,145,3734,3738,à midi quarante - sept,heure,heure,1872.0,10.0,2.0,12.0,47.0,1872-10-02 12:47,1872-10-02-12-47,1.0,,,,,,heure_seule
+heure,34,47,149,3845,3849,à six heures moins vingt,heure,heure,1872.0,10.0,2.0,5.0,40.0,1872-10-02 05:40,1872-10-02-05-40,1.0,,,,,,heure_seule
+heure,41,62,173,4556,4558,à cinq heures,heure,heure,1872.0,9.0,29.0,5.0,0.0,1872-09-29 05:00,1872-09-29-05-00,-2.0,,,,,,heure_seule
+heure,58,125,261,6054,6059,à huit heures quarante - cinq,heure,heure,1872.0,9.0,29.0,8.0,45.0,1872-09-29 08:45,1872-09-29-08-45,-2.0,,,,,,heure_seule
+heure,63,127,265,6122,6129,à huit heures quarante - cinq du soir,heure,heure,1872.0,12.0,21.0,20.0,45.0,1872-12-21 20:45,1872-12-21-20-45,81.0,,,,,,heure_seule
+heure,64,129,272,6274,6276,sept heures sonnaient,heure,heure,1872.0,12.0,21.0,7.0,0.0,1872-12-21 07:00,1872-12-21-07-00,81.0,,,,,,heure_seule
+heure,65,132,278,6332,6335,à sept heures vingt-cinq,heure,heure,1872.0,12.0,21.0,7.0,25.0,1872-12-21 07:25,1872-12-21-07-25,81.0,,,,,,heure_seule
+heure,66,132,279,6364,6367,à sept heures cinquante,heure,heure,1872.0,12.0,21.0,7.0,50.0,1872-12-21 07:50,1872-12-21-07-50,81.0,,,,,,heure_seule
+heure,68,133,281,6423,6424,minuit précis,heure,heure,1872.0,12.0,21.0,0.0,0.0,1872-12-21 00:00,1872-12-21-00-00,81.0,,,,,,heure_seule
+duree,6,10,37,1066,1068,sur vingt-quatre heures,duree,quantite,,,,,,,,,,,24.0,heure,sur,duree_non_ancree
+duree,13,19,56,1692,1694,voilà cinq ans,duree,intervalle,1872.0,10.0,2.0,11.0,30.0,1872-10-02 11:30,1872-10-02-11-30,1.0,1867-10-02 11:30,1872-10-02 11:30,5.0,annee,depuis,duree_depuis_intervalle
+duree,18,32,78,2046,2049,pendant les quelques instants,duree,quantite,,,,,,,,,,,,,,duree_quantite
+duree,19,34,92,2446,2448,depuis cinq ans,duree,intervalle,1872.0,10.0,2.0,0.0,0.0,1872-10-02 00:00,1872-10-02-00-00,1.0,1867-10-02 00:00,1872-10-02 00:00,5.0,annee,depuis,duree_depuis_intervalle
+duree,38,61,171,4419,4420,un jour,duree,quantite,,,,,,,,,,,1.0,jour,duree_simple,duree_quantite
+duree,44,79,204,5275,5276,trois mois,duree,quantite,,,,,,,,,,,3.0,mois,duree_simple,duree_quantite
+duree,45,80,205,5279,5282,en quatre-vingts jours seulement,duree,intervalle,1872.0,12.0,18.0,0.0,0.0,1872-12-18 00:00,1872-12-18-00-00,78.0,1872-09-29 00:00,1872-12-18 00:00,80.0,jour,en,duree_forward_intervalle_en
+duree,46,82,207,5346,5347,7 jours,duree,quantite,,,,,,,,,,,7.0,jour,duree_simple,duree_quantite
+duree,47,83,208,5356,5357,13 jours,duree,quantite,,,,,,,,,,,13.0,jour,duree_simple,duree_quantite
+duree,48,84,209,5366,5367,3 jours,duree,quantite,,,,,,,,,,,3.0,jour,duree_simple,duree_quantite
+duree,49,85,210,5381,5382,13 jours,duree,quantite,,,,,,,,,,,13.0,jour,duree_simple,duree_quantite
+duree,50,86,211,5396,5397,6 jours,duree,quantite,,,,,,,,,,,6.0,jour,duree_simple,duree_quantite
+duree,51,87,212,5407,5408,22 jours,duree,quantite,,,,,,,,,,,22.0,jour,duree_simple,duree_quantite
+duree,52,88,213,5419,5420,7 jours,duree,quantite,,,,,,,,,,,7.0,jour,duree_simple,duree_quantite
+duree,53,89,214,5432,5433,9 jours,duree,quantite,,,,,,,,,,,9.0,jour,duree_simple,duree_quantite
+duree,54,91,216,5443,5444,quatre-vingts jours,duree,quantite,,,,,,,,,,,80.0,jour,duree_simple,duree_quantite
+duree,55,103,230,5681,5683,en quatre-vingts jours,duree,intervalle,1872.0,12.0,18.0,0.0,0.0,1872-12-18 00:00,1872-12-18-00-00,78.0,1872-09-29 00:00,1872-12-18 00:00,80.0,jour,en,duree_forward_intervalle_en
+duree,56,123,257,6001,6004,quatre-vingts jours ou moins,duree,quantite,,,,,,,,,,,80.0,jour,duree_simple,duree_quantite
+duree,71,147,300,6637,6639,en quatre-vingts jours,duree,intervalle,1873.0,3.0,11.0,0.0,10.0,1873-03-11 00:10,1873-03-11-00-10,161.0,1872-12-21 00:10,1873-03-11 00:10,80.0,jour,en,duree_forward_intervalle_en
+duree,72,152,325,6854,6856,depuis cinq ans,duree,intervalle,1872.0,12.0,21.0,0.0,10.0,1872-12-21 00:10,1872-12-21-00-10,81.0,1867-12-21 00:10,1872-12-21 00:10,5.0,annee,depuis,duree_depuis_intervalle
+relatif,7,12,44,1345,1348,ce jour -là même,relatif,datetime,1872.0,10.0,2.0,0.0,0.0,1872-10-02 00:00,1872-10-02-00-00,1.0,,,,,,deictique_date_suivante_meme_phrase
+relatif,10,13,45,1473,1474,l' année,relatif,annee,1872.0,,,,,1872,1872-00-00-00-00,,,,,,,annee_courante
+relatif,12,14,47,1503,1505,en ce moment,relatif,datetime,1872.0,10.0,2.0,11.0,30.0,1872-10-02 11:30,1872-10-02-11-30,1.0,,,,,,deictique_instant_courant
+relatif,15,26,71,1869,1873,à partir de ce moment,relatif,datetime,1872.0,10.0,2.0,11.0,22.0,1872-10-02 11:22,1872-10-02-11-22,1.0,,,,,,deictique_instant_courant
+relatif,21,39,125,3160,3164,depuis huit heures du matin,relatif,datetime,1872.0,10.0,2.0,8.0,0.0,1872-10-02 08:00,1872-10-02-08-00,1.0,,,,,,heure_depuis_jusqu
+relatif,22,39,125,3175,3180,jusqu' à onze heures et demie,relatif,datetime,1872.0,10.0,2.0,11.0,30.0,1872-10-02 11:30,1872-10-02-11-30,1.0,,,,,,heure_depuis_jusqu
+relatif,30,46,147,3802,3808,jusqu' à trois heures quarante - cinq,relatif,datetime,1872.0,10.0,2.0,3.0,45.0,1872-10-02 03:45,1872-10-02-03-45,1.0,,,,,,heure_depuis_jusqu
+relatif,31,46,147,3820,3822,jusqu' au dîner,relatif,datetime,1872.0,10.0,2.0,19.0,0.0,1872-10-02 19:00,1872-10-02-19-00,1.0,,,,,,moment_diner
+relatif,32,46,148,3824,3825,ce repas,relatif,datetime,1872.0,10.0,2.0,12.0,0.0,1872-10-02 12:00,1872-10-02-12-00,1.0,,,,,,moment_repas
+relatif,33,46,148,3833,3834,le déjeuner,relatif,datetime,1872.0,10.0,2.0,12.0,0.0,1872-10-02 12:00,1872-10-02-12-00,1.0,,,,,,moment_dejeuner
+relatif,35,48,150,3868,3871,une demi-heure plus tard,relatif,datetime,1872.0,10.0,2.0,6.0,10.0,1872-10-02 06:10,1872-10-02-06-10,1.0,,,,,,offset_30min
+relatif,36,59,164,4219,4221,trois jours auparavant,relatif,datetime,1872.0,9.0,29.0,6.0,10.0,1872-09-29 06:10,1872-09-29-06-10,-2.0,,,,,,offset_-3j
+relatif,39,61,171,4496,4498,une demi-heure après,relatif,datetime,1872.0,9.0,29.0,0.0,30.0,1872-09-29 00:30,1872-09-29-00-30,-2.0,,,,,,offset_30min
+relatif,43,75,198,5172,5176,il y a cent ans,relatif,annee,1772.0,,,,,1772,1772-00-00-00-00,,,,,,,annee_moins_100
+relatif,59,126,263,6065,6067,-ce soir même,relatif,datetime,1872.0,9.0,29.0,20.0,0.0,1872-09-29 20:00,1872-09-29-20-00,-2.0,,,,,,moment_soir
+relatif,60,127,264,6072,6074,-ce soir même,relatif,datetime,1872.0,9.0,29.0,20.0,0.0,1872-09-29 20:00,1872-09-29-20-00,-2.0,,,,,,moment_soir
+relatif,67,133,280,6404,6406,cette heure insolite,relatif,datetime,1872.0,12.0,21.0,7.0,50.0,1872-12-21 07:50,1872-12-21-07-50,81.0,,,,,,deictique_instant_courant
+relatif,70,141,292,6534,6536,dans dix minutes,relatif,datetime,1872.0,12.0,21.0,0.0,10.0,1872-12-21 00:10,1872-12-21-00-10,81.0,,,,,,offset_10min
+relatif,75,166,347,7234,7236,en ce moment,relatif,datetime,1872.0,12.0,21.0,8.0,20.0,1872-12-21 08:20,1872-12-21-08-20,81.0,,,,,,deictique_instant_courant
+relatif,76,176,362,7489,7491,dans quatre-vingts jours,relatif,datetime,1873.0,3.0,11.0,8.0,20.0,1873-03-11 08:20,1873-03-11-08-20,161.0,,,,,,offset_80j
+intervalle,9,12,44,1399,1406,entre onze heures et onze heures et demie,intervalle,heure,1872.0,10.0,2.0,11.0,0.0,1872-10-02 11:00,1872-10-02-11-00,1.0,1872-10-02 11:00,1872-10-02 11:30,,,,intervalle_heure
+intervalle,132,306,597,12060,12069,de sept heures vingt du matin à huit heures quarante,intervalle,heure,1872.0,10.0,9.0,7.0,20.0,1872-10-09 07:20,1872-10-09-07-20,8.0,1872-10-09 07:20,1872-10-09 08:40,,,,intervalle_heure
+intervalle,560,1368,3032,59680,59687,pendant la nuit du 5 au 6 décembre,intervalle,jour,1872.0,12.0,5.0,,,1872-12-05,1872-12-05-00-00,65.0,1872-12-05,1872-12-06,,,,du_au_date
+intervalle,561,1368,3032,59681,59687,la nuit du 5 au 6 décembre,intervalle,jour,1872.0,12.0,5.0,,,1872-12-05,1872-12-05-00-00,65.0,1872-12-05,1872-12-06,,,,du_au_date
+intervalle,563,1371,3039,59922,59926,de onze heures à midi,intervalle,heure,1872.0,12.0,5.0,11.0,0.0,1872-12-05 11:00,1872-12-05-11-00,65.0,1872-12-05 11:00,1872-12-05 12:00,,,,intervalle_heure
+intervalle,709,1749,3888,75935,75944,dans les neuf jours comptés du 12 décembre au 21,intervalle,jour,1872.0,12.0,12.0,,,1872-12-12,1872-12-12-00-00,72.0,1872-12-12,1872-12-21,,,,du_au_jour
+moment_vague,57,123,257,6006,6017,soit dix-neuf cent vingt heures ou cent quinze mille deux cents minutes,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,86,190,397,8248,8250,la mauvaise saison,moment_vague,saison,,,,,,,,,,,,,,moment_vague
+moment_vague,131,296,582,11892,11895,en peu d' instants,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,184,422,830,16533,16535,le bon temps,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,259,632,1295,25767,25770,l' approche du jour,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,264,649,1336,26445,26447,en quelques instants,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,274,672,1397,27769,27772,à la bonne heure,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,278,685,1425,28312,28315,cette époque plus réaliste,moment_vague,saison,,,,,,,,,,,,,,moment_vague
+moment_vague,279,687,1438,28598,28600,la saison avancée,moment_vague,saison,,,,,,,,,,,,,,moment_vague
+moment_vague,310,790,1659,32715,32717,ces longues heures,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,330,827,1767,35009,35014,le dernier quartier de la lune,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,346,858,1867,36830,36833,ce temps d' épreuve,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,382,942,2055,40244,40247,depuis quelque temps déjà,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,419,1068,2280,43973,43974,le crépuscule,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,421,1073,2301,44427,44429,au dernier moment,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,437,1092,2358,45456,45459,à un certain moment,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,439,1100,2370,45614,45616,en équinoxe hiver,moment_vague,saison,,,,,,,,,,,,,,moment_vague
+moment_vague,522,1291,2818,55230,55232,ce beau temps,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,545,1354,2984,58435,58437,en quelques instants,moment_vague,non_instancie,,,,,,,,,,,,,,moment_vague
+moment_vague,566,1376,3052,60234,60236,depuis cette époque,moment_vague,saison,,,,,,,,,,,,,,moment_vague
+garbage_probable,91,192,403,8398,8398,qui,garbage_probable,non_temporel,,,,,,,,,,,,,,garbage_probable
+garbage_probable,176,408,806,15770,15770,laquelle,garbage_probable,non_temporel,,,,,,,,,,,,,,garbage_probable
+garbage_probable,370,893,1949,38268,38271,le traité de nanking,garbage_probable,non_temporel,,,,,,,,,,,,,,garbage_probable
+garbage_probable,416,1062,2268,43691,43693,on était encore,garbage_probable,non_temporel,,,,,,,,,,,,,,garbage_probable
+garbage_probable,859,1973,4389,84447,84447,qui,garbage_probable,non_temporel,,,,,,,,,,,,,,garbage_probable
+reference_evenement,142,335,646,12633,12638,le jour même de notre départ,reference_evenement,non_instancie,,,,,,,,,,,,,,reference_evenement
+reference_evenement,191,447,877,17779,17783,la dernière révolte des cipayes,reference_evenement,non_instancie,,,,,,,,,,,,,,reference_evenement
+reference_evenement,201,465,925,19041,19046,jusqu' à son arrivée à bombay,reference_evenement,non_instancie,,,,,,,,,,,,,,reference_evenement
+reference_evenement,315,802,1699,33477,33481,depuis notre départ de calcutta,reference_evenement,non_instancie,,,,,,,,,,,,,,reference_evenement
+reference_evenement,384,958,2087,40699,40703,le jour de son départ,reference_evenement,non_instancie,,,,,,,,,,,,,,reference_evenement
+reference_evenement,398,995,2159,41934,41936,le prochain départ,reference_evenement,non_instancie,,,,,,,,,,,,,,reference_evenement
+reference_evenement,452,1123,2430,46584,46589,le départ du paquebot de yokohama,reference_evenement,non_instancie,,,,,,,,,,,,,,reference_evenement
+reference_evenement,456,1125,2435,46684,46689,le départ du paquebot de yokohama,reference_evenement,non_instancie,,,,,,,,,,,,,,reference_evenement
+reference_evenement,478,1199,2608,50489,50491,avant leur départ,reference_evenement,non_instancie,,,,,,,,,,,,,,reference_evenement
+reference_evenement,540,1352,2977,58255,58258,depuis les derniers événements,reference_evenement,non_instancie,,,,,,,,,,,,,,reference_evenement
+reference_evenement,593,1405,3130,62909,62913,le meeting de san francisco,reference_evenement,non_instancie,,,,,,,,,,,,,,reference_evenement
+reference_evenement,655,1633,3639,71339,71341,dès son arrivée,reference_evenement,non_instancie,,,,,,,,,,,,,,reference_evenement
+reference_evenement,676,1667,3728,72953,72958,le départ du paquebot de liverpool,reference_evenement,non_instancie,,,,,,,,,,,,,,reference_evenement
+reference_evenement,831,1950,4355,83807,83813,après l' arrivée des voyageurs à londres,reference_evenement,non_instancie,,,,,,,,,,,,,,reference_evenement
+non_parse,157,395,769,15038,15040,seize cent cinquante,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,164,398,779,15227,15229,deux mille ans,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,305,780,1604,31679,31683,trois mille cinq cents milles,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,480,1227,2644,51041,51043,son jeune âge,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,531,1346,2955,57636,57639,le quarante et unième,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,532,1346,2959,57729,57734,un mille et demi par jour,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,553,1359,3001,58982,58984,pendant quelques milles,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,605,1482,3286,65495,65498,près d' un mille,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,614,1490,3306,65961,65961,dont,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,639,1604,3561,70035,70037,pendant plusieurs milles,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,673,1663,3713,72668,72670,tout son parcours,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,742,1822,4043,78567,78567,que,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,800,1919,4289,82535,82541,", jour où james strand fut arrêté",non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,801,1919,4289,82537,82537,où,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,815,1928,4316,83087,83089,la dernière minute,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,827,1944,4347,83673,83676,à la quarantième seconde,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
+non_parse,843,1963,4372,84038,84038,impossible,non_parse,non_instancie,,,,,,,,,,,,,,non_parse
