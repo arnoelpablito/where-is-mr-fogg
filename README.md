@@ -271,32 +271,6 @@ _presentation
 
 indique une version simplifiée, avec moins de colonnes techniques, destinée à la lecture ou à la présentation des résultats.
 
-### Exemples
-
-```text
-auto_all.csv
-```
-
-Triptyques automatiques sur l’ensemble du texte.
-
-```text
-auto_all_chap.csv
-```
-
-Même fichier, avec l’information de chapitre.
-
-```text
-auto_all_chap_temps.csv
-```
-
-Triptyques automatiques avec chapitres et temps normalisés.
-
-```text
-auto_all_chap_temps_lieux_manuels.csv
-```
-
-Triptyques automatiques enrichis avec les temps et les lieux issus des annotations manuelles.
-
 ## Exécution
 
 Les premiers notebooks peuvent être lancés avec :
