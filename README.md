@@ -271,24 +271,6 @@ _presentation
 
 indique une version simplifiée, avec moins de colonnes techniques, destinée à la lecture ou à la présentation des résultats.
 
-## Exécution
-
-Les premiers notebooks peuvent être lancés avec :
-
-```bash
-python src/run_notebooks_1to2bis.py auto
-```
-
-ou :
-
-```bash
-python src/run_notebooks_1to2bis.py manuel
-```
-
-Les autres étapes peuvent ensuite être exécutées manuellement dans l’ordre indiqué dans le dossier `src/`.
-
-Les scripts `run_propp_txt.py` et `sacr2entities_testAnnotEnrich.py` servent surtout à tester ou relancer des conversions plus ponctuelles.
-
 ## Remarque sur les fichiers `.conllu`
 
 Les fichiers `.conllu` ont servi de format intermédiaire pour représenter les dépendances syntaxiques.
