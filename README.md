@@ -214,9 +214,6 @@ python src/run_notebooks_1to2bis.py manuel
 
 Lance PROPP sur un fichier texte et produit les fichiers `.tokens` et `.entities` associés.
 
-### `src/sacr2entities_testAnnotEnrich.py`
-
-Teste la conversion d’une annotation SACR enrichie en fichiers `.tokens` et `.entities`.
 
 ## Résultats
 
